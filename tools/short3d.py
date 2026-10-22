@@ -108,27 +108,76 @@ def main(name, d, out):
     pk = np.max(np.abs(vo)); vo = vo / pk * .89 if pk > 0 else vo
     sf.write(f"{tmp}/vo.wav", vo[:int(TOTAL * SR)], SR)
 
-    def scene_img(k, t):
-        im = kb(arts[k], t, durs[k], k)
-        im = Image.composite(BLACK, im, SHADE).convert("RGBA")
+    clips = [f"{d}/a{k + 1}.mp4" if os.path.exists(f"{d}/a{k + 1}.mp4") else None for k in range(n)]
+
+    def clip_dur(p):
+        return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p],
+                                    capture_output=True, text=True).stdout)
+
+    trim = {}                                                 # scene index -> seconds of usable clip (ping-pong loops it)
+    if os.path.exists(f"{d}/trim.txt"):
+        for ln in open(f"{d}/trim.txt"):
+            if ln.strip(): a, b = ln.split(); trim[int(a) - 1] = float(b)
+
+    def clip_vf(k):
+        # slow the clip down only if it is shorter than the scene; otherwise play at real speed and cut
+        st = 1.0 if k in trim else max(1.0, durs[k] / clip_dur(clips[k]))
+        return (f"setpts={st:.4f}*PTS,fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}")
+
+    def clip_reader(k):
+        """Yield the scene's frames in order (holds the last frame if the clip runs out)."""
+        if k in trim:                                         # usable part only, played forward/backward
+            pr = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-t", str(trim[k]), "-i", clips[k], "-vf", clip_vf(k), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                                  stdout=subprocess.PIPE)
+            fr = []
+            while True:
+                b = pr.stdout.read(W * H * 3)
+                if len(b) < W * H * 3: break
+                fr.append(Image.frombytes("RGB", (W, H), b))
+            pr.wait(); seq = fr + fr[-2:0:-1]
+            i = 0
+            while True: yield seq[i % len(seq)]; i += 1
+        pr = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-i", clips[k], "-vf", clip_vf(k), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                              stdout=subprocess.PIPE)
+        last = None
+        while True:
+            b = pr.stdout.read(W * H * 3)
+            if len(b) < W * H * 3: break
+            last = Image.frombytes("RGB", (W, H), b); yield last
+        pr.wait()
+        while True: yield last
+
+    def clip_frame_at(k, t):
+        b = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", clips[k], "-vf", clip_vf(k) + f",trim=start={t:.3f}", "-frames:v", "1",
+                            "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True).stdout
+        return Image.frombytes("RGB", (W, H), b[:W * H * 3])
+
+    def dress(k, t, base):
+        im = Image.composite(BLACK, base, SHADE).convert("RGBA")
         chip(im); ovl[k](im, t, durs[k])
         paisa.disclaimer(im, "Sirf educational. Financial advice nahi.")
         return im.convert("RGB")
 
-    def frame(T):
-        k = int(np.searchsorted(starts, T, side="right") - 1); k = min(k, n - 1); t = T - starts[k]
-        im = scene_img(k, t)
-        if k > 0 and t < XF:                                  # crossfade from the previous scene's end
-            prev = scene_img(k - 1, durs[k - 1]); im = Image.blend(prev, im, ease(t / XF))
-        return im
-
     if len(sys.argv) > 4 and sys.argv[4] == "stills":
-        for k in range(n): frame(starts[k] + durs[k] - .5).save(f"{out[:-4]}_s{k + 1}.jpg", quality=88)
-        print("stills", [round(x, 2) for x in durs]); return
+        for k in range(n):
+            t = durs[k] - .5
+            base = clip_frame_at(k, min(t, trim.get(k, 99) - .1)) if clips[k] else kb(arts[k], t, durs[k], k)
+            dress(k, t, base).save(f"{out[:-4]}_s{k + 1}.jpg", quality=88)
+        print("stills", [round(x, 2) for x in durs], "clips:", [bool(c) for c in clips]); return
     vid = f"{tmp}/v.mp4"
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                            "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p", vid], stdin=subprocess.PIPE)
-    for i in range(int(TOTAL * FPS)): ff.stdin.write(frame(i / FPS).tobytes())
+    prev_last, k, rd = None, -1, None
+    for i in range(int(TOTAL * FPS)):
+        T = i / FPS; kk = min(int(np.searchsorted(starts, T, side="right") - 1), n - 1)
+        if kk != k:
+            k = kk; rd = clip_reader(k) if clips[k] else None
+        t = T - starts[k]
+        base = next(rd) if rd else kb(arts[k], t, durs[k], k)
+        im = dress(k, t, base)
+        if k > 0 and t < XF and prev_last is not None: im = Image.blend(prev_last, im, ease(t / XF))
+        ff.stdin.write(im.tobytes())
+        if T + 1.5 / FPS >= starts[k + 1]: prev_last = im           # last frame of this scene, for the next crossfade
     ff.stdin.close(); ff.wait()
     subprocess.run([sys.executable, f"{HERE}/music.py", f"{tmp}/m.wav", f"{TOTAL:.3f}", ",".join(f"{c:.2f}" for c in starts[1:-1])], check=True)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", vid, "-i", f"{tmp}/m.wav", "-i", f"{tmp}/vo.wav", "-filter_complex",
