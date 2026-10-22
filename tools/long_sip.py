@@ -408,6 +408,29 @@ def voice():
     json.dump(timing, open(f"{HERE}/long_timing.json", "w"))
     print("total %.1f s = %.1f min" % (len(full) / SR, len(full) / SR / 60))
 
+def voice_rec(rec_dir):
+    """Build narration from Junaid's recordings: one file per chapter named ch0.*, ch1.*, ..."""
+    import glob, subprocess, tempfile, numpy as np, soundfile as sf
+    sys.path.insert(0, os.path.join(HERE, "voice")); from segment import split_lines
+    timing = []; tracks = []; SR = 48000; tmp = tempfile.mkdtemp()
+    for ci, ch in enumerate(CHAPTERS):
+        f = sorted(glob.glob(os.path.join(rec_dir, f"ch{ci}.*")))
+        if not f: sys.exit(f"missing recording for chapter {ci} ({ch['title']}): expected {rec_dir}/ch{ci}.<ext>")
+        clean = f"{tmp}/c{ci}.wav"
+        subprocess.run([sys.executable, os.path.join(HERE, "voice", "clean_voice.py"), f[0], clean], check=True)
+        y, SR = sf.read(clean)
+        try: segs = split_lines(y, SR, len(ch["lines"]))
+        except ValueError as e: sys.exit(f"chapter {ci} ({ch['title']}): {e}")
+        pos = TITLE_CARD if ci else 0.6; buf = [np.zeros(int(pos * SR))]; lines = []
+        for a, b in segs:
+            seg = y[a:b]; lines.append((pos, len(seg) / SR)); buf += [seg, np.zeros(int(GAP * SR))]; pos += len(seg) / SR + GAP
+        dur = pos + TAIL; buf.append(np.zeros(int(TAIL * SR)))
+        yy = np.concatenate(buf)[:int(dur * SR)]; tracks.append(yy)
+        timing.append(dict(lines=lines, dur=len(yy) / SR)); print(ch["key"], "%.1fs" % (len(yy) / SR))
+    full = np.concatenate(tracks)
+    sf.write(f"{HERE}/long_vo.wav", full, SR); json.dump(timing, open(f"{HERE}/long_timing.json", "w"))
+    print("total %.1f min" % (len(full) / SR / 60))
+
 def render_chapter(ci, out):
     timing = json.load(open(f"{HERE}/long_timing.json"))
     D = timing[ci]["dur"]
@@ -419,6 +442,7 @@ def render_chapter(ci, out):
 if __name__ == "__main__":
     mode = sys.argv[1]
     if mode == "voice": voice()
+    elif mode == "voice_rec": voice_rec(sys.argv[2])
     elif mode == "stills":
         timing = json.load(open(f"{HERE}/long_timing.json")); ims = []
         for ci, tm in enumerate(timing):
