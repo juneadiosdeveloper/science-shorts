@@ -8,3 +8,4 @@
 - `brand.py`: logo and banner
 
 Setup on a fresh machine: `pip install noisereduce soundfile pillow numpy kokoro-onnx` and ffmpeg.
+- `long_sip.py`: 16:9 long-video template (chapters, narration-synced reveals, title cards). `python3 long_sip.py voice | stills out.png | chapter <i> out.mp4`. Expects `kokoro/` next to it. Render chapters 2 at a time (2 CPU cores), concat, then run music.py.
