@@ -33,3 +33,4 @@ Credits: ElevenLabs ~5,818 (TTS 970 + HeyGen lip-sync 2 × 2,424). Runway 318 (4
 Note: Kling 3.0 Standard (9 cr/s) held the face better than Gen-4.5 (12 cr/s) on the 2 s market shot; use Kling 3 Std for b-roll by default.
 - Junaid approved ("yes") → inflation Short switched from draft to scheduled: Sat 24 Oct 16:00 IST (Metricool id 403793829).
 - Checked Runway speech (eleven_v4 via Runway, ~5 Runway credits per 1,000 chars): Pyaari voice not available there (voice library search returns nothing on this workspace) and Runway MCP has no lip-sync/avatar tool, so lip-sync stays on ElevenLabs (HeyGen = ~83% of EL spend).
+- Junaid updated the YouTube channel branding (name Paisa Science, handle, description, logo, banner, defaults Hindi/Education, phone verification) on 23 Oct. Check the channel name on the credit-card Short in the next run.
