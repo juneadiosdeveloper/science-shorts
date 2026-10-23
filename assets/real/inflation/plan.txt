@@ -1,0 +1,7 @@
+# start end clip overlay  (narration timeline, vo.mp3 at 1.08x)
+0.00 3.76 talk_hook.mp4 0
+3.76 5.45 infl_b1k.mp4 1
+5.45 13.65 infl_b2.mp4 2
+13.65 21.45 infl_b3.mp4 3
+21.45 30.85 infl_b4.mp4 4
+30.85 33.82 talk_outro.mp4 5
