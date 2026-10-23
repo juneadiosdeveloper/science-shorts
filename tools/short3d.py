@@ -93,7 +93,36 @@ def s6(img, t, d):
     big(img, "Minimum due =", 210, 96, WHITE, pop(t, .1))
     big(img, "MAXIMUM BYAAJ", 340, 124, RED, pop(t, .9))
     caption_box(img, [("Follow karo: Paisa Science", GOLD)], pop(t, 1.8))
-SCENES = {"card": [s1, s2, s3, s4, s5, s6]}
+# ---------- inflation Short (realistic format: text appears instantly on the spoken word) ----------
+def on(t, at): return 1.0 if t >= at else 0.0
+def i1(img, t, d):                      # talk hook
+    big(img, "Aapke ₹1,00,000", 210, 100, WHITE, 1.0)
+    big(img, "har saal CHHOTE!", 335, 116, RED, 1.0)
+    caption_box(img, [("Mehngai ka chupa tax", GOLD)], on(t, 1.9))
+def i2(img, t, d):
+    big(img, "MEHNGAI", 230, 150, GOLD, 1.0)
+    big(img, "= INFLATION", 400, 96, WHITE, on(t, .75))
+def i3(img, t, d):
+    big(img, "Maan lo: 6% saalana", 190, 84, WHITE, 1.0)
+    big(img, "Aaj ₹100 ka saamaan", 315, 88, GOLD, on(t, 2.7))
+    big(img, "12 saal baad ≈ ₹201", 440, 96, RED, on(t, 4.9))
+    caption_box(img, [("6% sirf udaharan hai.", WHITE), ("Asli mehngai har saal badalti hai", SOFT)], on(t, 1.2))
+def i4(img, t, d):
+    big(img, "₹1 lakh ki khareedne ki taakat", 190, 70, WHITE, 1.0)
+    big(img, "10 saal: ~₹55,800", 310, 96, GOLD, on(t, 2.9))
+    big(img, "20 saal: ~₹31,200", 440, 96, RED, on(t, 5.3))
+    caption_box(img, [("Maana gaya: 6% saalana mehngai", SOFT)], on(t, 1.0))
+def i5(img, t, d):
+    big(img, "REAL RETURN", 190, 120, GOLD, 1.0)
+    big(img, "= Return − Mehngai", 335, 84, WHITE, on(t, 2.0))
+    big(img, "7% − 6% ≈ 1%", 450, 110, RED, on(t, 3.8))
+    caption_box(img, [("Asli badhat sirf ~1% (0.94%)", MINT), ("7% aur 6% sirf udaharan", SOFT)], on(t, 6.8))
+def i6(img, t, d):                      # talk outro
+    big(img, "Mehngai =", 210, 96, WHITE, on(t, .7))
+    big(img, "CHUPA TAX", 340, 140, RED, on(t, .7))
+    caption_box(img, [("Follow karo: Paisa Science", GOLD)], on(t, 1.4))
+
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)
