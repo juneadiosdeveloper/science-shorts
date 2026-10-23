@@ -28,3 +28,6 @@ Old science-channel drafts (sky blue 22 Oct, lightning 23 Oct, compound interest
 2. On-screen numbers appear instantly on the spoken word (no fade-in) and every assumption (6% mehngai, 7% return) is on screen.
 3. Voice track played 1.08x (36.6 s → 33.9 s) to keep the Short tight; first comment asks a question to seed comments.
 Next review: 25–26 Oct, once SIP + credit-card Shorts have 48 h of data (compare avg view duration and % viewed of 3D vs realistic format).
+**Produced today:** inflation remake (realistic) → videos/inflation_chupa_tax_real.mp4, 33.8 s. Metricool draft updated (old id 403408723 → new id 403791817), still DRAFT for Sat 24 Oct 16:00 IST, waiting for Junaid's yes.
+Credits: ElevenLabs ~5,818 (TTS 970 + HeyGen lip-sync 2 × 2,424). Runway 318 (4 stills 24, b-roll 267, one market shot regenerated after face drift 27). Runway left: 2,262.
+Note: Kling 3.0 Standard (9 cr/s) held the face better than Gen-4.5 (12 cr/s) on the 2 s market shot; use Kling 3 Std for b-roll by default.
