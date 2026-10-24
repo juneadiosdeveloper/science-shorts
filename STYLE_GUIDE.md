@@ -78,3 +78,20 @@ Topic: home-loan prepayment (idea from warikoo's top video, our own script and n
   human face, which builds trust in money topics, and one face across Shorts + long videos helps viewers recognise the channel.
   To keep cost low in long videos: lip-sync only intro/outro, and use still images of her (~4 Runway credits each, slow camera move
   in our editor) plus charts for the middle, with only 2-3 short Runway video shots.
+
+## Standing role (owner, 24 Oct 2026)
+Claude acts as the channel's experienced social media / SEO manager, without being told each step:
+views, likes, comments, subscribers and monetization (YPP) are the goal of every decision.
+Every upload ships with: search-first title < 60 chars (2 options for Test & Compare), 2–3 thumbnails (max 3 words, big ₹ figure,
+shocked face, never the title repeated), keyword-rich Hindi/Hinglish description with chapters, tags, pinned first comment that asks a
+question, end screen + Related Video links, best posting time from Metricool. Every daily run reviews performance and changes
+something concrete. Comments: reply to every comment within 24 h when a tool can read/reply YouTube comments (Metricool MCP cannot
+today); until then draft replies for Junaid and ask him to connect a comments-capable tool.
+
+## Formats (24 Oct 2026)
+- Long videos (16:9, ~4:30): animated 3D, Priya (cartoon character A, Runway task 286104ef-e448-41e5-b1e4-c3e4debc6957) + Gullu
+  (golden piggy-bank sidekick). Approved script: https://claude.ai/artifact/CMJg2PfPQgyAyRvqwh1Rgw (home loan prepayment).
+  Each long video also gives 3 Shorts (9:16) linked to it with Related Video.
+- Daily-feed Shorts: realistic presenter format (above) for new topics.
+- Cadence to fit ~100k ElevenLabs/month: 1 long video/week (~11.5k) + its 3 cut-down Shorts (no new lip-sync) + ~2 new realistic
+  Shorts/week (~5k each).
