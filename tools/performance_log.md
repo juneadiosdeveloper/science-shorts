@@ -51,3 +51,6 @@ Note: Kling 3.0 Standard (9 cr/s) held the face better than Gen-4.5 (12 cr/s) on
 Numbers verified: 72/8 = 9 (exact ln2/ln1.08 = 9.01 yrs), 72/6 = 12 (11.90), 72/12 = 6 (6.12); ₹100 × 1.06^12 = ₹201.
 Credits: Runway 250 (4 stills × 4 + b-roll 26 s Kling 3 Std 234); Runway left 2,012.
 ElevenLabs: TTS 397 + re-voiced hook 57; HeyGen used clips 2,424 (hook) + 1,818 (outro) = 4,696 for the final Short. Waste: 1,818 (16:9 outro) + 2 blocked hook runs (2 × 2,424 listed; may be refunded since nothing was produced). Fixes above prevent both.
+**Produced 24 Oct (evening):** first animated long video (Priya + Gullu), "₹50 Lakh Loan Pe ₹54 Lakh Byaaj? 3 Tareeke Se Bachao" → videos/home_loan_prepayment_long.mp4 (3:30, 16:9, 53 shots, 4 animated clips, 2 lip-sync shots). Metricool DRAFT id 405122119 for Mon 26 Oct 16:00 IST (best hour 9,351), thumbnail A attached; thumbs B/C in long/homeloan/thumbs for Test & Compare. Waiting for Junaid's yes.
+Credits: ElevenLabs ~10.8k (voices 2.4k + lip-sync 8.5k). Runway ~380 (46 images + 4 Kling clips); Runway left 1,635.
+Editor: tools/anim.py (project long/homeloan: lines.py, plan.py, audio/, clips/). Voice lines split with ElevenLabs Scribe word timestamps (free).
