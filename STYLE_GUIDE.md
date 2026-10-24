@@ -105,3 +105,20 @@ today); until then draft replies for Junaid and ask him to connect a comments-ca
 - First results: "home loan mistakes" ~20.5k/mo, "home loan tips" ~11.5k (+33%), "home loan prepayment" ~7.4k (+90%),
   "home loan prepayment reduce emi or tenure" ~4.5k. Title scores (long): "₹50 Lakh Loan Pe ₹54 Lakh Byaaj? 3 Tareeke Se Bachao" 76,
   "Home Loan Jaldi Kaise Khatam Kare? ₹19 Lakh Bachao 😱" 72.
+
+## Instagram cross-posting (owner, 24 Oct 2026)
+Every YouTube upload also goes to Instagram at the same time (same Metricool post, provider instagram added, own caption).
+Status: Instagram NOT yet connected to Metricool brand 7570802 (only YouTube) — Junaid must connect a Professional
+(Creator/Business) Instagram account in Metricool first.
+Rules (checked Oct 2026):
+- Max 5 hashtags per Reel/post (Instagram limit since Dec 2025). Use 5 specific ones, not #reels/#explore:
+  1 broad niche (#PersonalFinance or #FinanceInHindi), 2-3 topic (#HomeLoan #EMI ...), 1 brand (#PaisaScience).
+- Search on Instagram works on keywords in the caption and on-screen text more than hashtags: first line = hook +
+  main search phrase in Hinglish ("Home loan jaldi kaise khatam karein?"), then 2-4 short lines of value, a question CTA,
+  "Save karo" + "Share karo us dost ko jiska loan hai", then disclaimer + AI line, then the 5 hashtags.
+- Format: Shorts → Reel (9:16) with instagramData.type REEL, showReelOnFeed true, isAiGenerated true, first comment = question.
+  Long 16:9 videos → post the 9:16 cut-down Reel (Byaaj Monster / quiz / step-up) with "Full video YouTube pe — link bio mein",
+  not the 16:9 file.
+- Story with YouTube link: the Instagram API cannot add link stickers, so schedule the Story with autoPublish false
+  (Metricool sends Junaid a phone notification; he adds the link sticker and posts, ~10 s). Keep the channel link in bio.
+- Collab/trending audio cannot be added via API reliably; keep our own music.
