@@ -60,3 +60,16 @@ Next order: (1) one extra home-loan EMI saves ~₹10.3 lakh, (2) "9% flat" = ~15
   ₹50 lakh home loan, 8.5%, 20 yr, EMI ₹43,391 → 1 extra EMI per year → loan ends after 201 months instead of 240, interest ₹54.1 lakh → ₹43.8 lakh (~₹10.3 lakh saved).
 - Copy ideas/topics and hook patterns only. Never reuse anyone's script, wording, footage, thumbnails or title verbatim:
   YouTube treats copied/reused content as ineligible for YPP monetization, and it is a copyright risk.
+
+## Owner decision (24 Oct 2026): next video is a 3–5 min LONG video (16:9), not a Short
+Topic: home-loan prepayment (idea from warikoo's top video, our own script and numbers).
+- Format: 16:9, 3–5 min, Hindi, Pyaari voice. Presenter on camera (HeyGen Avatar 4, aspect_ratio 16:9 set on the node) only for the
+  intro (~5 s) and outro (~4 s). The rest: number/chart scenes from tools/long_sip.py template (chapters, narration-synced reveals)
+  mixed with 6–8 realistic Runway shots of her (16:9, Kling 3 Std, generated at exact length).
+- Budget per long video: ElevenLabs ≤ ~11k (TTS ~4.5k + lip-sync ~5.5k), Runway ≤ ~450.
+- Outline: hook (Rahul, ₹50 lakh, 8.5%, 20 yr: "₹10 lakh bachane ka tareeka jo koi nahi batata") → EMI ₹43,391, total interest ₹54.1 lakh
+  → why early EMIs are mostly interest (month 1: ₹35,417 of ₹43,391) → 1 extra EMI/yr: 201 months, ~₹10.3 lakh saved → other routes
+  (raise EMI 5%/yr, lump-sum prepayment) → when prepaying may NOT be the best use of money (emergency fund first, compare with
+  post-tax return, tax deduction on interest, check prepayment charges in the loan agreement) → summary + question for comments.
+- Chapters in the description, custom thumbnail (big ₹ figure), Metricool type "video", isAiGeneratedContent true, draft first.
+- Verify every number by running it; all rates are examples, not advice.
