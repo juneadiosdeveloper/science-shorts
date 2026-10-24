@@ -173,13 +173,15 @@ def main(pdir, out, stills=False):
     disc = small_sprite(DISC, 30)
     # ---- render ----
     tmp = tempfile.mkdtemp(); vid = f"{tmp}/v.mp4"
-    if not stills:
+    reuse = os.environ.get("REUSE_VID")
+    if reuse: vid = reuse
+    if not stills and not reuse:
         ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                                "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", vid], stdin=subprocess.PIPE)
     cur, frames, cache_clip = -1, 0, None
     NF = int(round(TOTAL * FPS))
     stills_at = [sh["t"] + sh["d"] * .7 for sh in shots] if stills else None
-    for i in range(NF):
+    for i in range(0 if not reuse else NF, NF):
         T = i / FPS
         if stills and not any(abs(T - s) < .5 / FPS for s in stills_at): continue
         j = max(n for n in range(len(shots)) if shots[n]["t"] <= T + 1e-6); sh = shots[j]
@@ -221,7 +223,7 @@ def main(pdir, out, stills=False):
             fr.save(f"{out[:-4]}_s{j + 1:02d}.jpg", quality=85); continue
         ff.stdin.write(fr.tobytes())
     if stills: return
-    ff.stdin.close(); ff.wait()
+    if not reuse: ff.stdin.close(); ff.wait()
     # ---- audio: voices + music (ducked) + sfx ----
     N = int(TOTAL * SR) + SR
     vo = np.zeros(N)
@@ -235,7 +237,7 @@ def main(pdir, out, stills=False):
         if key in seen: continue
         seen.add(key); s = int(t0 * SR)
         if True:
-            sig = tone(1320, .18, 28, .10) + tone(2640, .18, 40, .05) + tone(3960, .12, 55, .03)
+            sig = tone(1320, .18, 28, .10) + tone(2640, .18, 40, .05) + tone(3960, .18, 55, .03)
         e = min(N, s + len(sig)); fx[s:e] += sig[:e - s]
     cuts = ",".join(f"{x['t']:.2f}" for x in shots[1:])
     subprocess.run([sys.executable, f"{HERE}/music.py", f"{tmp}/m.wav", f"{TOTAL:.3f}", cuts], check=True)
