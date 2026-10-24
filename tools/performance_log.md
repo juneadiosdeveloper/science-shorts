@@ -34,3 +34,20 @@ Note: Kling 3.0 Standard (9 cr/s) held the face better than Gen-4.5 (12 cr/s) on
 - Junaid approved ("yes") → inflation Short switched from draft to scheduled: Sat 24 Oct 16:00 IST (Metricool id 403793829).
 - Checked Runway speech (eleven_v4 via Runway, ~5 Runway credits per 1,000 chars): Pyaari voice not available there (voice library search returns nothing on this workspace) and Runway MCP has no lip-sync/avatar tool, so lip-sync stays on ElevenLabs (HeyGen = ~83% of EL spend).
 - Junaid updated the YouTube channel branding (name Paisa Science, handle, description, logo, banner, defaults Hindi/Education, phone verification) on 23 Oct. Check the channel name on the credit-card Short in the next run.
+
+## 2026-10-24 (Sat)
+**Numbers (Metricool, brand 7570802, Asia/Kolkata):**
+- Subscribers: 0 (gained 0, lost 0). Channel videos: 2 published.
+- SIP Short (DxwFJxuw7OA, 22 Oct) and Credit-card Short (ofla0hmAlI0, 23 Oct): views / watch minutes / avg view duration / likes / comments / shares all still null in Metricool (YouTube Analytics lag, 48 h+). No performance verdict possible yet.
+- Today 16:00 IST: inflation Short (realistic) goes live (approved, Metricool id 403793829).
+- Best time Sun 25 Oct: 16:00 IST top hour (5,648), 17:00 next (5,417).
+
+**Improvements applied to the next video (Rule of 72 Short):**
+1. HeyGen Avatar 4 nodes default to 16:9 (first outro came back 1920x1080 with her face cropped). Always: estimate → `creative_update_node` aspect_ratio 9:16 → run.
+2. HeyGen moderation blocked the spoken hook "aapka paisa kitne saal mein double hoga?" twice ("may violate Terms of Service") — it reads like a money-doubling scam line. Keep spoken talking-head lines free of "paisa double / guaranteed" phrasing; put the topic claim in on-screen text instead (hook re-voiced: "Hisaab ka sabse aasaan formula chahiye? Bas ek number yaad rakho...").
+3. Series continuity: the Rule of 72 Short reuses the inflation Short's 6% assumption (prices double in ~12 years) and ends with a quiz-style first comment to seed comments; every exact value (9.0 / 11.9 / 6.1 yrs) is shown next to the 72-rule estimate.
+
+**Produced today:** Rule of 72 Short → videos/rule_of_72_real.mp4 (~29.7 s), Metricool DRAFT for Sun 25 Oct 16:00 IST, waiting for Junaid's yes.
+Numbers verified: 72/8 = 9 (exact ln2/ln1.08 = 9.01 yrs), 72/6 = 12 (11.90), 72/12 = 6 (6.12); ₹100 × 1.06^12 = ₹201.
+Credits: Runway 250 (4 stills × 4 + b-roll 26 s Kling 3 Std 234); Runway left 2,012.
+ElevenLabs: TTS 397 + re-voiced hook 57; HeyGen used clips 2,424 (hook) + 1,818 (outro) = 4,696 for the final Short. Waste: 1,818 (16:9 outro) + 2 blocked hook runs (2 × 2,424 listed; may be refunded since nothing was produced). Fixes above prevent both.

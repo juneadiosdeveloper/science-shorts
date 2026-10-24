@@ -126,7 +126,7 @@ def i6(img, t, d):                      # talk outro
 def r1(img, t, d):                      # talk hook
     big(img, "Paisa DOUBLE", 210, 116, GOLD, 1.0)
     big(img, "kitne saal mein?", 345, 100, WHITE, 1.0)
-    caption_box(img, [("Bas ek number yaad rakho", WHITE)], on(t, 2.35))
+    caption_box(img, [("Bas ek number yaad rakho", WHITE)], on(t, 2.39))
 def r2(img, t, d):
     big(img, "72", 170, 260, GOLD, on(t, .13))
     big(img, "RULE OF 72", 450, 104, WHITE, on(t, 1.24))
@@ -140,14 +140,14 @@ def r4(img, t, d):
     big(img, "~9 SAAL mein DOUBLE", 380, 92, GOLD, on(t, 1.53))
     caption_box(img, [("Exact (8% compound): ~9.0 saal", MINT), ("Rule of 72 sirf andaaza hai", SOFT)], on(t, 2.3))
 def r5(img, t, d):
-    big(img, "6% → ~12 saal", 200, 110, WHITE, 1.0)
-    big(img, "12% → ~6 saal", 350, 110, MINT, on(t, 2.33))
+    big(img, "6% par ~12 saal", 200, 110, WHITE, 1.0)
+    big(img, "12% par ~6 saal", 350, 110, MINT, on(t, 2.33))
     caption_box(img, [("Exact: 11.9 saal aur 6.1 saal", WHITE), ("Sab returns sirf udaharan", SOFT)], on(t, 2.9))
 def r6(img, t, d):
     big(img, "ULTA bhi!", 190, 120, RED, 1.0)
     big(img, "Mehngai 6% maan lo", 340, 88, WHITE, on(t, 1.63))
     big(img, "~12 saal: DAAM DOUBLE", 460, 88, RED, on(t, 4.0))
-    caption_box(img, [("Aaj ₹100 → ~12 saal baad ~₹200", GOLD), ("6% sirf udaharan, asli mehngai badalti hai", SOFT)], on(t, 4.0))
+    caption_box(img, [("₹100 ka saamaan ~12 saal baad ~₹200", GOLD), ("6% sirf udaharan, asli mehngai badalti hai", SOFT)], on(t, 4.0))
 def r7(img, t, d):                      # talk outro
     big(img, "Agli baar:", 210, 96, WHITE, 1.0)
     big(img, "72 ÷ RETURN", 340, 130, GOLD, on(t, 1.05))
