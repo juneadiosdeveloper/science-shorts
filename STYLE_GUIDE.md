@@ -95,3 +95,13 @@ today); until then draft replies for Junaid and ask him to connect a comments-ca
 - Daily-feed Shorts: realistic presenter format (above) for new topics.
 - Cadence to fit ~100k ElevenLabs/month: 1 long video/week (~11.5k) + its 3 cut-down Shorts (no new lip-sync) + ~2 new realistic
   Shorts/week (~5k each).
+
+## vidIQ (connected 24 Oct 2026)
+- Account knowledgekaadda496@gmail.com, free plan: 150 credits/month (most calls cost 5, resets on the 24th). Budget ~25 calls/month:
+  1 keyword research + 2 title scores per upload, 1 channel-comments check every 2-3 days, outliers once a week for topics.
+- Paisa Science channel NOT yet connected to vidIQ (Junaid must open the connect link). Until then no comment reading/replying.
+- Comment replies: vidIQ publishes immediately, so each reply text needs Junaid's explicit OK in chat before posting (draft with
+  vidiq_generate_comment_replies / by hand, show him, then post).
+- First results: "home loan mistakes" ~20.5k/mo, "home loan tips" ~11.5k (+33%), "home loan prepayment" ~7.4k (+90%),
+  "home loan prepayment reduce emi or tenure" ~4.5k. Title scores (long): "₹50 Lakh Loan Pe ₹54 Lakh Byaaj? 3 Tareeke Se Bachao" 76,
+  "Home Loan Jaldi Kaise Khatam Kare? ₹19 Lakh Bachao 😱" 72.
