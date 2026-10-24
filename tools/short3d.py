@@ -122,7 +122,38 @@ def i6(img, t, d):                      # talk outro
     big(img, "CHUPA TAX", 340, 140, RED, on(t, .7))
     caption_box(img, [("Follow karo: Paisa Science", GOLD)], on(t, 1.4))
 
-SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6]}
+# ---------- Rule of 72 Short (realistic format) ----------
+def r1(img, t, d):                      # talk hook
+    big(img, "Paisa DOUBLE", 210, 116, GOLD, 1.0)
+    big(img, "kitne saal mein?", 345, 100, WHITE, 1.0)
+    caption_box(img, [("Bas ek number yaad rakho", WHITE)], on(t, 2.35))
+def r2(img, t, d):
+    big(img, "72", 170, 260, GOLD, on(t, .13))
+    big(img, "RULE OF 72", 450, 104, WHITE, on(t, 1.24))
+def r3(img, t, d):
+    big(img, "72 ÷ saalana return", 190, 88, WHITE, 1.0)
+    big(img, "= double hone ke saal", 310, 80, GOLD, on(t, .9))
+    big(img, "Maan lo: 8% saalana", 440, 88, MINT, on(t, 2.46))
+    caption_box(img, [("8% sirf udaharan hai.", WHITE), ("Returns guaranteed nahi hote", SOFT)], on(t, 2.46))
+def r4(img, t, d):
+    big(img, "72 ÷ 8 = 9", 200, 130, WHITE, 1.0)
+    big(img, "~9 SAAL mein DOUBLE", 380, 92, GOLD, on(t, 1.53))
+    caption_box(img, [("Exact (8% compound): ~9.0 saal", MINT), ("Rule of 72 sirf andaaza hai", SOFT)], on(t, 2.3))
+def r5(img, t, d):
+    big(img, "6% → ~12 saal", 200, 110, WHITE, 1.0)
+    big(img, "12% → ~6 saal", 350, 110, MINT, on(t, 2.33))
+    caption_box(img, [("Exact: 11.9 saal aur 6.1 saal", WHITE), ("Sab returns sirf udaharan", SOFT)], on(t, 2.9))
+def r6(img, t, d):
+    big(img, "ULTA bhi!", 190, 120, RED, 1.0)
+    big(img, "Mehngai 6% maan lo", 340, 88, WHITE, on(t, 1.63))
+    big(img, "~12 saal: DAAM DOUBLE", 460, 88, RED, on(t, 4.0))
+    caption_box(img, [("Aaj ₹100 → ~12 saal baad ~₹200", GOLD), ("6% sirf udaharan, asli mehngai badalti hai", SOFT)], on(t, 4.0))
+def r7(img, t, d):                      # talk outro
+    big(img, "Agli baar:", 210, 96, WHITE, 1.0)
+    big(img, "72 ÷ RETURN", 340, 130, GOLD, on(t, 1.05))
+    caption_box(img, [("Follow karo: Paisa Science", GOLD)], on(t, 1.3))
+
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)
