@@ -54,3 +54,4 @@ ElevenLabs: TTS 397 + re-voiced hook 57; HeyGen used clips 2,424 (hook) + 1,818 
 **Produced 24 Oct (evening):** first animated long video (Priya + Gullu), "₹50 Lakh Loan Pe ₹54 Lakh Byaaj? 3 Tareeke Se Bachao" → videos/home_loan_prepayment_long.mp4 (3:30, 16:9, 53 shots, 4 animated clips, 2 lip-sync shots). Metricool DRAFT id 405122119 for Mon 26 Oct 16:00 IST (best hour 9,351), thumbnail A attached; thumbs B/C in long/homeloan/thumbs for Test & Compare. Waiting for Junaid's yes.
 Credits: ElevenLabs ~10.8k (voices 2.4k + lip-sync 8.5k). Runway ~380 (46 images + 4 Kling clips); Runway left 1,635.
 Editor: tools/anim.py (project long/homeloan: lines.py, plan.py, audio/, clips/). Voice lines split with ElevenLabs Scribe word timestamps (free).
+- Junaid approved ("schedule it for tomorrow") → long video scheduled Sun 25 Oct 17:00 IST (Metricool id 405129270), one hour after the Rule of 72 Short (16:00).
