@@ -56,3 +56,4 @@ Credits: ElevenLabs ~10.8k (voices 2.4k + lip-sync 8.5k). Runway ~380 (46 images
 Editor: tools/anim.py (project long/homeloan: lines.py, plan.py, audio/, clips/). Voice lines split with ElevenLabs Scribe word timestamps (free).
 - Junaid approved ("schedule it for tomorrow") → long video scheduled Sun 25 Oct 17:00 IST (Metricool id 405129270), one hour after the Rule of 72 Short (16:00).
 - Junaid changed the plan: long video Sun 25 Oct 16:00 IST (id 405132150), Rule of 72 Short moved to Mon 26 Oct 16:00 IST (id 405131995).
+- Instagram @paisa_science connected to Metricool (24 Oct night). Scheduled: Sun 25 Oct 16:00 IG Reel = 58 s vertical teaser of the home-loan video (instagram/reel_homeloan.mp4, id 405210760) + Story 16:10 (manual, link sticker; id 405210854); Mon 26 Oct 16:00 IG Reel = Rule of 72 Short (id 405210845) + Story 16:10 (manual; id 405210866). 5 hashtags each. Facebook Page not connected yet.
