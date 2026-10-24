@@ -73,3 +73,8 @@ Topic: home-loan prepayment (idea from warikoo's top video, our own script and n
   post-tax return, tax deduction on interest, check prepayment charges in the loan agreement) → summary + question for comments.
 - Chapters in the description, custom thumbnail (big ₹ figure), Metricool type "video", isAiGeneratedContent true, draft first.
 - Verify every number by running it; all rates are examples, not advice.
+- Character decision (24 Oct 2026, owner: "take the character which can generate more views"): keep the SAME realistic AI presenter
+  (not a 3D cartoon). Reason: every top Indian finance channel (warikoo, Sharan, Pranjal Kamra, CA Rachana) is led by a real-looking
+  human face, which builds trust in money topics, and one face across Shorts + long videos helps viewers recognise the channel.
+  To keep cost low in long videos: lip-sync only intro/outro, and use still images of her (~4 Runway credits each, slow camera move
+  in our editor) plus charts for the middle, with only 2-3 short Runway video shots.
