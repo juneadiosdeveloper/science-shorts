@@ -107,7 +107,7 @@ today); until then draft replies for Junaid and ask him to connect a comments-ca
   "Home Loan Jaldi Kaise Khatam Kare? ₹19 Lakh Bachao 😱" 72.
 
 ## Instagram cross-posting (owner, 24 Oct 2026)
-Every YouTube upload also goes to Instagram at the same time (same Metricool post, provider instagram added, own caption).
+Every YouTube upload also goes to Instagram AND the Facebook Page (separate Metricool posts, facebookData type REEL, YouTube channel link https://www.youtube.com/channel/UCGSINJTgGLSXZ4e_cIqQnYQ in the FB first comment) at the same time (same Metricool post, provider instagram added, own caption).
 Status: Instagram NOT yet connected to Metricool brand 7570802 (only YouTube) — Junaid must connect a Professional
 (Creator/Business) Instagram account in Metricool first.
 Rules (checked Oct 2026):
