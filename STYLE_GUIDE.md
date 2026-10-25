@@ -155,3 +155,16 @@ Rules (checked Oct 2026):
 - Scene stills: nano-banana-2.1 2K 9:16 (6 cr); if a task fails, retry once with nano-banana-pro; check every still for blank bands.
 - Copying from top videos: idea/structure/topic list yes; titles and descriptions are rewritten in Hindi with our own keywords
   (an exact copy competes head-on with the big channel in search and adds reused-content risk for YPP).
+
+## Long-video frequency rule (owner delegated, 25 Oct 2026)
+Why long videos matter: YPP needs 4,000 public watch hours (Shorts views do NOT count toward them) or 10M Shorts views in 90 days.
+For a new channel the watch-hour path is the realistic one, so long videos get priority whenever they hold viewers.
+- Review each long video 72 h after it goes live (vidIQ channel_analytics, dimension video + report audience_retention):
+  - KEEP GOING FASTER (2 long videos/week, Sun + Thu, 16:00) when: average view percentage >= 35% (or avg view duration >= 1:15)
+    AND it got at least as many views as the median of our Shorts from the same week, or brought subscribers.
+  - STAY at 1/week when below that, and fix the weakest part first (retention dip in the first 30 s = hook; low views = title/thumbnail).
+  - Go to 3/week only after two long videos in a row clear the bar and ElevenLabs credits allow it.
+- Credit plan for 2 long/week (~100k ElevenLabs/month): long videos use one lip-sync shot only (intro, ~3.6k) instead of two,
+  so ~8k each; the 3 cut-down Shorts per long video stay free; new animated Shorts drop to ~1/week (~4.7k).
+- Every long video still follows STANDING RULE #1 (idea of a most-viewed niche video).
+- First review: home-loan long video (live 25 Oct 16:00) on Wed 28 Oct.
