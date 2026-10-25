@@ -96,3 +96,4 @@ Credits: ElevenLabs 0, Runway 0 (left 1,635), vidIQ 25 (left 105 until 24 Nov).
 - Fix: Poppins has no "→" glyph, small captions showed a box. 5 mistakes Short re-rendered and the 3 Monday posts re-uploaded (YT 405523408, IG 405523430, FB 405523461; same text/time). Rule: no arrows in SMALL captions (headlines are fine, they fall back to DejaVu).
 - Long-video frequency rule written (STYLE_GUIDE): review at 72 h; ≥35% avg view % and views ≥ week's Shorts median → 2 long/week (Sun + Thu). First review Wed 28 Oct.
 - Credits (second Short): ElevenLabs ~5.0k (TTS ~0.84k + HeyGen 4,242); Runway ~80 (11 stills + 1 Pro retry), left ~1,415; vidIQ 15 (left 55).
+- Junaid approved Wednesday ("yes") → 40 crore Short scheduled Wed 28 Oct 16:00: YT 405534537, IG 405534579, FB 405534650, IG Story 16:10 405534596 (manual).
