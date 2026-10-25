@@ -11,5 +11,5 @@ SMALL = {2: "Example: ₹1 lakh, 2 saal, '12% flat' → EMI ₹5,167",
          11: "₹2,000/mahina, 12% saalana maana (guaranteed nahi)",
          12: "Example. Pehle skill, phir SIP: dono zaroori"}
 GAP, LONG_GAP_AFTER, END_HOLD = 0.18, set(), 1.2
-GAP_OVERRIDE = {1: 0.05}
+GAP_OVERRIDE = {1: 0.0}
 DISCLAIMER = "Educational only. Not financial advice. Numbers are examples."
