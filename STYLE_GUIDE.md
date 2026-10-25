@@ -99,7 +99,8 @@ today); until then draft replies for Junaid and ask him to connect a comments-ca
 ## vidIQ (connected 24 Oct 2026)
 - Account knowledgekaadda496@gmail.com, free plan: 150 credits/month (most calls cost 5, resets on the 24th). Budget ~25 calls/month:
   1 keyword research + 2 title scores per upload, 1 channel-comments check every 2-3 days, outliers once a week for topics.
-- Paisa Science channel NOT yet connected to vidIQ (Junaid must open the connect link). Until then no comment reading/replying.
+- Paisa Science channel (UCGSINJTgGLSXZ4e_cIqQnYQ) IS connected to vidIQ (confirmed 25 Oct 2026). Per-video analytics: vidiq_channel_analytics
+  dimensions=[video] (Metricool's YouTube video metrics come back empty for this channel). Comments: vidiq_video_comments channelId, every 2-3 days.
 - Comment replies: vidIQ publishes immediately, so each reply text needs Junaid's explicit OK in chat before posting (draft with
   vidiq_generate_comment_replies / by hand, show him, then post).
 - First results: "home loan mistakes" ~20.5k/mo, "home loan tips" ~11.5k (+33%), "home loan prepayment" ~7.4k (+90%),
@@ -122,3 +123,11 @@ Rules (checked Oct 2026):
 - Story with YouTube link: the Instagram API cannot add link stickers, so schedule the Story with autoPublish false
   (Metricool sends Junaid a phone notification; he adds the link sticker and posts, ~10 s). Keep the channel link in bio.
 - Collab/trending audio cannot be added via API reliably; keep our own music.
+
+## Long-video cut-downs (25 Oct 2026)
+- tools/vcut.py <long.mp4> <start> <end> <out> "<top1>|<top2>" "<assumption>" "<cta1>|<cta2>": 1080x1920, blurred background,
+  16:9 frame in the middle, headline above, assumption under the video, CTA below (same look as the Instagram teaser).
+- Start the cut ON the question/hook line (no intro), end on the punchline so the loop replays into the question.
+- Line start times: rebuild the anim.py timeline (durs.json + GAP/LONG_GAP_AFTER/GAP_OVERRIDE) instead of guessing.
+- Home-loan cut-downs: #1 quiz A-or-B (83.1-123.15 s) done 25 Oct; next: Byaaj Monster 82% (YouTube only, IG already has the teaser),
+  then step-up ₹19.5 lakh reveal.

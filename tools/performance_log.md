@@ -58,3 +58,24 @@ Editor: tools/anim.py (project long/homeloan: lines.py, plan.py, audio/, clips/)
 - Junaid changed the plan: long video Sun 25 Oct 16:00 IST (id 405132150), Rule of 72 Short moved to Mon 26 Oct 16:00 IST (id 405131995).
 - Instagram @paisa_science connected to Metricool (24 Oct night). Scheduled: Sun 25 Oct 16:00 IG Reel = 58 s vertical teaser of the home-loan video (instagram/reel_homeloan.mp4, id 405210760) + Story 16:10 (manual, link sticker; id 405210854); Mon 26 Oct 16:00 IG Reel = Rule of 72 Short (id 405210845) + Story 16:10 (manual; id 405210866). 5 hashtags each. Facebook Page not connected yet.
 - Facebook Page (id 1384710478060339) connected. FB Reels scheduled: Sun 25 Oct 16:00 home-loan teaser (id 405215470, first comment = YouTube channel link), Mon 26 Oct 16:00 Rule of 72 (id 405215359). Facebook allows links in comments: always put the YouTube link in the first comment.
+
+## 2026-10-25 (Sun)
+**Numbers (vidIQ YouTube Analytics, 20-25 Oct; Metricool video metrics still empty for this channel):**
+- Channel: 0 subscribers, 55 lifetime views, 3 public videos (SIP 3D Short, credit-card realistic Short, inflation realistic Short).
+- SIP Short (DxwFJxuw7OA, 3D format): 10 views, 4 engaged views, avg view duration 22 s = 72% viewed, 0 likes/comments/shares/subs.
+- Credit-card + inflation Shorts: not in YouTube Analytics yet (48 h lag). No viewer comments yet (only our own pinned questions), so no replies to draft.
+- Traffic sources: no rows yet. Instagram/Facebook: first posts go live today 16:00, no data.
+- Today 16:00 IST: animated long video (home loan) goes live on YouTube + IG/FB teaser Reels (approved).
+- Best time Tue 27 Oct: YouTube 16:00 (10,353, top); Instagram 18:00 (4,788) / 10:00 (4,942) beat 16:00 (3,532).
+
+**What we can say:** 72% viewed on the first Short is a healthy retention signal, but 10 views = YouTube has barely tested the channel. Volume of uploads (daily cadence) matters more than tweaks right now.
+
+**Improvements applied:**
+1. Analytics source switched to vidIQ channel_analytics (dimension video): Metricool returns empty per-video rows, vidIQ gives views, engaged views, avg duration, % viewed, subs per video. Used for all reviews from now on.
+2. First home-loan cut-down built with the new tools/vcut.py and the quiz-first hook: the Short opens directly on "A ya B?" (no intro) and ends on Gullu's "Dugni?!" punchline so the loop replays into the question; on-screen assumption line + "Poori video, neeche link" CTA to push viewers to the long video (watch hours for YPP).
+3. Shorts packaging: the vidIQ title scorer preferred a search keyword at the start + concrete ₹ number (76) over a curiosity-only title (69): keep "keyword: hook + ₹ figure" pattern.
+
+**Produced today:** videos/homeloan_quiz_a_ya_b_short.mp4 (40.0 s, 9:16). Numbers re-verified (EMI ₹43,391; +1 EMI/yr → 201 months, saves ₹10.29 lakh; EMI +5%/yr → 147 months, saves ₹19.52 lakh).
+Metricool DRAFTS for Tue 27 Oct: YouTube Short 405436391 (16:00), IG Reel 405436398 (16:00), IG Story 405436407 (16:10, manual link sticker), FB Reel 405436416 (16:00). Waiting for Junaid's yes.
+vidIQ: keyword "home loan emi" (IN ~4.4k/mo; "home loan prepayment" 7.4k, +90%); titles scored "Home Loan EMI: A ya B? ₹19.5 Lakh Kaise Bache 🤯 #shorts" 76 (chosen) vs "Home Loan Jaldi Khatam: 1 Extra EMI ya EMI +5%? 😱" 69 (Test & Compare alt).
+Credits: ElevenLabs 0, Runway 0 (left 1,635), vidIQ 25 (left 105 until 24 Nov).
