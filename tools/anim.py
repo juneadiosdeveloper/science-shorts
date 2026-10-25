@@ -15,6 +15,9 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from fontTools.ttLib import TTFont
 
 W, H, FPS, SR = 1920, 1080, 30, 44100
+VERT = os.environ.get("ANIM_VERTICAL") == "1"   # 9:16 Shorts mode: 1080x1920, text kept clear of the Shorts UI
+if VERT: W, H = 1080, 1920
+HEAD_Y, CHIP_XY, SMALL_B, DISC_B = (300, (40, 190), 560, 470) if VERT else (80, (40, 34), 40, 30)
 HERE = os.path.dirname(os.path.abspath(__file__))
 POP = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
 DJV = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
@@ -95,10 +98,12 @@ def whip(arr, k, n=6):
     return (acc / taps).astype(np.uint8)
 
 TOPBAND = Image.new("L", (1, H))
-for y in range(H): TOPBAND.putpixel((0, y), int(max(0, (430 - y) / 430) ** 1.5 * 165))
+TB = 820 if VERT else 430
+for y in range(H): TOPBAND.putpixel((0, y), int(max(0, (TB - y) / TB) ** 1.5 * 165))
 TOPBAND = TOPBAND.resize((W, H)); BLACK = Image.new("RGB", (W, H), (0, 0, 0))
 BOTBAND = Image.new("L", (1, H))
-for y in range(H): BOTBAND.putpixel((0, y), int(max(0, (y - 900) / 180) ** 1.4 * 150))
+B0, B1 = (1300, 300) if VERT else (900, 180)
+for y in range(H): BOTBAND.putpixel((0, y), int(max(0, min(1, (y - B0) / B1)) ** 1.4 * 150))
 BOTBAND = BOTBAND.resize((W, H))
 
 def chip():
@@ -167,10 +172,15 @@ def main(pdir, out, stills=False):
             L = []
             for i, (s, c) in enumerate(sh["heads"]):
                 size = 112 if len(s) <= 18 else (92 if len(s) <= 26 else 74)
-                L.append(text_sprite(s, size, COL[c]))
-            spr[key] = (L, small_sprite(sh["small"]) if sh["small"] else None)
+                sp = text_sprite(s, size, COL[c])
+                if sp.width > W - 20: sp = sp.resize((W - 20, int(sp.height * (W - 20) / sp.width)), Image.LANCZOS)
+                L.append(sp)
+            sm = small_sprite(sh["small"], 30 if VERT else 36) if sh["small"] else None
+            if sm is not None and sm.width > W - 30: sm = sm.resize((W - 30, int(sm.height * (W - 30) / sm.width)), Image.LANCZOS)
+            spr[key] = (L, sm)
         return spr[key]
     disc = small_sprite(DISC, 30)
+    if disc.width > W - 30: disc = disc.resize((W - 30, int(disc.height * (W - 30) / disc.width)), Image.LANCZOS)
     # ---- render ----
     tmp = tempfile.mkdtemp(); vid = f"{tmp}/v.mp4"
     reuse = os.environ.get("REUSE_VID")
@@ -203,8 +213,8 @@ def main(pdir, out, stills=False):
         if L or sm:
             fr = Image.composite(BLACK, fr, TOPBAND)
         fr = fr.convert("RGBA")
-        fr.alpha_composite(CHIP, (40, 34))
-        n = len(L); y = 80
+        fr.alpha_composite(CHIP, CHIP_XY)
+        n = len(L); y = HEAD_Y
         ats = appear_times(n, sh["line_d"])
         for q, sp in enumerate(L):
             sc = pop_scale(ht - ats[q])
@@ -214,10 +224,10 @@ def main(pdir, out, stills=False):
                 fr.alpha_composite(s2, ((W - w2) // 2, y + (sp.height - h2) // 2))
             y += int(sp.height * .78)
         if sm and ht > .5:
-            fr.alpha_composite(sm, ((W - sm.width) // 2, H - sm.height - 40))
+            fr.alpha_composite(sm, ((W - sm.width) // 2, H - sm.height - SMALL_B))
         if sh["lid"] == LINES[-1][0] or (T > TOTAL - 9):
             fr = Image.composite(Image.new("RGBA", (W, H), (0, 0, 0, 255)), fr, BOTBAND)
-            fr.alpha_composite(disc, ((W - disc.width) // 2, H - disc.height - 30))
+            fr.alpha_composite(disc, ((W - disc.width) // 2, H - disc.height - DISC_B))
         fr = fr.convert("RGB")
         if stills:
             fr.save(f"{out[:-4]}_s{j + 1:02d}.jpg", quality=85); continue
