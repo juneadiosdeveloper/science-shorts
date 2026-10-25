@@ -32,7 +32,7 @@
 ## Tags
 hazrat adam ki kahani, adam alaihissalam, pehla insaan, islamic stories in hindi, quran ki kahaniyan, prophet stories hindi, nabiyon ke qisse, islamic cartoon hindi, qasas ul anbiya hindi, iblees ki kahani, islamic kahani, family islamic stories
 
-## Thumbnail idea
+## Thumbnail (islamic/ep01/thumbnail.jpg)
 The three sisters around the glowing book (scene f2), with Fatima's amazed face large on the left. Text: "पहला इंसान?" in gold. Keep it free of any figure of Adam (AS).
 
 ## Before publishing

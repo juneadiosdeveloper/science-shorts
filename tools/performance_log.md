@@ -97,3 +97,7 @@ Credits: ElevenLabs 0, Runway 0 (left 1,635), vidIQ 25 (left 105 until 24 Nov).
 - Long-video frequency rule written (STYLE_GUIDE): review at 72 h; ≥35% avg view % and views ≥ week's Shorts median → 2 long/week (Sun + Thu). First review Wed 28 Oct.
 - Credits (second Short): ElevenLabs ~5.0k (TTS ~0.84k + HeyGen 4,242); Runway ~80 (11 stills + 1 Pro retry), left ~1,415; vidIQ 15 (left 55).
 - Junaid approved Wednesday ("yes") → 40 crore Short scheduled Wed 28 Oct 16:00: YT 405534537, IG 405534579, FB 405534650, IG Story 16:10 405534596 (manual).
+
+## 25 Oct — Islamic channel Episode 1 (Hindi, family) rendered
+- videos/islamic_ep01_pehla_insaan.mp4 (16:9, 3:44, no music). Packaging + thumbnail in islamic/ep01/. NOT uploaded: owner will say where.
+- Spend: 2 HeyGen Avatar 4 lip-syncs (~2,424 EL credits each), 2 Kling 3.0 Standard motion clips on Runway (credits left 1,144).
