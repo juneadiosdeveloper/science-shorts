@@ -79,3 +79,10 @@ Editor: tools/anim.py (project long/homeloan: lines.py, plan.py, audio/, clips/)
 Metricool DRAFTS for Tue 27 Oct: YouTube Short 405436391 (16:00), IG Reel 405436398 (16:00), IG Story 405436407 (16:10, manual link sticker), FB Reel 405436416 (16:00). Waiting for Junaid's yes.
 vidIQ: keyword "home loan emi" (IN ~4.4k/mo; "home loan prepayment" 7.4k, +90%); titles scored "Home Loan EMI: A ya B? ₹19.5 Lakh Kaise Bache 🤯 #shorts" 76 (chosen) vs "Home Loan Jaldi Khatam: 1 Extra EMI ya EMI +5%? 😱" 69 (Test & Compare alt).
 Credits: ElevenLabs 0, Runway 0 (left 1,635), vidIQ 25 (left 105 until 24 Nov).
+- Owner request (25 Oct): tomorrow's video from the most-viewed niche idea, cartoon girl + monkey. Research (vidIQ outliers, 6 top channels, all time):
+  top replicable idea = Labour Law Advisor "5 STUPID mistakes WEALTHY people never make!" (1.6M). Built our own 72.8 s 9:16 animated Short
+  "5 Money Mistakes Jo Ameer Log Kabhi Nahi Karte 💸 #shorts" (vidIQ 81; alt "5 Galtiyan Jo Ameer Log Kabhi Nahi Karte 😱" 54) → videos/5_money_mistakes_short.mp4.
+  Numbers verified (12% flat ₹1L 2 yr → 21.57% reducing; ₹2,000 SIP 5 yr 12% → ₹1,64,973; others simple products). Script doc: https://claude.ai/artifact/728DHEpZCkVwxxtnSMCnZp
+  Metricool DRAFTS Mon 26 Oct: YT 405505634 (16:00), IG Reel 405505640 (16:00), IG Story 405505646 (16:10 manual), FB Reel 405505654 (16:00).
+  Rule of 72 posts moved to Wed 28 Oct (owner approved): YT 405497444, IG 405497451, Story 405497456 (16:10), FB 405497459.
+  Credits: ElevenLabs ~4.7k (TTS ~1.07k + HeyGen 9:16 hook 3,636); Runway 140 (monkey sheet 2 + 18 stills; 3 failed tasks retried on Pro), left 1,495; vidIQ 30 (left 75).

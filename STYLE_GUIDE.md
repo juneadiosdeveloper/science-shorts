@@ -131,3 +131,14 @@ Rules (checked Oct 2026):
 - Line start times: rebuild the anim.py timeline (durs.json + GAP/LONG_GAP_AFTER/GAP_OVERRIDE) instead of guessing.
 - Home-loan cut-downs: #1 quiz A-or-B (83.1-123.15 s) done 25 Oct; next: Byaaj Monster 82% (YouTube only, IG already has the teaser),
   then step-up ₹19.5 lakh reveal.
+
+## Animated Shorts: Priya + Chintu (owner, 25 Oct 2026)
+- Owner asked for a cartoon girl + monkey built on the idea of the niche's most-viewed video. New sidekick **Chintu** (cheeky cartoon
+  monkey, yellow t-shirt, backwards red cap; Runway ref task cb8d524b-eb2a-4b41-a044-4b1b3dea8c81), voice "Yatin – Fun & Playful
+  Character" 7M0JpWdLkoBBL8M1moPi (eleven_v4). Priya stays the same (task 286104ef..., Pyaari). Gullu stays in the long videos.
+- Format: Chintu makes the money mistake, Priya fixes it with the number. Hook = Priya lip-sync to camera (HeyGen 9:16, expressive).
+- Build: `ANIM_VERTICAL=1 python3 tools/anim.py <project> <out.mp4>` (1080x1920, text clear of the Shorts UI). Project = short/mistakes.
+  One TTS call per line (generations_count 1), trimmed + atempo 1.12; durs.json from the trimmed files; lip clip slot GAP 0.
+- Scene stills: nano-banana-2.1 2K 9:16 (6 cr); if a task fails, retry once with nano-banana-pro; check every still for blank bands.
+- Copying from top videos: idea/structure/topic list yes; titles and descriptions are rewritten in Hindi with our own keywords
+  (an exact copy competes head-on with the big channel in search and adds reused-content risk for YPP).
