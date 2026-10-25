@@ -106,8 +106,8 @@ B0, B1 = (1300, 300) if VERT else (900, 180)
 for y in range(H): BOTBAND.putpixel((0, y), int(max(0, min(1, (y - B0) / B1)) ** 1.4 * 150))
 BOTBAND = BOTBAND.resize((W, H))
 
-def chip():
-    f = font(POP, 30); s = "PAISA SCIENCE"; d0 = ImageDraw.Draw(Image.new("L", (1, 1))); tw = d0.textlength(s, font=f)
+def chip(s="PAISA SCIENCE"):
+    f = font(POP, 30); d0 = ImageDraw.Draw(Image.new("L", (1, 1))); tw = d0.textlength(s, font=f)
     im = Image.new("RGBA", (int(tw) + 44, 54), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     d.rounded_rectangle((0, 0, im.width - 1, 53), 27, fill=(0, 0, 0, 140)); d.text((22, 7), s, font=f, fill=(255, 200, 40, 255))
     return im
@@ -179,6 +179,7 @@ def main(pdir, out, stills=False):
             if sm is not None and sm.width > W - 30: sm = sm.resize((W - 30, int(sm.height * (W - 30) / sm.width)), Image.LANCZOS)
             spr[key] = (L, sm)
         return spr[key]
+    chip_spr = chip(ns["CHIP_TEXT"]) if ns.get("CHIP_TEXT") else (None if "CHIP_TEXT" in ns else CHIP)
     disc = small_sprite(DISC, 30)
     if disc.width > W - 30: disc = disc.resize((W - 30, int(disc.height * (W - 30) / disc.width)), Image.LANCZOS)
     # ---- render ----
@@ -213,7 +214,7 @@ def main(pdir, out, stills=False):
         if L or sm:
             fr = Image.composite(BLACK, fr, TOPBAND)
         fr = fr.convert("RGBA")
-        fr.alpha_composite(CHIP, CHIP_XY)
+        if chip_spr is not None: fr.alpha_composite(chip_spr, CHIP_XY)
         n = len(L); y = HEAD_Y
         ats = appear_times(n, sh["line_d"])
         for q, sp in enumerate(L):
@@ -250,9 +251,11 @@ def main(pdir, out, stills=False):
             sig = tone(1320, .18, 28, .10) + tone(2640, .18, 40, .05) + tone(3960, .18, 55, .03)
         e = min(N, s + len(sig)); fx[s:e] += sig[:e - s]
     cuts = ",".join(f"{x['t']:.2f}" for x in shots[1:])
-    subprocess.run([sys.executable, f"{HERE}/music.py", f"{tmp}/m.wav", f"{TOTAL:.3f}", cuts], check=True)
-    sf = wave.open(f"{tmp}/m.wav"); m = np.frombuffer(sf.readframes(sf.getnframes()), np.int16).reshape(-1, 2).astype(np.float32) / 32767
-    music = np.zeros((N, 2)); music[:min(N, len(m))] = m[:N]
+    music = np.zeros((N, 2))
+    if ns.get("MUSIC", True):   # plan.py MUSIC = False -> voices + light SFX only (e.g. Islamic channel, no instruments)
+        subprocess.run([sys.executable, f"{HERE}/music.py", f"{tmp}/m.wav", f"{TOTAL:.3f}", cuts], check=True)
+        sf = wave.open(f"{tmp}/m.wav"); m = np.frombuffer(sf.readframes(sf.getnframes()), np.int16).reshape(-1, 2).astype(np.float32) / 32767
+        music[:min(N, len(m))] = m[:N]
     env = np.convolve(np.abs(vo), np.ones(int(.25 * SR)) / int(.25 * SR), "same")
     duck = np.where(env > .01, .22, .55)
     duck = np.convolve(duck, np.ones(int(.3 * SR)) / int(.3 * SR), "same")
