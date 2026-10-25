@@ -88,3 +88,11 @@ Credits: ElevenLabs 0, Runway 0 (left 1,635), vidIQ 25 (left 105 until 24 Nov).
   Credits: ElevenLabs ~4.7k (TTS ~1.07k + HeyGen 9:16 hook 3,636); Runway 140 (monkey sheet 2 + 18 stills; 3 failed tasks retried on Pro), left 1,495; vidIQ 30 (left 75).
 - Junaid approved Monday ("monday yes") → 5 money mistakes Short scheduled Mon 26 Oct 16:00: YT 405511843, IG Reel 405511882, FB Reel 405511948, IG Story 16:10 405511900 (manual). Tuesday quiz Short still a draft (no yes yet).
 - Owner standing rule (25 Oct): every next video must be the idea of a most-viewed niche video, never our own topic choice (STYLE_GUIDE 'STANDING RULE #1').
+- Junaid approved Tuesday ("tuesday yes") → quiz Short scheduled Tue 27 Oct 16:00: YT 405513595, IG 405513639, FB 405513723, IG Story 16:10 405513663 (manual).
+- Wed Rule of 72 removed per Junaid: all 4 posts switched back to DRAFT (YT 405513832, IG 405513862, Story 405513873, FB 405513890) so they cannot publish; the Metricool MCP has no delete, Junaid can delete them in the planner.
+- Wed replacement (STANDING RULE #1): source = warikoo "40 CRORES from a 10,000 INR SALARY?" (5.07M views, highest unused idea). Our 63.8 s Priya + Chintu Short "10K Salary Se 40 Crore Possible? SIP Ka Sach 🤯 #shorts" (vidIQ 81; alt "₹10,000 Salary Se ₹40 Crore? 😱 Asli Hisaab" 77) → videos/10k_salary_40_crore_short.mp4.
+  Numbers (Python, monthly SIP at start of month, r/12, step-up yearly): ₹2,000 × 38 yr @12% = ₹1.87 cr; +10%/yr = ₹5.35 cr; ₹5,000 +15%/yr @14% = ₹42.9 cr; ÷1.06^38 (9.15) = ₹4.69 cr real.
+  Metricool DRAFTS Wed 28 Oct 16:00: YT 405523572, IG 405523620, FB 405523669, IG Story 16:10 405523628.
+- Fix: Poppins has no "→" glyph, small captions showed a box. 5 mistakes Short re-rendered and the 3 Monday posts re-uploaded (YT 405523408, IG 405523430, FB 405523461; same text/time). Rule: no arrows in SMALL captions (headlines are fine, they fall back to DejaVu).
+- Long-video frequency rule written (STYLE_GUIDE): review at 72 h; ≥35% avg view % and views ≥ week's Shorts median → 2 long/week (Sun + Thu). First review Wed 28 Oct.
+- Credits (second Short): ElevenLabs ~5.0k (TTS ~0.84k + HeyGen 4,242); Runway ~80 (11 stills + 1 Pro retry), left ~1,415; vidIQ 15 (left 55).
