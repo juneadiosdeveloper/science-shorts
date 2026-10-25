@@ -1,5 +1,18 @@
 # Paisa Science: video style guide (realistic presenter format)
 
+## STANDING RULE #1 (owner, 25 Oct 2026): every new video = the idea of a most-viewed video in the niche
+- Never pick a topic on our own. Before every new video (long, animated Short or realistic Short), find the most-viewed videos in
+  Indian personal finance (vidIQ outliers sorted by viewCount, allTime + recent, top channels: warikoo, Labour Law Advisor,
+  Finance With Sharan, Pranjal Kamra, CA Rachana Ranade, Sagar Sinha; plus Hindi keyword searches) and build the video on the
+  highest-viewed idea we have not used yet that can be made in our format (skip interviews, house tours, news, stock tips).
+- Log the source video (title, channel, views) in tools/performance_log.md and in the script doc. Cut-downs of a long video inherit
+  its source idea.
+- What we take: the idea, structure, list of points and hook/title pattern (title adapted in Hindi with our keywords). What stays
+  ours: script, numbers, characters, visuals, description. SEBI/education rules and number checks still apply; skip any point that
+  would be a buy/sell call, a product/fund name or a sponsorship.
+- Ideas used so far: warikoo "Loans jaldi repay kariye!" (~5.0M) → home-loan long video + cut-downs; Labour Law Advisor
+  "5 STUPID mistakes WEALTHY people never make!" (1.6M) → 5 money mistakes Short.
+
 Approved format (23 Oct 2026): realistic AI Indian woman presenter (same face every video, from
 Runway portrait task ed8090cd-8324-47c0-803c-fae8673e2b3a), sweet Hindi female voice "Pyaari"
 (ElevenLabs voice_id EHeVIpHOvJGuhp2QcMZZ, eleven_v4), she talks on camera for the hook and the

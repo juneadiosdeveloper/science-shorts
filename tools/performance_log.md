@@ -86,3 +86,5 @@ Credits: ElevenLabs 0, Runway 0 (left 1,635), vidIQ 25 (left 105 until 24 Nov).
   Metricool DRAFTS Mon 26 Oct: YT 405505634 (16:00), IG Reel 405505640 (16:00), IG Story 405505646 (16:10 manual), FB Reel 405505654 (16:00).
   Rule of 72 posts moved to Wed 28 Oct (owner approved): YT 405497444, IG 405497451, Story 405497456 (16:10), FB 405497459.
   Credits: ElevenLabs ~4.7k (TTS ~1.07k + HeyGen 9:16 hook 3,636); Runway 140 (monkey sheet 2 + 18 stills; 3 failed tasks retried on Pro), left 1,495; vidIQ 30 (left 75).
+- Junaid approved Monday ("monday yes") → 5 money mistakes Short scheduled Mon 26 Oct 16:00: YT 405511843, IG Reel 405511882, FB Reel 405511948, IG Story 16:10 405511900 (manual). Tuesday quiz Short still a draft (no yes yet).
+- Owner standing rule (25 Oct): every next video must be the idea of a most-viewed niche video, never our own topic choice (STYLE_GUIDE 'STANDING RULE #1').
