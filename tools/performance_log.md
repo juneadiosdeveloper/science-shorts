@@ -124,3 +124,4 @@ Metricool DRAFTS: Thu 29 Oct 16:00 YT 406211262, FB 406211288, IG Story 16:10 40
 - Long video #2 script for approval (STANDING RULE #1 source: warikoo "SIP KYA HAI? SIP vs LUMPSUM", ~4.5M): "SIP vs Lump Sum: same market, ₹2.8 lakh ka farak" — https://claude.ai/artifact/A4HcuVet2biH6z8XmMumY3
   Numbers (Python, ₹6 lakh, 5 yr, monthly compounding of yearly example returns): steady 12% → LS ₹10.57L / SIP ₹8.11L; −30% first → ₹9.78L / ₹9.45L; −30% last → ₹9.78L / ₹6.67L; avg 13% vs CAGR 10.27%.
 - vidIQ used 15 (analytics 5, title scores 10); left 40.
+- Junaid approved ("yes") → scheduled: Thu 29 Oct 16:00 YT 406668596, FB 406668740, IG Story 16:10 406668794 (manual); Fri 30 Oct 16:00 YT 406668993, IG Reel 406669132, FB 406669258, IG Story 16:10 406669304 (manual).
