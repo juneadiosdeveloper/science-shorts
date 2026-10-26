@@ -101,3 +101,26 @@ Credits: ElevenLabs 0, Runway 0 (left 1,635), vidIQ 25 (left 105 until 24 Nov).
 ## 25 Oct — Islamic channel Episode 1 (Hindi, family) rendered
 - videos/islamic_ep01_pehla_insaan.mp4 (16:9, 3:44, no music). Packaging + thumbnail in islamic/ep01/. NOT uploaded: owner will say where.
 - Spend: 2 HeyGen Avatar 4 lip-syncs (~2,424 EL credits each), 2 Kling 3.0 Standard motion clips on Runway (credits left 1,144).
+
+## 2026-10-26 (Mon)
+**Numbers (vidIQ YouTube Analytics 20-26 Oct; long video + Shorts from 24-25 Oct not in Analytics yet, 48 h lag):**
+- Credit-card Short (ofla0hmAlI0, realistic): 37 views, 16 engaged, avg 15 s = 51% viewed, 0 likes/comments/subs.
+- SIP Short (DxwFJxuw7OA, 3D): 15 views, 4 engaged, avg 22 s = 72% viewed.
+- Subscribers: 0. Traffic sources: no rows yet.
+- Instagram (Metricool): home-loan teaser Reel (58 s, 25 Oct): reach 118, 133 views, 3 likes, 1 comment, 0 saves/shares, avg watch 10.2 s (~18% of 58 s), 57% view rate (>3 s).
+- Today 16:00: 5 money mistakes Short live on YT/IG/FB (approved). Tue quiz + Wed 40-crore approved and scheduled.
+
+**What it says:** retention falls with length: 22-30 s Shorts hold 51-72%, the 58 s IG teaser held ~18%. The 3 s hook works on IG (57% stay past 3 s), the middle loses people.
+
+**Improvements applied:**
+1. Cut-downs kept under 30 s and opened on the shock line: Byaaj Monster 28.1 s (starts on Gullu's "sirf 43 hazaar ki EMI", ends on "monster kha gaya"), lump-sum 22.4 s. Rule: cut-downs ≤ 30 s unless a quiz needs the answer.
+2. Titles: exact ₹ figures beat a curiosity phrase in vidIQ: "Home Loan EMI: ₹43,391 Mein ₹35,417 Sirf Byaaj? 😱" 75 vs "Home Loan EMI Ka 82% Sirf Byaaj? 😱 Pehli EMI Ka Sach" 63; "Home Loan Prepayment: ₹1 Lakh Se ₹4.2 Lakh Bachat? 🤯" 81.
+3. vidIQ budget: only 40 credits left until 24 Nov (8 calls). From now: 1 analytics call every 2-3 days, 1 title score per upload (keyword research only for new topics), comments check Wed 28 + Sat 31 Oct.
+- Planned "step-up ₹19.5 lakh" cut-down dropped: the quiz Short (Tue) already reveals it. Replaced with the lump-sum + "tenure kam, EMI nahi" cut.
+- Emoji in vcut.py captions renders as a box (Poppins); keep vcut text emoji-free.
+
+**Produced today (0 ElevenLabs, 0 Runway):** videos/homeloan_byaaj_monster_short.mp4 (28.1 s), videos/homeloan_lumpsum_short.mp4 (22.4 s); numbers re-run (int month 1 ₹35,417 = 81.6%; ₹1 lakh lump sum → 228 months, saves ₹4.23 lakh).
+Metricool DRAFTS: Thu 29 Oct 16:00 YT 406211262, FB 406211288, IG Story 16:10 406211298 (no IG Reel: IG already had the 82% teaser). Fri 30 Oct 16:00 YT 406211409, IG Reel 406211430, FB 406211466, IG Story 16:10 406211477.
+- Long video #2 script for approval (STANDING RULE #1 source: warikoo "SIP KYA HAI? SIP vs LUMPSUM", ~4.5M): "SIP vs Lump Sum: same market, ₹2.8 lakh ka farak" — https://claude.ai/artifact/A4HcuVet2biH6z8XmMumY3
+  Numbers (Python, ₹6 lakh, 5 yr, monthly compounding of yearly example returns): steady 12% → LS ₹10.57L / SIP ₹8.11L; −30% first → ₹9.78L / ₹9.45L; −30% last → ₹9.78L / ₹6.67L; avg 13% vs CAGR 10.27%.
+- vidIQ used 15 (analytics 5, title scores 10); left 40.

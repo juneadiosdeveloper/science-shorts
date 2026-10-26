@@ -10,7 +10,7 @@
 - What we take: the idea, structure, list of points and hook/title pattern (title adapted in Hindi with our keywords). What stays
   ours: script, numbers, characters, visuals, description. SEBI/education rules and number checks still apply; skip any point that
   would be a buy/sell call, a product/fund name or a sponsorship.
-- Ideas used so far: warikoo "Loans jaldi repay kariye!" (~5.0M) → home-loan long video + cut-downs; Labour Law Advisor
+- Ideas used so far: warikoo "SIP KYA HAI? SIP vs LUMPSUM" (~4.5M) → long video #2 script (26 Oct, awaiting OK); warikoo "Loans jaldi repay kariye!" (~5.0M) → home-loan long video + cut-downs; Labour Law Advisor
   "5 STUPID mistakes WEALTHY people never make!" (1.6M) → 5 money mistakes Short.
 
 Approved format (23 Oct 2026): realistic AI Indian woman presenter (same face every video, from
@@ -110,6 +110,7 @@ today); until then draft replies for Junaid and ask him to connect a comments-ca
   Shorts/week (~5k each).
 
 ## vidIQ (connected 24 Oct 2026)
+- Budget alert 26 Oct: 40 credits left until 24 Nov: 1 title score per upload, analytics every 2-3 days, comments Wed + Sat only.
 - Account knowledgekaadda496@gmail.com, free plan: 150 credits/month (most calls cost 5, resets on the 24th). Budget ~25 calls/month:
   1 keyword research + 2 title scores per upload, 1 channel-comments check every 2-3 days, outliers once a week for topics.
 - Paisa Science channel (UCGSINJTgGLSXZ4e_cIqQnYQ) IS connected to vidIQ (confirmed 25 Oct 2026). Per-video analytics: vidiq_channel_analytics
@@ -142,8 +143,9 @@ Rules (checked Oct 2026):
   16:9 frame in the middle, headline above, assumption under the video, CTA below (same look as the Instagram teaser).
 - Start the cut ON the question/hook line (no intro), end on the punchline so the loop replays into the question.
 - Line start times: rebuild the anim.py timeline (durs.json + GAP/LONG_GAP_AFTER/GAP_OVERRIDE) instead of guessing.
-- Home-loan cut-downs: #1 quiz A-or-B (83.1-123.15 s) done 25 Oct; next: Byaaj Monster 82% (YouTube only, IG already has the teaser),
-  then step-up ₹19.5 lakh reveal.
+- Home-loan cut-downs: #1 quiz A-or-B (83.1-123.15 s, Tue 27), #2 Byaaj Monster 82% (12.61-40.67 s, Thu 29, YT+FB only), #3 lump sum
+  + "tenure kam, EMI nahi" (123.15-145.56 s, Fri 30). Step-up cut dropped (the quiz already reveals it).
+- Keep cut-downs <= 30 s (IG 58 s teaser held only ~18%; 22-30 s Shorts hold 51-72%). No emoji in vcut.py text (renders as a box).
 
 ## Animated Shorts: Priya + Chintu (owner, 25 Oct 2026)
 - Owner asked for a cartoon girl + monkey built on the idea of the niche's most-viewed video. New sidekick **Chintu** (cheeky cartoon
