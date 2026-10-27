@@ -2,7 +2,7 @@
 usage: python3 anim.py <project dir> <out.mp4> [stills]
 <project dir> holds lines.py (LINES), audio/lNN.wav + audio/durs.json, and plan.py with:
   IMG   = {"s01": "path.png", ...}         scene stills (any size, 16:9)
-  CLIPS = {line_id: ("clip.mp4", "lipsync"|"anim")}  optional video per line
+  CLIPS = {line_id: ("clip.mp4", "lipsync"|"anim"[, start_offset_s])}  optional video per line
   SMALL = {line_id: "small caption"}       optional assumption line under the headline
   GAP, LONG_GAP_AFTER, END_HOLD, DISCLAIMER
 Every line = one or two shots (new shot every <=5 s), camera always moving (push-in, pull-out, pans, drift with tilt),
@@ -119,8 +119,8 @@ def small_sprite(s, size=36, col=(235, 235, 235)):
     d.rounded_rectangle((0, 0, im.width - 1, im.height - 1), 20, fill=(0, 0, 0, 150)); d.text((25, 10), s, font=f, fill=col + (255,))
     return im
 
-def video_frames(path, n):
-    pr = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-i", path, "-vf", f"fps={FPS},scale={int(W*1.12)}:{int(H*1.12)}:force_original_aspect_ratio=increase,crop={int(W*1.12)}:{int(H*1.12)}",
+def video_frames(path, n, ss=0.0):
+    pr = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-ss", f"{ss:.3f}", "-i", path, "-vf", f"fps={FPS},scale={int(W*1.12)}:{int(H*1.12)}:force_original_aspect_ratio=increase,crop={int(W*1.12)}:{int(H*1.12)}",
                            "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
     fs = []; sz = int(W * 1.12) * int(H * 1.12) * 3
     while len(fs) < n:
@@ -198,7 +198,7 @@ def main(pdir, out, stills=False):
         j = max(n for n in range(len(shots)) if shots[n]["t"] <= T + 1e-6); sh = shots[j]
         if j != cur:
             cur, k0 = j, i
-            cache_clip = video_frames(sh["clip"][0], int(math.ceil(sh["d"] * FPS)) + 1) if (sh["clip"] and not stills) else None
+            cache_clip = video_frames(sh["clip"][0], int(math.ceil(sh["d"] * FPS)) + 1, sh["clip"][2] if len(sh["clip"]) > 2 else 0.0) if (sh["clip"] and not stills) else None
         lt = T - sh["t"]
         if cache_clip is not None:
             src = cache_clip[min(i - k0, len(cache_clip) - 1)]
