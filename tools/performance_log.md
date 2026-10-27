@@ -149,3 +149,8 @@ Metricool DRAFTS: Thu 29 Oct 16:00 YT 406211262, FB 406211288, IG Story 16:10 40
   Best time Sat 31: YouTube 16:00 (5,880, top); Instagram 10:00 (3,409) beats 16:00 (2,091), kept 16:00 per same-time rule.
   Credits: ElevenLabs ~3.6k (TTS ~535 + HeyGen 9:16 hook 3,030); Runway 102 (8 stills + 4 retries: two 2.1 failures, s02 letterbox bands, s04 showed a real brand name on a storefront), left 1,042; vidIQ 5 (left 35).
 - Still checks: reject stills with letterbox/blur bands and with any readable brand name or logo (add "plain unbranded storefronts, no signs" to mall/shop prompts).
+- Junaid approved Saturday ("this is yes") → salary Short scheduled Sat 31 Oct 16:00: YT 407872437, IG Reel 407872453, FB 407872497, IG Story 16:10 407872479 (manual link sticker).
+- Owner feedback (27 Oct): our videos feel like slides after the first 1-2 s; wants every scene animated like reference Reel instagram.com/reel/De9yemvP2Me (vidIQ watch, 10 credits, left 25):
+  37 s, 13 shots, avg shot ~2.8 s, hard cuts, 70-90% of the frame moving all the time (character blinks/breathes/acts, objects move, camera push-ins),
+  no lip-sync (Hindi voiceover story), SFX under every action, one static top banner headline, hook = shocking visual action in second 1.
+  Cost check: ElevenLabs Seedance mini 5 s 720p = ~4.6k EL credits (too expensive); Krea has 0 credits (free plan); Runway Kling 3 Std ~9 cr/s → ~350-400 Runway credits per fully animated 40 s Short.
