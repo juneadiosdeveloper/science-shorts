@@ -161,3 +161,5 @@ Metricool DRAFTS: Thu 29 Oct 16:00 YT 406211262, FB 406211288, IG Story 16:10 40
   Metricool DRAFTS Sun 1 Nov: YT 407902759 (16:00), IG Reel 407902780 (16:00), IG Story 407902798 (16:10, manual), FB 407902824 (16:00). Best time Sun: YT 16:00 (5,648). Waiting for Junaid's yes.
   Compare on 3-4 Nov: avg % viewed / IG avg watch time vs Sat salary Short (still + lip-sync format, 43 s).
 - vidIQ used today: 5 (salary title) + 10 (watch reference reel) + 5 (F&O title) = 20; left 20 until 24 Nov.
+- Junaid approved Sunday ("yes") → F&O Short scheduled Sun 1 Nov 16:00: YT 407950082, IG Reel 407950100, FB 407950135, IG Story 16:10 407950117 (manual).
+  Owner: the animation issue (glitter cloud in the dance shot) must not happen again → tools/clipcheck.py + automatic glitch gate in anim.py (it flags exactly c04 1.46-2.79 s, all other clips pass) + prompt rules in STYLE_GUIDE.

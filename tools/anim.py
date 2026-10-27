@@ -158,6 +158,18 @@ def main(pdir, out, stills=False):
         t += slot
     TOTAL = t
     print(f"total {TOTAL:.1f}s, {len(shots)} shots")
+    # ---- glitch gate: no AI clip may show a flagged glitch (noise burst / flash / morph pop) inside the part we use ----
+    import clipcheck
+    bad = []
+    for sh in shots:
+        c = sh["clip"]
+        if not c or c[1] != "anim": continue
+        off = c[2] if len(c) > 2 else 0.0
+        _, rr = clipcheck.check(c[0])
+        hit = [(a, b) for a, b in rr if b >= off and a <= off + sh["d"]]
+        if hit: bad.append(f"line {sh['lid']}: {os.path.basename(c[0])} glitch at " + ", ".join(f"{a:.2f}-{b:.2f}s" for a, b in hit) + f" (used {off:.2f}-{off + sh['d']:.2f}s)")
+    if bad and os.environ.get("ALLOW_GLITCH") != "1":
+        sys.exit("GLITCH GATE FAILED (regenerate the clip or move its start offset):\n  " + "\n  ".join(bad))
     # ---- sprites ----
     imgs = {}
     def getimg(k):

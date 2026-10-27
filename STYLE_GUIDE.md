@@ -184,3 +184,12 @@ Owner: "my videos animate 1-2 s and then look like slides". Reference Reel (inst
 - Story arc beats a list: character wants something → action → twist with the real number (with source) → lesson + comment question.
 - Budget: ~280-300 Runway credits per Short. Runway plan 570/month: 2 animated Shorts/week need ~2,400/month (upgrade or mix with still Shorts).
 - Check every clip at 3 points for morphing/glitches before building.
+
+### Animation quality gate (owner, 27 Oct 2026: "the animation issue must not happen in the next video")
+Issue in the F&O Short: shot 4 (dance) had a glitter/static cloud covering the frame for ~1.3 s (prompt asked for "gold sparkles burst").
+- tools/clipcheck.py scans every frame of every clip for noise bursts, flashes and morph pops; anim.py now runs it automatically and
+  REFUSES to build if a flagged range falls inside the part of a clip we use (ALLOW_GLITCH=1 only with the owner's OK).
+- Regenerate any flagged clip (25 credits) instead of shipping it; also look at a contact sheet (clipcheck --sheet) for face/hand morphing.
+- Prompt rules for gen-4-turbo: no "sparkles/particles/glitter burst", "explosion", "magic", "dust cloud" (they render as static noise);
+  keep the action in place and small-to-medium (wave, nod, dance on the spot, slump, point); no "jumps up from the chair" or spins;
+  one character action + one gentle environment motion (screen glow pulses, papers drift) + "slow camera push-in".
