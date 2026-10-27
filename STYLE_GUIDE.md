@@ -172,3 +172,15 @@ For a new channel the watch-hour path is the realistic one, so long videos get p
   so ~8k each; the 3 cut-down Shorts per long video stay free; new animated Shorts drop to ~1/week (~4.7k).
 - Every long video still follows STANDING RULE #1 (idea of a most-viewed niche video).
 - First review: home-loan long video (live 25 Oct 16:00) on Wed 28 Oct.
+
+## Fully animated Shorts (owner, 27 Oct 2026, TEST until the 3-4 Nov comparison)
+Owner: "my videos animate 1-2 s and then look like slides". Reference Reel (instagram.com/reel/De9yemvP2Me): 13 shots in 37 s (~2.8 s each),
+70-90% of the frame always moving, no lip-sync, story voiceover, SFX on every action, one big top headline, shocking visual in second 1.
+- Every line gets its own image-to-video clip: Runway gen-4-turbo, 9:16, 5 s (25 credits) or 10 s (50) from a nano-banana-2.1 2K still (6).
+  Prompt = one clear body action + one environment motion + camera move ("jumps and dances", "coins crumble into red dust", "slow push-in").
+- Lines <= ~4.8 s so a 5 s clip covers line + gap; last line END_HOLD small enough to fit. Reuse a still for 2 clips with different actions.
+- anim.py CLIPS entry ("clip.mp4", "anim", start_offset) skips a bad start (e.g. a glitch in the first second).
+- No HeyGen lip-sync in this format (saves ~3k ElevenLabs credits per Short); Priya narrates, Chintu reacts.
+- Story arc beats a list: character wants something → action → twist with the real number (with source) → lesson + comment question.
+- Budget: ~280-300 Runway credits per Short. Runway plan 570/month: 2 animated Shorts/week need ~2,400/month (upgrade or mix with still Shorts).
+- Check every clip at 3 points for morphing/glitches before building.

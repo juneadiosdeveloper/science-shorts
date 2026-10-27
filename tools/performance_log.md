@@ -154,3 +154,10 @@ Metricool DRAFTS: Thu 29 Oct 16:00 YT 406211262, FB 406211288, IG Story 16:10 40
   37 s, 13 shots, avg shot ~2.8 s, hard cuts, 70-90% of the frame moving all the time (character blinks/breathes/acts, objects move, camera push-ins),
   no lip-sync (Hindi voiceover story), SFX under every action, one static top banner headline, hook = shocking visual action in second 1.
   Cost check: ElevenLabs Seedance mini 5 s 720p = ~4.6k EL credits (too expensive); Krea has 0 credits (free plan); Runway Kling 3 Std ~9 cr/s → ~350-400 Runway credits per fully animated 40 s Short.
+- NEW FORMAT TEST (owner, 27 Oct): fully animated Short, every line = its own moving clip, no lip-sync. Sun 1 Nov "F&O Trading: 100 Mein Se 93 Ka Nuksaan? 😱 SEBI Report #shorts" (vidIQ 78) → videos/fno_93_percent_short.mp4 (41.1 s, 11 shots, 10 animated). Project short/fno.
+  Source idea (STANDING RULE #1): Finance With Sharan "The Ugly Truth Behind ₹15Cr Trading". Facts: SEBI study 23 Sep 2024: ~93% of 1 cr+ individual equity F&O traders lost money FY22-FY24, avg loss ~₹2 lakh incl. costs (source on screen + description).
+  Model test (same still, Runway): Seedance 2 Mini 4 s = 60 cr (15/s, big motion but face drift), Kling 3 Turbo 3 s = 42 cr (14/s), Gen-4 Turbo 5 s = 25 cr (5/s, character stays the same, motion subtler). → Gen-4 Turbo for all clips; clips come only in 5 s / 10 s, so keep each line <= ~4.8 s.
+  Cost of this Short: Runway ~300 (8 stills ~48 + 8×5 s + 1×10 s clips 250; the test clip reused as shot 9), ElevenLabs ~570 (TTS only, no HeyGen; old format ~3.6k). Runway left 629 (the 3 model tests cost ~127).
+  Metricool DRAFTS Sun 1 Nov: YT 407902759 (16:00), IG Reel 407902780 (16:00), IG Story 407902798 (16:10, manual), FB 407902824 (16:00). Best time Sun: YT 16:00 (5,648). Waiting for Junaid's yes.
+  Compare on 3-4 Nov: avg % viewed / IG avg watch time vs Sat salary Short (still + lip-sync format, 43 s).
+- vidIQ used today: 5 (salary title) + 10 (watch reference reel) + 5 (F&O title) = 20; left 20 until 24 Nov.
