@@ -125,3 +125,27 @@ Metricool DRAFTS: Thu 29 Oct 16:00 YT 406211262, FB 406211288, IG Story 16:10 40
   Numbers (Python, ₹6 lakh, 5 yr, monthly compounding of yearly example returns): steady 12% → LS ₹10.57L / SIP ₹8.11L; −30% first → ₹9.78L / ₹9.45L; −30% last → ₹9.78L / ₹6.67L; avg 13% vs CAGR 10.27%.
 - vidIQ used 15 (analytics 5, title scores 10); left 40.
 - Junaid approved ("yes") → scheduled: Thu 29 Oct 16:00 YT 406668596, FB 406668740, IG Story 16:10 406668794 (manual); Fri 30 Oct 16:00 YT 406668993, IG Reel 406669132, FB 406669258, IG Story 16:10 406669304 (manual).
+
+## 2026-10-27 (Tue)
+**Numbers (Metricool, brand 7570802; vidIQ analytics skipped today to save credits, next call Wed 28 for the 72 h long-video review):**
+- YouTube: first subscriber (+1 on 25 Oct, 0 lost). Daily channel views 22-23 Oct: 10 / 42; 24-26 Oct rows not filled yet (Analytics lag). Per-video YouTube rows still empty in Metricool.
+- Instagram 5 money mistakes Reel (72.8 s, 26 Oct): reach 151, 165 views, avg watch 14.2 s (~20%), 54.5% past 3 s, 2 likes, 1 comment, 0 saves/shares.
+- Instagram home-loan teaser (58 s, 25 Oct): reach 118, 133 views, avg watch 10.2 s (~18%), 57.1% past 3 s, 3 likes, 1 comment.
+- Today 16:00: quiz A-ya-B Short live on YT/IG/FB (approved). Wed 40-crore, Thu Byaaj Monster, Fri lump sum approved. Sat 31 Oct + Sun 1 Nov were empty.
+- Long video #2 (SIP vs lump sum) script: no reply/comment from Junaid yet, so not produced.
+
+**What it says:** on IG both long Reels lose ~80% of watch time; the 3 s hook holds (55-57%), the length kills completion. Our Shorts at 60-73 s are too long for a channel this new.
+
+**Improvements applied:**
+1. New Shorts capped at ~45 s: 8 lines, no "subscribe" tail line (the comment CTA is the last line so the loop replays into the hook), voice atempo 1.18 instead of 1.12. Sat Short = 43.2 s (vs 63.8 / 72.8 s for the last two animated Shorts).
+2. Title pattern "₹X vs ₹Y: Kaun ...?" (contrast + question) scored 85 in vidIQ, our best yet (₹-figure titles 75-81). Use contrast-vs titles for comparison topics.
+3. Every assumption that changes the verdict goes on screen: the dost invests more in total (₹88.5 lakh vs ₹45 lakh), shown as a caption so the twist is honest.
+
+**Produced today:** Sat 31 Oct Short "₹30,000 vs ₹3 Lakh Salary: Kaun Zyada Ameer?" → videos/salary_30k_vs_3lakh_short.mp4 (43.2 s, 9:16, Priya + Chintu + new tortoise "dost", Priya lip-sync hook). Project short/salary.
+  STANDING RULE #1 source: warikoo "30,000 vs 3,00,000 vs 3,00,00,000 INR Per Month" (~1.2M views). Our angle: savings habit beats salary.
+  Numbers (Python, SIP at start of month, 12%/12 monthly, 25 yr): dost ₹7,500 +10%/yr → ₹3,20,66,596 (invested ₹88.5 lakh); Chintu ₹15,000 flat → ₹2,84,64,526 (invested ₹45 lakh).
+  vidIQ: "₹30,000 vs ₹3 Lakh Salary: Kaun Zyada Ameer? 🤯 #shorts" 85 (alt for Test & Compare, not scored: "Salary 10x, Paisa Kam? ₹2.85 Cr vs ₹3.21 Cr 😱 #shorts").
+  Metricool DRAFTS Sat 31 Oct: YT 407420125 (16:00), IG Reel 407420205 (16:00), IG Story 407420233 (16:10, manual link sticker), FB Reel 407420285 (16:00). Waiting for Junaid's yes.
+  Best time Sat 31: YouTube 16:00 (5,880, top); Instagram 10:00 (3,409) beats 16:00 (2,091), kept 16:00 per same-time rule.
+  Credits: ElevenLabs ~3.6k (TTS ~535 + HeyGen 9:16 hook 3,030); Runway 102 (8 stills + 4 retries: two 2.1 failures, s02 letterbox bands, s04 showed a real brand name on a storefront), left 1,042; vidIQ 5 (left 35).
+- Still checks: reject stills with letterbox/blur bands and with any readable brand name or logo (add "plain unbranded storefronts, no signs" to mall/shop prompts).

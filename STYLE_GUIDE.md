@@ -11,7 +11,8 @@
   ours: script, numbers, characters, visuals, description. SEBI/education rules and number checks still apply; skip any point that
   would be a buy/sell call, a product/fund name or a sponsorship.
 - Ideas used so far: warikoo "SIP KYA HAI? SIP vs LUMPSUM" (~4.5M) → long video #2 script (26 Oct, awaiting OK); warikoo "Loans jaldi repay kariye!" (~5.0M) → home-loan long video + cut-downs; Labour Law Advisor
-  "5 STUPID mistakes WEALTHY people never make!" (1.6M) → 5 money mistakes Short.
+  "5 STUPID mistakes WEALTHY people never make!" (1.6M) → 5 money mistakes Short; warikoo "40 CRORES from a 10,000 INR SALARY?" (5.07M) → 40 crore Short;
+  warikoo "30,000 vs 3,00,000 vs 3,00,00,000 INR Per Month" (~1.2M) → ₹30k vs ₹3 lakh salary Short (27 Oct).
 
 Approved format (23 Oct 2026): realistic AI Indian woman presenter (same face every video, from
 Runway portrait task ed8090cd-8324-47c0-803c-fae8673e2b3a), sweet Hindi female voice "Pyaari"
@@ -145,6 +146,7 @@ Rules (checked Oct 2026):
 - Line start times: rebuild the anim.py timeline (durs.json + GAP/LONG_GAP_AFTER/GAP_OVERRIDE) instead of guessing.
 - Home-loan cut-downs: #1 quiz A-or-B (83.1-123.15 s, Tue 27), #2 Byaaj Monster 82% (12.61-40.67 s, Thu 29, YT+FB only), #3 lump sum
   + "tenure kam, EMI nahi" (123.15-145.56 s, Fri 30). Step-up cut dropped (the quiz already reveals it).
+- New animated Shorts (27 Oct): ~45 s max, 8 lines, last line = comment CTA (no subscribe tail), atempo 1.18. IG Reels of 58-73 s held only 18-20%.
 - Keep cut-downs <= 30 s (IG 58 s teaser held only ~18%; 22-30 s Shorts hold 51-72%). No emoji in vcut.py text (renders as a box).
 
 ## Animated Shorts: Priya + Chintu (owner, 25 Oct 2026)
