@@ -5,7 +5,7 @@
 #  same rise but EMI raised to ₹46,498, tenure kept 20 yr: interest ₹61.22L -> saves ~₹17.5L vs tenure extension
 #  ₹50,000 insurance premium added to the loan @8.5%, 20 yr: repaid ₹1,04,139
 LINES = [
- (1,"P","चिंटू ने पचास लाख का होम लोन लिया... और तीन महंगी गलतियाँ कीं!",[("HOME LOAN KI","white"),("3 MEHENGI GALTIYAN","red")],"s01"),
+ (1,"P","चिंटू ने पचास लाख का होम लोन लिया... और तीन महंगी गलतियाँ कीं!",[("HOME LOAN KI 3 GALTIYAN","white"),("₹34 LAKH TAK NUKSAAN!","red")],"s01"),
  (2,"G","मुझे EMI कम चाहिए! तीस साल का लोन दे दो!",[("GALTI #1","gold"),("30 SAAL KA LOAN","white")],"s02"),
  (3,"P","EMI सिर्फ़ पाँच हज़ार कम हुई... लेकिन ब्याज, चौंतीस लाख ज़्यादा!",[("EMI −₹4,945","teal"),("BYAAJ +₹34 LAKH","red")],"s03"),
  (4,"P","दूसरी गलती: रेट एक परसेंट बढ़ा, और बैंक ने चुपचाप लोन के साल बढ़ा दिए।",[("GALTI #2","gold"),("RATE +1% = SAAL BADHE","white")],"s04"),
