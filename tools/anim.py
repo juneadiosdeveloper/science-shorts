@@ -2,7 +2,7 @@
 usage: python3 anim.py <project dir> <out.mp4> [stills]
 <project dir> holds lines.py (LINES), audio/lNN.wav + audio/durs.json, and plan.py with:
   IMG   = {"s01": "path.png", ...}         scene stills (any size, 16:9)
-  CLIPS = {line_id: ("clip.mp4", "lipsync"|"anim"[, start_offset_s])}  optional video per line
+  CLIPS = {line_id: ("clip.mp4", "lipsync"|"anim"[, start_offset_s]) or [clip, clip, ...]}  optional video(s) per line
   SMALL = {line_id: "small caption"}       optional assumption line under the headline
   GAP, LONG_GAP_AFTER, END_HOLD, DISCLAIMER
 Every line = one or two shots (new shot every <=5 s), camera always moving (push-in, pull-out, pans, drift with tilt),
@@ -148,10 +148,12 @@ def main(pdir, out, stills=False):
         if lid == LINES[-1][0]: slot += END_HOLD
         voice.append((t, f"{pdir}/audio/l{lid:02d}.wav"))
         clip = CLIPS.get(lid)
-        parts = [slot] if (clip or slot <= 5.2) else [slot / 2, slot / 2]
+        # a list of clips = one shot per clip, line split evenly (keeps every shot moving and <= 5 s clips)
+        cl = clip if isinstance(clip, list) else [clip]
+        parts = [slot / len(cl)] * len(cl) if isinstance(clip, list) else ([slot] if (clip or slot <= 5.2) else [slot / 2, slot / 2])
         tt = t
         for k, pd in enumerate(parts):
-            shots.append(dict(t=tt, d=pd, img=sk, move=MOVES[mi % len(MOVES)], clip=clip if k == 0 else None, lid=lid,
+            shots.append(dict(t=tt, d=pd, img=sk, move=MOVES[mi % len(MOVES)], clip=(cl[k] if isinstance(clip, list) else (clip if k == 0 else None)), lid=lid,
                               heads=heads, small=SMALL.get(lid), line_t=t, line_d=slot))
             mi += 1; tt += pd
         for at in appear_times(len(heads), slot): sfx.append(("pop", t + at))
