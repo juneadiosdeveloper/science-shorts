@@ -12,7 +12,8 @@
   would be a buy/sell call, a product/fund name or a sponsorship.
 - Ideas used so far: warikoo "SIP KYA HAI? SIP vs LUMPSUM" (~4.5M) → long video #2 script (26 Oct, awaiting OK); warikoo "Loans jaldi repay kariye!" (~5.0M) → home-loan long video + cut-downs; Labour Law Advisor
   "5 STUPID mistakes WEALTHY people never make!" (1.6M) → 5 money mistakes Short; warikoo "40 CRORES from a 10,000 INR SALARY?" (5.07M) → 40 crore Short;
-  warikoo "30,000 vs 3,00,000 vs 3,00,00,000 INR Per Month" (~1.2M) → ₹30k vs ₹3 lakh salary Short (27 Oct).
+  warikoo "30,000 vs 3,00,000 vs 3,00,00,000 INR Per Month" (~1.2M) → ₹30k vs ₹3 lakh salary Short (27 Oct);
+  Sharan "The Ugly Truth Behind ₹15Cr Trading" → F&O 93% Short (27 Oct); warikoo "Home Loan Mistakes That Cost You LAKHS" (~1.2M) → home loan 3 galtiyan Short (28 Oct).
 
 Approved format (23 Oct 2026): realistic AI Indian woman presenter (same face every video, from
 Runway portrait task ed8090cd-8324-47c0-803c-fae8673e2b3a), sweet Hindi female voice "Pyaari"
@@ -193,3 +194,12 @@ Issue in the F&O Short: shot 4 (dance) had a glitter/static cloud covering the f
 - Prompt rules for gen-4-turbo: no "sparkles/particles/glitter burst", "explosion", "magic", "dust cloud" (they render as static noise);
   keep the action in place and small-to-medium (wave, nod, dance on the spot, slump, point); no "jumps up from the chair" or spins;
   one character action + one gentle environment motion (screen glow pulses, papers drift) + "slow camera push-in".
+
+## Data rules from 28 Oct 2026 review
+- IG: numbered mistakes/galtiyan lists get saved and shared (5 mistakes Reel: 6x reach, 7 saves, 10 shares). Prefer list Shorts; captions = numbered list +
+  "Save karo" + "share karo us dost ko jo <specific situation>" + a number-answer question ("1, 2 ya 3?").
+- First frame carries the ₹ figure (first headline), the topic line second. A question card without a number held only 44% past 3 s.
+- Long videos: cold open on the shocking ₹ result in the first 3 s, no logo/intro, answer promised by second 8, new shot every 2-3 s for the first 30 s
+  (first long video averaged 10 s viewed = 5%).
+- Lines longer than ~4.8 s: give the line two 5 s clips (CLIPS entry = list) instead of a 10 s clip; reversing a clip is fine when the model
+  animated the motion backwards (check the direction of growth/shrink against the line).

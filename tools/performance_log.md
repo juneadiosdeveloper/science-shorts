@@ -163,3 +163,26 @@ Metricool DRAFTS: Thu 29 Oct 16:00 YT 406211262, FB 406211288, IG Story 16:10 40
 - vidIQ used today: 5 (salary title) + 10 (watch reference reel) + 5 (F&O title) = 20; left 20 until 24 Nov.
 - Junaid approved Sunday ("yes") → F&O Short scheduled Sun 1 Nov 16:00: YT 407950082, IG Reel 407950100, FB 407950135, IG Story 16:10 407950117 (manual).
   Owner: the animation issue (glitter cloud in the dance shot) must not happen again → tools/clipcheck.py + automatic glitch gate in anim.py (it flags exactly c04 1.46-2.79 s, all other clips pass) + prompt rules in STYLE_GUIDE.
+
+## 2026-10-28 (Wed)
+**Numbers (vidIQ YouTube Analytics 20-28 Oct, lagged ~48 h; Metricool IG):**
+- Inflation Short (tBzBvitEwXs, realistic): 85 views, 37 engaged, avg 18 s = 53% viewed, 3 likes. Credit-card Short (ofla0hmAlI0): 60 views, 24 engaged, 60% viewed, 2 likes. SIP 3D Short: 22 views, 43%.
+- **Long-video 72 h review (home loan, 2h9IU8kJfXQ):** 9 views, 8 engaged, avg view duration 10 s = 5.2% of 3:30, 0 subs. Bar (>= 35% / 1:15 and >= Shorts median) NOT met → stay at 1 long video/week, fix the opening first.
+- 5 money mistakes / quiz / 40-crore Shorts not in YouTube Analytics yet. Subscribers: 1. Comments: no viewer comments yet (only our pinned questions) → nothing to reply to.
+- Instagram: 5 money mistakes Reel (26 Oct) took off: reach 709, 773 views, avg watch 16.2 s, 60% past 3 s, 18 likes, 7 saves, 10 shares (6x the reach of any other Reel). Quiz A-ya-B Reel (27 Oct, 40 s): reach 115, avg watch 6.3 s, 44% past 3 s. Home-loan teaser: reach 120. IG followers: 2. Account reach 26-27 Oct: 373 / 443.
+
+**What it says:** (1) a numbered "galtiyan" list is what people save and send to a friend on IG; (2) a question-card opening without a ₹ figure loses half the viewers in 3 s; (3) the long video loses viewers in its first ~10 s: the opening (logo/intro + slow setup) is the problem, not the topic.
+
+**Improvements applied:**
+1. Next Short is a numbered mistakes list again ("Home loan ki 3 galtiyan"), with the save/share CTA aimed at a specific friend ("jo ghar lene wala hai") and a "1, 2 ya 3?" number-comment question.
+2. Hook rule: the ₹ figure must be on screen from frame 1 (first headline = "₹34 LAKH KA NUKSAAN?"), the topic line second.
+3. Long videos: cold open = the most shocking ₹ result + the visual in the first 3 s, no logo/intro, promise of the answer by second 8, new shot every 2-3 s in the first 30 s. Applies to long video #2 (SIP vs lump sum) before it is produced.
+
+**Produced today:** Mon 2 Nov Short "Home Loan Mistakes: EMI Kam, Byaaj ₹34 Lakh Zyada? 😱 #shorts" (vidIQ 83) → videos/home_loan_3_galtiyan_short.mp4 (37.4 s, 9:16, fully animated: 10 gen-4-turbo clips, every shot moving, no lip-sync). Project short/hlmistakes.
+  STANDING RULE #1 source: warikoo "Home Loan Mistakes That Cost You LAKHS" (~1.2M views). Our 3 mistakes + numbers.
+  Numbers (Python, reducing balance, r/12, ₹50 lakh): 20 yr @8.5% EMI ₹43,391, interest ₹54.14L; 30 yr EMI ₹38,446 (−₹4,945), interest ₹88.40L (+₹34.3L). Rate 8.5→9.5% after 12 months, EMI kept: ~297 months total, interest ₹78.75L (+₹24.6L); EMI raised to ₹46,498 instead: interest ₹61.22L (~₹17.5L less). ₹50,000 premium financed 20 yr @8.5% → ₹1,04,139 repaid.
+  Clip check: clipcheck passed all 10 clips; c06a showed the red coin stack SHRINKING while the line says interest grows → played reversed (from 1.6 s) so it grows.
+  Metricool DRAFTS Mon 2 Nov: YT 408552508 (16:00), IG Reel 408552514 (16:00), FB Reel 408552524 (16:00), IG Story 408551621 (16:10, manual link sticker). Best time Mon: YT 16:00 (9,351, top).
+  Alt title for Test & Compare (not scored, no vidIQ credits left): "Home Loan Ki 3 Galtiyan: ₹34 Lakh Ka Nuksaan? 😱 #shorts".
+  Credits: ElevenLabs ~525 (TTS only); Runway ~312 (8 stills incl. 1 Pro retry ~56 + 10 clips 250), left 317; vidIQ 15 (analytics 5, comments 5, title 5) → 0 left until 24 Nov.
+- Tool: anim.py CLIPS entry may now be a list of clips → the line is split into equal shots, one moving clip each (lines > 5 s no longer need a 10 s clip).
