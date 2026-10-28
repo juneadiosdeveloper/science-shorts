@@ -203,3 +203,16 @@ Issue in the F&O Short: shot 4 (dance) had a glitter/static cloud covering the f
   (first long video averaged 10 s viewed = 5%).
 - Lines longer than ~4.8 s: give the line two 5 s clips (CLIPS entry = list) instead of a 10 s clip; reversing a clip is fine when the model
   animated the motion backwards (check the direction of growth/shrink against the line).
+
+## YOUTUBE VIEWS = THE MAIN GOAL (owner, 28 Oct 2026: "views are not coming on YouTube, that is our main aim")
+State 28 Oct: channel views per day 10 / 42 / 68 / 56 (22-25 Oct), best Short 85 views, 3 subs. Instagram numbers are a side metric, never the headline.
+Daily review now starts with a YouTube scorecard (Metricool YTEV02 daily views + subs: free; vidIQ per-video when credits allow):
+views per Short at 48 h, engaged views / views (proxy for "viewed vs swiped away"), avg % viewed, subs gained. A Short is a hit at >= 70% engaged/views.
+Why views are low (diagnosis 28 Oct): only 30-56% of people who see our Shorts keep watching past the first moment (engaged/views 37/85, 24/60, 9/22),
+so YouTube stops pushing them to new viewers after the first small test. Plus: new channel, and format kept changing (3D, realistic, animated, cut-downs).
+Rules from now:
+1. First 1 second decides everything: frame 1 = movement + the ₹ number on screen + the spoken question starts at 0.0 s (no logo, no setup line).
+2. Shorts 20-35 s (our 30 s Shorts hold 53-72%; 60-73 s ones held far less). Loop: last line flows back into the first.
+3. One format for 2 weeks (fully animated Priya + Chintu) so the channel has one identity and results are comparable.
+4. Topics only from proven high-view ideas (STANDING RULE #1), title = search phrase first.
+5. Any Short under 50% engaged/views: the next Short changes the hook style (not the topic).
