@@ -186,3 +186,33 @@ Metricool DRAFTS: Thu 29 Oct 16:00 YT 406211262, FB 406211288, IG Story 16:10 40
   Alt title for Test & Compare (not scored, no vidIQ credits left): "Home Loan Ki 3 Galtiyan: ₹34 Lakh Ka Nuksaan? 😱 #shorts".
   Credits: ElevenLabs ~525 (TTS only); Runway ~312 (8 stills incl. 1 Pro retry ~56 + 10 clips 250), left 317; vidIQ 15 (analytics 5, comments 5, title 5) → 0 left until 24 Nov.
 - Tool: anim.py CLIPS entry may now be a list of clips → the line is split into equal shots, one moving clip each (lines > 5 s no longer need a 10 s clip).
+
+## 2026-10-29 (Thu)
+**YouTube scorecard (vidIQ user_videos = live public view counts, 5 credits; Metricool YouTube per-video rows still empty, daily views lag after 25 Oct):**
+| Video | Format | Age | Views | Likes |
+|---|---|---|---|---|
+| Inflation (tBzBvitEwXs) | realistic presenter, 34 s | 5 d | 88 | 3 |
+| Credit card minimum due (ofla0hmAlI0) | realistic presenter, 31 s | 6 d | 62 | 2 |
+| SIP 1 crore (DxwFJxuw7OA) | 3D, 31 s | 7 d | 23 | 2 |
+| Home-loan long video (2h9IU8kJfXQ) | animated 16:9, 3:30 | 4 d | 11 | 3 |
+| 5 money mistakes (FI-72VzBB6g) | animated Priya + Chintu, 73 s | 3 d | 7 | 1 |
+| 40 crore (oH6X_i7R7C8) | animated, 64 s | 1 d | 2 | 1 |
+| Home loan A ya B quiz (Onb2KAFUjQU) | animated cut-down, 41 s | 2 d | 1 | 1 |
+Subscribers: 3 (Metricool). Instagram (same days): 40 crore Reel reach 838 / 990 views / avg 17.9 s / 61.9% past 3 s / 19 likes / 9 saves; 5 mistakes reach 710, 7 saves, 10 shares; quiz reach 119; home-loan teaser 120.
+
+**What it says:** the animated cartoon Shorts are getting almost no YouTube distribution (1-7 views in 1-3 days) while the realistic presenter Shorts got 62-88 at the same age, and the SAME animated videos do well on Instagram (reach 700-840). So the content/hooks are not the problem on YouTube; YouTube is either not testing these Shorts at all or has classified them differently (cartoon = possible auto "made for kids" / low-trust signal for finance). Junaid asked (push, 09:40) to check Studio > Audience on the animated Shorts.
+
+**Improvements applied:**
+1. YouTube format switch: next new Short (Tue 3 Nov) is back in the realistic presenter format (the YouTube winner). Animated stays an Instagram format (it wins there). Already-queued animated posts (Thu-Mon) stay as a fair test; decision on 3-4 Nov with 48 h numbers for both.
+2. Retention rules kept from the data: ₹ figure + spoken question on frame 1 ("₹1 LAKH PE ₹60,000+ BYAAJ?"), 30.6 s, numbered 3-point list (IG saves/shares), new shot every ~3.5 s (8 shots in 30 s instead of 6 in the old realistic Shorts), loop ending on a 1/2 comment question.
+3. Cheaper realistic b-roll: gen-4-turbo 5 s clips from presenter stills (25 credits each) instead of Kling 3 Std at exact length (~9/s): 6 clips = 150 Runway credits vs ~270 for the inflation Short.
+
+**Produced today:** Tue 3 Nov Short "Credit Card Se Bank Kaise Kamata Hai? ₹60,000+ 😱 #shorts" → videos/credit_card_kamai_real.mp4 (30.6 s, 9:16, realistic presenter, HeyGen hook + outro). Project assets/real/cc (plan.txt, overlays short3d "cc").
+  STANDING RULE #1 source: warikoo "CREDIT CARDS se PAISE AISE KAMATE HAIN!" (4.4M views, highest unused replicable idea on OutlierKit's warikoo list; #3 "Make regular income from your investments" 4.6M is next).
+  Numbers (Python): ₹1,00,000 × (1.035^12 − 1) = ₹51,107; +18% GST = ₹60,306; GST added to balance monthly = ₹62,521; 3.5% × 12 = 42%, compounded 51.1%. Swipe fee "lagbhag 2% tak" (on screen: varies by card and shop).
+  Alt title for Test & Compare: "Credit Card Free Hai? Bank Ki 3 Chupi Kamai 🤯 #shorts" (no vidIQ score: 0 credits left until 24 Nov).
+  Metricool DRAFTS Tue 3 Nov: YT 409676727 (16:00), IG Reel 409676889 (16:00), FB Reel 409676903 (16:00), IG Story 409676909 (16:10, manual link sticker). Best time Tue: YT 16:00 (10,353, top). Waiting for Junaid's yes.
+  Credits: ElevenLabs ~5.3k (TTS 452 + HeyGen 3,030 + 1,818; Scribe 0); Runway 168 (3 stills 18 + 6 gen-4-turbo clips 150), left 149; vidIQ 5 (left 0).
+- Mon 2 Nov home-loan 3 galtiyan posts are still DRAFTS (no yes yet).
+- Long video #2 (SIP vs lump sum) script still waiting for Junaid's OK; not produced.
+- Runway is nearly empty (149 credits, plan 0): one more realistic Short at most. Needs a top-up or plan for next week's production.

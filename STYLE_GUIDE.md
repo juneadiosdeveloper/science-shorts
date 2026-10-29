@@ -216,3 +216,11 @@ Rules from now:
 3. One format for 2 weeks (fully animated Priya + Chintu) so the channel has one identity and results are comparable.
 4. Topics only from proven high-view ideas (STANDING RULE #1), title = search phrase first.
 5. Any Short under 50% engaged/views: the next Short changes the hook style (not the topic).
+
+### 29 Oct 2026 data: YouTube does not distribute the cartoon Shorts
+Live view counts: animated Priya + Chintu Shorts 1-7 views after 1-3 days; realistic presenter Shorts 62-88. Same animated videos reach 700-840 on Instagram.
+- Rule 3 above is changed: YouTube Shorts = realistic presenter format; animated = Instagram-first (and long videos until the 72 h data says otherwise).
+- Realistic Short recipe (cc, 3 Nov): one TTS (Pyaari eleven_v4, atempo 1.12), Scribe word times, HeyGen 9:16 expressive hook + outro from the full-res portrait,
+  3 nano-banana-2.1 2K stills of her (ref = portrait task), 6 gen-4-turbo 5 s clips (one action each) = ~150 Runway, new shot every ~3.5 s, tools/real.py --ovl <name>.
+- Lip-sync audio must be uploaded via a raw.githubusercontent.com URL (creative_attach_reference_file); the googleapis upload URL is blocked from the sandbox.
+- Ideas used: warikoo "CREDIT CARDS se PAISE AISE KAMATE HAIN!" (4.4M) → credit card kamai Short (3 Nov). Next unused: warikoo "Make regular income from your investments" (4.6M), "AAPKE 20s ke liye COMPLETE FINANCIAL PLANNING" (3.8M), "15,000 SALARY to 1 CRORE" (3.0M).
