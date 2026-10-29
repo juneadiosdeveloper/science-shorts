@@ -1,0 +1,9 @@
+# start end clip overlay  (narration timeline, vo.mp3 = TTS at atempo 1.12)
+0.00 4.30 talk_hook.mp4 0
+4.30 7.70 c1a.mp4 1
+7.70 11.08 c1b.mp4 2
+11.08 14.60 c2a.mp4 3
+14.60 18.11 c2b.mp4 4
+18.11 23.11 c3a.mp4 5
+23.11 27.73 c4.mp4 6
+27.73 30.57 talk_outro.mp4 7
