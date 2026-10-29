@@ -153,7 +153,43 @@ def r7(img, t, d):                      # talk outro
     big(img, "72 ÷ RETURN", 340, 130, GOLD, on(t, 1.05))
     caption_box(img, [("Follow karo: Paisa Science", GOLD)], on(t, 1.3))
 
-SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7]}
+# ---------- credit-card kamai Short (realistic format, 3 Nov; idea: warikoo "CREDIT CARDS se PAISE AISE KAMATE HAIN!" 4.4M) ----------
+def c0(img, t, d):                      # talk hook: Rs figure on frame 1
+    big(img, "₹1 LAKH PE", 200, 110, WHITE, 1.0)
+    big(img, "₹60,000+ BYAAJ?", 335, 116, RED, 1.0)
+    caption_box(img, [("Credit card se bank ki 3 kamai", GOLD)], on(t, 1.6))
+def c1(img, t, d):
+    big(img, "#1 SWIPE FEE", 200, 116, GOLD, 1.0)
+    big(img, "Dukaandaar bank ko deta hai", 345, 72, WHITE, on(t, 1.0))
+    big(img, "~2%", 440, 130, RED, on(t, 2.9))
+def c2(img, t, d):
+    big(img, "Yeh kharcha", 200, 96, WHITE, 1.0)
+    big(img, "DAAMON MEIN?", 330, 120, RED, on(t, 2.0))
+    caption_box(img, [("Fee card aur dukaan ke hisaab se alag hoti hai", SOFT)], on(t, .4))
+def c3(img, t, d):
+    big(img, "#2 BYAAJ", 200, 130, GOLD, 1.0)
+    big(img, "Poora bill nahi bhara?", 350, 80, WHITE, on(t, .7))
+    big(img, "~3.5% MAHINA", 460, 110, RED, on(t, 2.78))
+def c4(img, t, d):
+    big(img, "3.5% × 12 =", 200, 100, WHITE, 1.0)
+    big(img, "42%+ SAALANA", 330, 124, RED, on(t, 1.76))
+    caption_box(img, [("Compounding ke saath ~51%", MINT), ("Rate card ke hisaab se alag ho sakta hai", SOFT)], on(t, 2.3))
+def c5(img, t, d):
+    big(img, "₹1 lakh baaki, 1 saal", 200, 84, WHITE, 1.0)
+    big(img, "BYAAJ + 18% GST", 320, 96, GOLD, on(t, 2.2))
+    big(img, "₹60,000+", 440, 140, RED, on(t, 3.78))
+    caption_box(img, [("Maana: 3.5%/mahina, koi payment nahi", WHITE), ("Late fee alag. Hisaab: ₹60,306-₹62,521", SOFT)], on(t, .5))
+def c6(img, t, d):
+    big(img, "#3 'NO COST' EMI", 200, 100, GOLD, on(t, .28))
+    big(img, "+ Processing fee", 330, 92, RED, on(t, 2.34))
+    big(img, "+ GST", 440, 110, RED, on(t, 3.32))
+    caption_box(img, [("EMI lene se pehle total cost check karo", WHITE)], on(t, 3.5))
+def c7(img, t, d):                      # talk outro
+    big(img, "POORA BILL", 200, 120, MINT, 1.0)
+    big(img, "ya MINIMUM?", 340, 120, RED, on(t, 1.45))
+    caption_box(img, [("Comment karo!", GOLD)], on(t, 2.0))
+
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)
