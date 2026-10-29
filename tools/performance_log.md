@@ -216,3 +216,6 @@ Subscribers: 3 (Metricool). Instagram (same days): 40 crore Reel reach 838 / 990
 - Mon 2 Nov home-loan 3 galtiyan posts are still DRAFTS (no yes yet).
 - Long video #2 (SIP vs lump sum) script still waiting for Junaid's OK; not produced.
 - Runway is nearly empty (149 credits, plan 0): one more realistic Short at most. Needs a top-up or plan for next week's production.
+- Owner approved (29 Oct evening, "yes"): every video on all 3 platforms; IG Reel moves to 18:00 (Story 18:10), YT + FB stay 16:00.
+  Moved: Sat IG Reel → 410329514, Sun → 410329524, Mon draft → 410329538, Tue draft → 410329554 (all 18:00); Stories Sat 410329829, Sun 410329839, Mon draft 410329849, Tue draft 410329856 (18:10).
+  Fri 30 Oct IG Reel 406669132 NOT moved (update blocked by a permission check) → still 16:00. Byaaj Monster IG repost not created yet.
