@@ -189,7 +189,44 @@ def c7(img, t, d):                      # talk outro
     big(img, "ya MINIMUM?", 340, 120, RED, on(t, 1.45))
     caption_box(img, [("Comment karo!", GOLD)], on(t, 2.0))
 
-SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7]}
+def k0(img, t, d):                      # talk hook: Rs figure on frame 1
+    big(img, "₹5,000 KE KHARCHE", 200, 100, WHITE, 1.0)
+    big(img, "= ₹50 LAKH?", 330, 130, RED, 1.0)
+    caption_box(img, [("20 saal ka hisaab", GOLD)], on(t, 2.8))
+def k1(img, t, d):
+    big(img, "SALARY: 1 TAREEKH", 200, 96, WHITE, 1.0)
+    big(img, "15 TAK GAYAB!", 330, 120, RED, on(t, 2.0))
+def k2(img, t, d):
+    big(img, "KAHAN GAYI?", 200, 110, GOLD, 1.0)
+    big(img, "Food apps ₹2,200", 330, 90, WHITE, on(t, 1.3))
+    big(img, "OTT ₹700", 440, 90, WHITE, on(t, 3.3))
+def k3(img, t, d):
+    big(img, "Food apps ₹2,200", 200, 80, WHITE, 1.0)
+    big(img, "OTT ₹700", 300, 80, WHITE, 1.0)
+    big(img, "Shopping ₹2,100", 400, 90, RED, on(t, 1.0))
+def k4(img, t, d):
+    big(img, "= ₹5,000", 200, 140, RED, 1.0)
+    big(img, "HAR MAHINA", 345, 100, WHITE, 1.0)
+    caption_box(img, [("Bina pata chale!", GOLD)], on(t, 1.5))
+def k5(img, t, d):
+    big(img, "YAHI ₹5,000", 200, 110, GOLD, 1.0)
+    big(img, "HAR MAHINA NIVESH", 330, 84, WHITE, on(t, 1.2))
+    big(img, "12% SAALANA (maana)", 430, 76, MINT, on(t, 2.3))
+def k6(img, t, d):
+    big(img, "20 SAAL BAAD", 200, 100, WHITE, 1.0)
+    big(img, "~₹50 LAKH", 320, 140, MINT, on(t, 1.3))
+    big(img, "Jeb se: sirf ₹12 lakh", 460, 76, GOLD, on(t, 2.35))
+    caption_box(img, [("Maana: ₹5,000 SIP, 12%/saal, 20 saal", WHITE), ("Hisaab: ₹49.96 lakh. Return guaranteed nahi", SOFT)], on(t, .3))
+def k7(img, t, d):
+    big(img, "RULE:", 200, 110, GOLD, 1.0)
+    big(img, "PEHLE BACHAT", 320, 120, MINT, on(t, 2.1))
+    big(img, "PHIR KHARCHA", 450, 110, WHITE, on(t, 2.95))
+def k8(img, t, d):                      # talk outro
+    big(img, "FOOD, SHOPPING", 200, 100, WHITE, 1.0)
+    big(img, "ya OTT?", 330, 130, RED, on(t, 2.5))
+    caption_box(img, [("Comment karo!", GOLD)], on(t, 4.3))
+
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)
