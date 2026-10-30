@@ -235,3 +235,10 @@ Subscribers: 3 (Metricool). Instagram (same days): 40 crore Reel reach 838 / 990
 3. No new production today: queue full to Wed 4 Nov, Runway 149 credits (one realistic Short max), vidIQ 0. Long video #2 (SIP vs lump sum) still waits for Junaid's OK on the script.
 - Numbers re-run: EMI ₹43,391, month-1 interest ₹35,417, principal ₹7,974, total interest ₹54.14 lakh.
 - Credits today: ElevenLabs 0, Runway 0 (149 left), vidIQ 0 (0 left).
+- Owner (30 Oct, chat): liked prompts 2-4 from a creator Reel (pain → hooks, write Reel, improve hook) → STYLE_GUIDE "Script pipeline"; owner: "I leave it to you, make the channel monetized" → produced it today.
+  New Short Thu 5 Nov "Paise Kaise Bachaye: ₹5,000 Kharche = ₹50 Lakh? 😱 #shorts" → videos/kharche_50_lakh_real.mp4 (34.5 s, realistic presenter, 9 shots, HeyGen hook + outro). Project assets/real/kh, overlays short3d "kh".
+  STANDING RULE #1 source: warikoo "15,000 SALARY to 1 CRORE" (3.0M): small monthly amount → big corpus; our angle = everyday small spends.
+  Hook pipeline: chosen "₹5,000 ke kharche = ₹50 lakh?" (₹ figure + contrast); runners-up "Salary 15 tareekh tak khatam?", "Chai-sutta aur Swiggy ne ₹50 lakh kha liye?" (brand name → dropped).
+  Numbers (Python): ₹5,000 SIP at start of month, 1%/month (12%/12), 240 months → ₹49,95,740; invested ₹12,00,000. Split ₹2,200 + ₹700 + ₹2,100 = ₹5,000 (example).
+  Reused 2 shots from the credit-card Short (bill shock, hand on face), mirrored; 5 new gen-4-turbo clips + 2 new stills.
+  Credits: Runway 137 (2 stills 12 + 5 clips 125) → 12 left; ElevenLabs ~7.3k (TTS 487 + Scribe 190 + HeyGen 3,030 + 3,636). Note: Scribe is NOT free (190 credits for 34 s).
