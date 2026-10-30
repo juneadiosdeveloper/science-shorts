@@ -219,3 +219,19 @@ Subscribers: 3 (Metricool). Instagram (same days): 40 crore Reel reach 838 / 990
 - Owner approved (29 Oct evening, "yes"): every video on all 3 platforms; IG Reel moves to 18:00 (Story 18:10), YT + FB stay 16:00.
   Moved: Sat IG Reel → 410329514, Sun → 410329524, Mon draft → 410329538, Tue draft → 410329554 (all 18:00); Stories Sat 410329829, Sun 410329839, Mon draft 410329849, Tue draft 410329856 (18:10).
   Fri 30 Oct IG Reel 406669132 NOT moved (update blocked by a permission check) → still 16:00. Byaaj Monster IG repost not created yet.
+
+## 2026-10-30 (Fri)
+**Numbers (Metricool; YouTube per-video + traffic-source rows still empty, vidIQ 0 credits until 24 Nov → no YouTube per-video check today):**
+- YouTube subscribers: 3 (+2 since 26 Oct, 0 lost). Daily views 22-26 Oct: 10 / 42 / 68 / 56 / 5; 27-29 Oct not filled yet.
+- Instagram Reels (lifetime): 40 crore (28 Oct, 64 s) reach 1,099 (+31% in 1 day), 1,230 views, avg 17.6 s, 62.2% past 3 s, 29 likes, 9 saves, 7 shares.
+  5 money mistakes reach 710, 7 saves, 10 shares (plateaued). Quiz A-ya-B reach 119, 46% past 3 s. Home-loan teaser reach 120.
+- Today: lump-sum Short YT + FB 16:00, IG Reel still 16:00 (move to 18:00 blocked again by a permission check → Junaid can move it by hand). Sat-Sun scheduled; Mon 2 + Tue 3 Nov still DRAFTS (no yes yet).
+
+**What it says:** the two Reels that broke out (40 crore, 5 mistakes) are both "big ₹ promise / numbered list" stories with Priya + Chintu that keep growing for 2-3 days; the home-loan quiz/teaser posts stall at ~120 reach. IG audience wants salary/SIP/mistakes topics more than home-loan maths.
+
+**Improvements applied:**
+1. Wed 4 Nov gap filled at 0 credits: Byaaj Monster cut-down as IG Reel DRAFT 410801443 (18:00), caption leads with the exact ₹ figure ("₹43,391 mein se ₹35,417 sirf byaaj?") and a 1/2/3 number-comment question; it already went to YT/FB on 29 Oct.
+2. Topic priority for the next new Short (week of 9 Nov): salary / first-salary / money-mistakes angle over home loan (IG reach 700-1,100 vs ~120). Home-loan topics stay in the long video + its cut-downs only.
+3. No new production today: queue full to Wed 4 Nov, Runway 149 credits (one realistic Short max), vidIQ 0. Long video #2 (SIP vs lump sum) still waits for Junaid's OK on the script.
+- Numbers re-run: EMI ₹43,391, month-1 interest ₹35,417, principal ₹7,974, total interest ₹54.14 lakh.
+- Credits today: ElevenLabs 0, Runway 0 (149 left), vidIQ 0 (0 left).
