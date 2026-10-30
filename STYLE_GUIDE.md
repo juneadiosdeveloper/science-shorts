@@ -225,3 +225,12 @@ Live view counts: animated Priya + Chintu Shorts 1-7 views after 1-3 days; reali
   3 nano-banana-2.1 2K stills of her (ref = portrait task), 6 gen-4-turbo 5 s clips (one action each) = ~150 Runway, new shot every ~3.5 s, tools/real.py --ovl <name>.
 - Lip-sync audio must be uploaded via a raw.githubusercontent.com URL (creative_attach_reference_file); the googleapis upload URL is blocked from the sandbox.
 - Ideas used: warikoo "CREDIT CARDS se PAISE AISE KAMATE HAIN!" (4.4M) → credit card kamai Short (3 Nov). Next unused: warikoo "Make regular income from your investments" (4.6M), "AAPKE 20s ke liye COMPLETE FINANCIAL PLANNING" (3.8M), "15,000 SALARY to 1 CRORE" (3.0M).
+
+## Script pipeline (owner, 30 Oct 2026): run these 3 steps for every new Short/Reel
+1. Pain to hooks: list 10 frustrations our audience (22-35, salaried, Hindi/Hinglish) has about the topic and turn each into a
+   curiosity hook under 10 words. Keep the 2-3 that are specific and carry a ₹ figure.
+2. Write the Reel: strong hook, relatable problem (Chintu's situation), one useful takeaway, natural CTA (number-comment question
+   + save/share to a named friend). Simple sentences, no filler; every line must earn its 3-4 s.
+3. Improve the hook: write 10 hook options that make the idea clear in 2 seconds. Specific, curious, no clickbait, nothing
+   scam-sounding ("paisa double", "guaranteed"). Pick the best, keep runner-up for the title/Test & Compare.
+Log the chosen hook + 2 runners-up in performance_log so we learn which hook types win.
