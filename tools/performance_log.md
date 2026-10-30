@@ -242,3 +242,4 @@ Subscribers: 3 (Metricool). Instagram (same days): 40 crore Reel reach 838 / 990
   Numbers (Python): ₹5,000 SIP at start of month, 1%/month (12%/12), 240 months → ₹49,95,740; invested ₹12,00,000. Split ₹2,200 + ₹700 + ₹2,100 = ₹5,000 (example).
   Reused 2 shots from the credit-card Short (bill shock, hand on face), mirrored; 5 new gen-4-turbo clips + 2 new stills.
   Credits: Runway 137 (2 stills 12 + 5 clips 125) → 12 left; ElevenLabs ~7.3k (TTS 487 + Scribe 190 + HeyGen 3,030 + 3,636). Note: Scribe is NOT free (190 credits for 34 s).
+  Metricool DRAFTS Thu 5 Nov: YT 411669972 (16:00), FB Reel 411669992 (16:00), IG Reel 411670031 (18:00), IG Story 411670049 (18:10, manual link sticker). Best time Thu: YT 16:00 (11,979, top). Alt title (Test & Compare, unscored, vidIQ 0): "Salary 15 Tareekh Tak Khatam? ₹50 Lakh Ka Hisaab 🤯 #shorts".
