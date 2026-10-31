@@ -234,3 +234,9 @@ Live view counts: animated Priya + Chintu Shorts 1-7 views after 1-3 days; reali
 3. Improve the hook: write 10 hook options that make the idea clear in 2 seconds. Specific, curious, no clickbait, nothing
    scam-sounding ("paisa double", "guaranteed"). Pick the best, keep runner-up for the title/Test & Compare.
 Log the chosen hook + 2 runners-up in performance_log so we learn which hook types win.
+
+## Metricool post budget (31 Oct 2026)
+Fri 30 Oct posts failed with "You have reached your Metricool account limit" (free-plan monthly post cap). Until Junaid upgrades:
+- 3 Metricool posts per video (YT Short + IG Reel + FB Reel). IG Story = Junaid shares the live Reel to Story by hand + YouTube link sticker.
+- Create the YouTube post first; repost-only IG posts (old cut-downs) are the first to drop when the cap is near.
+- Every daily run checks the previous day's posts with getScheduledPosts (status ERROR / detailedStatus) and alerts Junaid at once.
