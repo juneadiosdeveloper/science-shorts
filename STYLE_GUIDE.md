@@ -272,3 +272,14 @@ Metricool free cap in practice: 4 posts/video → only 5 videos/month. Oct: 21 p
 - Contact Junaid only for (a) something only he can do, (b) a plan/credit about to run out (with link, BEFORE it runs out), (c) a big result.
 - Every task for him gets a one-time reminder (send_later) at the exact time it is needed, which pushes a phone notification.
 - Content rules (SEBI/education, platform rules, AI disclosure, no copied scripts/footage) still apply in full.
+
+## SHARE TEST (owner, 31 Oct 2026) — every topic and hook must pass before production
+Owner: "Viewer should feel 'yaar ye naya hai, mere dost ko pata nahi hoga, ise bhejta hoon'."
+A topic passes only if ALL four are yes:
+1. Relatable: it happens in a normal salaried Indian's life (salary, EMI, credit card, rent, insurance, bank, UPI, tax, gold, parents' FD).
+2. Not common knowledge: most viewers do NOT already know it (no "SIP kya hai", "save money", "emergency fund rakho").
+3. Surprising + checkable: a hidden cost, a rule people don't know, or a common belief proved wrong, with a ₹ number we calculate on screen.
+4. Send-to-a-friend trigger: there is a specific person to tag ("jiska home loan chal raha hai", "jo har cheez card pe leta hai",
+   "papa jo FD mein hi paisa rakhte hain"). Caption + last line name that person: "Ye video us dost ko bhejo jo ...".
+Hook formula: "<everyday thing> ka <hidden ₹ cost / rule> jo 90% log nahi jaante?" spoken + on screen in second 1, answer by ~15 s.
+Score every idea 1-5 on each point; produce only ideas with 16+/20. Log the score and the chosen "send to" person.
