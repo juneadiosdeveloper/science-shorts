@@ -243,3 +243,24 @@ Subscribers: 3 (Metricool). Instagram (same days): 40 crore Reel reach 838 / 990
   Reused 2 shots from the credit-card Short (bill shock, hand on face), mirrored; 5 new gen-4-turbo clips + 2 new stills.
   Credits: Runway 137 (2 stills 12 + 5 clips 125) → 12 left; ElevenLabs ~7.3k (TTS 487 + Scribe 190 + HeyGen 3,030 + 3,636). Note: Scribe is NOT free (190 credits for 34 s).
   Metricool DRAFTS Thu 5 Nov: YT 411669972 (16:00), FB Reel 411669992 (16:00), IG Reel 411670031 (18:00), IG Story 411670049 (18:10, manual link sticker). Best time Thu: YT 16:00 (11,979, top). Alt title (Test & Compare, unscored, vidIQ 0): "Salary 15 Tareekh Tak Khatam? ₹50 Lakh Ka Hisaab 🤯 #shorts".
+
+## 2026-10-31 (Sat)
+**ALERT: Fri 30 Oct posts all FAILED in Metricool ("You have reached your Metricool account limit")**: lump-sum Short YT 406668993, IG Reel 406669132,
+FB 406669258, IG Story 406669304. The Short never went live anywhere. Today's Sat 16:00/18:00 salary posts (YT 407872437, FB 407872497, IG 410329514,
+Story 410329829) are still PENDING and will most likely fail the same way. Cause: free-plan monthly post limit (we schedule 4 posts per video:
+YT + FB + IG Reel + IG Story). Assumed to reset with the new month on 1 Nov (to confirm in Metricool > Billing).
+**Numbers (Metricool):**
+- YouTube: subs 3 (no change since 28 Oct); daily views 22-27 Oct 10 / 42 / 68 / 56 / 5 / 11, 28-30 Oct not filled yet. vidIQ 0 credits (resets 24 Nov) → no per-video check.
+- Instagram Reels lifetime: 40 crore (28 Oct) reach 1,101 (flat vs yesterday 1,099), 1,232 views, avg 17.6 s, 62% past 3 s, 29 likes, 9 saves, 7 shares.
+  5 mistakes reach 710 / 10 shares; quiz 119; home-loan teaser 120. IG followers 4. Account reach 26-29 Oct: 373 / 445 / 1,088 / 15 (no new Reel 29-30 Oct → reach collapses).
+**What it says:** (1) a day without a new Reel drops IG account reach from ~1,000 to ~15, so a missed post costs a whole day of distribution; (2) the post limit,
+not the content, is now the bottleneck: 4 posts/video × 1 video/day ≈ 120 posts/month.
+**Improvements (applied / proposed to Junaid):**
+1. Post budget: from now 3 Metricool posts per video (YT + IG Reel + FB Reel); the IG Story is done by hand by sharing the live Reel to Story + YouTube link
+   sticker (10 s, he had to touch every Story anyway for the sticker). Saves 25% of the limit. Asked Junaid: upgrade Metricool OR keep this rule.
+2. YouTube first: when the limit is close, YT post is created before IG/FB (views on YouTube = main goal). Wed 4 Nov Byaaj Monster IG repost (draft 410801443,
+   home-loan repeat, expected ~120 reach) is the first slot to drop if the limit stays.
+3. Re-queue the failed lump-sum Short: no free day until Fri 6 Nov (queue Sat-Thu full) → propose Fri 6 Nov 16:00 YT/FB, 18:00 IG, once Junaid says yes.
+- No production today: Runway 12 credits (plan 0), vidIQ 0. Next new Short (week of 9 Nov) needs a Runway top-up (~150 credits per realistic Short).
+- Still waiting for Junaid's yes: Mon 2 Nov home-loan galtiyan, Tue 3 Nov credit card, Wed 4 Nov Byaaj Monster IG, Thu 5 Nov kharche ₹50 lakh; long video #2 (SIP vs lump sum) script.
+- Credits today: ElevenLabs 0, Runway 0 (12 left), vidIQ 0 (0 left).
