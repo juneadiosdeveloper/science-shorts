@@ -252,3 +252,16 @@ within ~7 days or before the next queued upload, never after it has failed.
 | vidIQ | Free, 150 credits/month, resets 24th | vidiq_balance | < 20 | https://vidiq.com/pricing |
 | OpusClip | 10 min balance | opusclip_get_usage | not used in pipeline | https://www.opus.pro/pricing |
 Metricool free cap in practice: 4 posts/video → only 5 videos/month. Oct: 21 published by 29 Oct → all 30 Oct posts failed.
+
+## Owner direction (31 Oct 2026): followers first, realistic girl, Seedance allowed
+- Goal of every video = more FOLLOWERS/SUBSCRIBERS (then views). Every caption gets a follow line ("➕ Follow karo @paisa_science: roz ek paise ki
+  tricky baat"); every Short ends on a reason to follow (next part / series promise) plus the comment question.
+- All new Shorts/Reels use the realistic presenter girl (Runway portrait task ed8090cd...), not the cartoon. Cartoon Priya + Chintu: no new videos
+  (already-made ones still go out).
+- Make videos more interactive: she talks to camera more (question to viewer, "comment mein likho 1 ya 2"), on-screen polls/quiz moments,
+  a new shot every ~2-3 s. Seedance (seedance-2 / 2.5 on Runway) is allowed for the key moving shots (hook, reveal) when gen-4-turbo looks static;
+  check face drift on every Seedance clip.
+- Ideas: STANDING RULE #1 still applies (copy the idea of a famous high-view video, never its script/footage).
+- Owner said (31 Oct): upload on all platforms at our best times (YT + FB 16:00, IG Reel 18:00, Story 18:10) without asking each time for queued
+  videos he already saw; brand-new videos are still sent to him first.
+- Metricool and Runway upgraded 31 Oct (Runway 3,012 credits). Metricool post cap no longer the bottleneck.

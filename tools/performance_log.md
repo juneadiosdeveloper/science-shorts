@@ -265,3 +265,10 @@ not the content, is now the bottleneck: 4 posts/video × 1 video/day ≈ 120 pos
 - Still waiting for Junaid's yes: Mon 2 Nov home-loan galtiyan, Tue 3 Nov credit card, Wed 4 Nov Byaaj Monster IG, Thu 5 Nov kharche ₹50 lakh; long video #2 (SIP vs lump sum) script.
 - Credits today: ElevenLabs 0, Runway 0 (12 left), vidIQ 0 (0 left).
 - 31 Oct 11:20: Junaid upgraded Metricool (to be confirmed by today's 16:00 posts) and bought Runway credits → Runway 3,012 (purchased, plan 0). Enough for ~20 realistic Shorts (~150 each).
+- 31 Oct 12:20: Junaid: "upload on all platforms at your time" → scheduled (new posts; updateScheduledPost blocked, so old drafts stay as unused drafts):
+  Mon 2 Nov home-loan galtiyan YT 411957213 / FB 411957441 (16:00), IG 411957450 (18:00), Story 411957456 (18:10);
+  Tue 3 Nov credit card YT 411957711 / FB 411957717, IG 411957722, Story 411957730;
+  Wed 4 Nov failed lump-sum Short re-queued: YT 411957985 / FB 411957992, IG 411958000, Story 411958008;
+  Thu 5 Nov kharche: FB 411958321, IG 411958331, Story 411958342 — YT create blocked by a permission check → Junaid schedules draft 411669972 by hand;
+  Fri 6 Nov 18:00 Byaaj Monster IG Reel 411958348 (moved from Wed). All IG captions now carry a follow line.
+- Owner feedback: target = followers; realistic girl instead of cartoon; more interactive; Seedance allowed → STYLE_GUIDE "Owner direction (31 Oct)".
