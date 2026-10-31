@@ -265,3 +265,10 @@ Metricool free cap in practice: 4 posts/video → only 5 videos/month. Oct: 21 p
 - Owner said (31 Oct): upload on all platforms at our best times (YT + FB 16:00, IG Reel 18:00, Story 18:10) without asking each time for queued
   videos he already saw; brand-new videos are still sent to him first.
 - Metricool and Runway upgraded 31 Oct (Runway 3,012 credits). Metricool post cap no longer the bottleneck.
+
+## FULL CONTROL (owner, 31 Oct 2026) — supersedes every "wait for Junaid's yes" rule above
+- Junaid: "You have 100% control. You don't need my review, input or decision." Claude decides and publishes everything itself
+  (topics, format, style, characters, scheduling, publishing, comment replies). Main goal: followers + YPP monetization.
+- Contact Junaid only for (a) something only he can do, (b) a plan/credit about to run out (with link, BEFORE it runs out), (c) a big result.
+- Every task for him gets a one-time reminder (send_later) at the exact time it is needed, which pushes a phone notification.
+- Content rules (SEBI/education, platform rules, AI disclosure, no copied scripts/footage) still apply in full.
