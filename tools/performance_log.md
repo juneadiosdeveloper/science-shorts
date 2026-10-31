@@ -272,3 +272,4 @@ not the content, is now the bottleneck: 4 posts/video × 1 video/day ≈ 120 pos
   Thu 5 Nov kharche: FB 411958321, IG 411958331, Story 411958342 — YT create blocked by a permission check → Junaid schedules draft 411669972 by hand;
   Fri 6 Nov 18:00 Byaaj Monster IG Reel 411958348 (moved from Wed). All IG captions now carry a follow line.
 - Owner feedback: target = followers; realistic girl instead of cartoon; more interactive; Seedance allowed → STYLE_GUIDE "Owner direction (31 Oct)".
+- 31 Oct 16:10: Metricool upgrade confirmed: salary Short PUBLISHED on YouTube (kyEt26giIuM) and Facebook (reel 1120207264065150).
