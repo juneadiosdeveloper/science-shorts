@@ -240,3 +240,15 @@ Fri 30 Oct posts failed with "You have reached your Metricool account limit" (fr
 - 3 Metricool posts per video (YT Short + IG Reel + FB Reel). IG Story = Junaid shares the live Reel to Story by hand + YouTube link sticker.
 - Create the YouTube post first; repost-only IG posts (old cut-downs) are the first to drop when the cap is near.
 - Every daily run checks the previous day's posts with getScheduledPosts (status ERROR / detailedStatus) and alerts Junaid at once.
+
+## Plan & credit watch (owner, 31 Oct 2026: "give me the link BEFORE it runs out")
+Every daily run checks every plan and alerts Junaid (push notification, with the upgrade/top-up link) when any one will run out
+within ~7 days or before the next queued upload, never after it has failed.
+| Service | Plan (31 Oct) | How to check | Warn when | Link |
+|---|---|---|---|---|
+| Metricool | Free: 20 PUBLISHED posts/month, each network counts once, resets 1st of month | count PUBLISHED + queued providers this month (getScheduledPosts) | queued posts this month > 16 | https://metricool.com/pricing/ (Starter $25/mo monthly, unlimited posts) |
+| Runway | Pro, 2,250 credits/month + top-ups | whoami credits.total | < 300 (2 Shorts) | https://app.runwayml.com/settings/billing (top-up from 1,000 cr = $10) |
+| ElevenLabs | ~100k credits/month | not readable via MCP: sum usage from performance_log | est. < 15k left | https://elevenlabs.io/app/subscription |
+| vidIQ | Free, 150 credits/month, resets 24th | vidiq_balance | < 20 | https://vidiq.com/pricing |
+| OpusClip | 10 min balance | opusclip_get_usage | not used in pipeline | https://www.opus.pro/pricing |
+Metricool free cap in practice: 4 posts/video → only 5 videos/month. Oct: 21 published by 29 Oct → all 30 Oct posts failed.
