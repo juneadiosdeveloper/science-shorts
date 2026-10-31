@@ -264,3 +264,4 @@ not the content, is now the bottleneck: 4 posts/video × 1 video/day ≈ 120 pos
 - No production today: Runway 12 credits (plan 0), vidIQ 0. Next new Short (week of 9 Nov) needs a Runway top-up (~150 credits per realistic Short).
 - Still waiting for Junaid's yes: Mon 2 Nov home-loan galtiyan, Tue 3 Nov credit card, Wed 4 Nov Byaaj Monster IG, Thu 5 Nov kharche ₹50 lakh; long video #2 (SIP vs lump sum) script.
 - Credits today: ElevenLabs 0, Runway 0 (12 left), vidIQ 0 (0 left).
+- 31 Oct 11:20: Junaid upgraded Metricool (to be confirmed by today's 16:00 posts) and bought Runway credits → Runway 3,012 (purchased, plan 0). Enough for ~20 realistic Shorts (~150 each).
