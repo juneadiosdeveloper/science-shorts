@@ -283,3 +283,14 @@ A topic passes only if ALL four are yes:
    "papa jo FD mein hi paisa rakhte hain"). Caption + last line name that person: "Ye video us dost ko bhejo jo ...".
 Hook formula: "<everyday thing> ka <hidden ₹ cost / rule> jo 90% log nahi jaante?" spoken + on screen in second 1, answer by ~15 s.
 Score every idea 1-5 on each point; produce only ideas with 16+/20. Log the score and the chosen "send to" person.
+
+## Extra connectors to use (reviewed 31 Oct 2026)
+- Canva: (1) Instagram CAROUSELS 2x/week (Tue + Sat 11:00, separate from the daily Reel): 6-8 slides turning a video's hidden-₹ fact into
+  "save this" steps, last slide = "Follow @paisa_science" + "bhejo us dost ko jo ...". Carousels get the most saves/shares → followers.
+  (2) Thumbnails for long videos (3 options). Use the Paisa Science colours; no real logos/brands.
+- Descript (Agent Underlord): optional for burned-in word-by-word captions / filler removal on long videos; check output before posting.
+- OpusClip: auto-pick Shorts from long videos (only 10 min balance → long videos only).
+- vidIQ instagram_tiktok_outlier_search / ig_profile_reels: find which Reels are viral in Indian finance (topic ideas), when credits allow.
+- Gmail: read YouTube/Instagram/Metricool emails (errors, policy notices, comment alerts) in the daily check.
+- Do NOT use: TEXT_TO_QUANT (trading backtests: off-topic and against our no-trading-advice rule), Supabase/Granola/Figma (no need), Krea (0 credits).
+- Bird (WhatsApp/SMS): later, a WhatsApp channel/broadcast for followers needs an opt-in list and costs per message; skip until 1k followers.
