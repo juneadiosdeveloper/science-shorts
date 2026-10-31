@@ -294,3 +294,9 @@ Score every idea 1-5 on each point; produce only ideas with 16+/20. Log the scor
 - Gmail: read YouTube/Instagram/Metricool emails (errors, policy notices, comment alerts) in the daily check.
 - Do NOT use: TEXT_TO_QUANT (trading backtests: off-topic and against our no-trading-advice rule), Supabase/Granola/Figma (no need), Krea (0 credits).
 - Bird (WhatsApp/SMS): later, a WhatsApp channel/broadcast for followers needs an opt-in list and costs per message; skip until 1k followers.
+
+## Instagram Stories: auto-publish (31 Oct 2026)
+Stories with autoPublish false never went up (Metricool only marks them "Published" after sending a phone reminder; Junaid did not get/see it).
+From now every Story is autoPublish TRUE at 18:10. No link sticker via API: the Story image itself says "Full video: YouTube Paisa Science
+(link bio mein)". Old manual Story posts (410329839, 411957456, 411957730, 411958008, 411958342, drafts 4103298xx) may still send phone
+reminders: Junaid ignores them.

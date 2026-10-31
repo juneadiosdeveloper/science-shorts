@@ -273,3 +273,4 @@ not the content, is now the bottleneck: 4 posts/video × 1 video/day ≈ 120 pos
   Fri 6 Nov 18:00 Byaaj Monster IG Reel 411958348 (moved from Wed). All IG captions now carry a follow line.
 - Owner feedback: target = followers; realistic girl instead of cartoon; more interactive; Seedance allowed → STYLE_GUIDE "Owner direction (31 Oct)".
 - 31 Oct 16:10: Metricool upgrade confirmed: salary Short PUBLISHED on YouTube (kyEt26giIuM) and Facebook (reel 1120207264065150).
+- 31 Oct 18:30: Sat Story did not go live (autoPublish false = only a phone reminder). Re-posted as auto Story 412136002 (18:36); auto Stories 1-5 Nov: 412136010/018/033/042/049 (18:10).
