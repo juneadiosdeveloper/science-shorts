@@ -1,0 +1,13 @@
+# start end clip overlay  (narration timeline, vo.mp3 = per-line TTS, atempo 1.2, 0.15 s gaps)
+0.00 5.22 talk_hook.mp4 0
+5.22 7.55 b_a.mp4 1
+7.55 9.75 b_b.mp4 2
+9.75 11.75 b_c.mp4 3
+11.75 13.78 r_write.mp4 4
+13.78 16.10 b_d.mp4 5
+16.10 18.45 b_e.mp4 6
+18.45 20.50 b_f.mp4 7
+20.50 22.62 r_head.mp4 8
+22.62 25.60 b_g.mp4 9
+25.60 28.58 b_h.mp4 10
+28.58 36.55 talk_outro.mp4 11
