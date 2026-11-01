@@ -226,7 +226,51 @@ def k8(img, t, d):                      # talk outro
     big(img, "ya OTT?", 330, 130, RED, on(t, 2.5))
     caption_box(img, [("Comment karo!", GOLD)], on(t, 4.3))
 
-SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8]}
+# ---------- FD real-return Short (realistic, Fri 6 Nov; idea: warikoo "Make regular income from your investments" 4.6M -> what your FD income really earns) ----------
+def f0(img, t, d):                      # talk hook: Rs figure on frame 1
+    big(img, "PAPA KI 7% FD", 200, 118, WHITE, 1.0)
+    big(img, "PAISA GHATA RAHI?", 335, 104, RED, 1.0)
+    caption_box(img, [("Socho: HAAN ya NAA?", GOLD)], on(t, 3.6))
+def f1(img, t, d):
+    big(img, "₹10 LAKH FD", 200, 124, WHITE, 1.0)
+    big(img, "7% BYAAJ", 340, 120, GOLD, on(t, 1.1))
+def f2(img, t, d):
+    big(img, "SAAL KA BYAAJ", 200, 100, WHITE, 1.0)
+    big(img, "₹70,000", 330, 140, MINT, on(t, .35))
+def f3(img, t, d):
+    big(img, "PAR 30% TAX SLAB", 200, 100, RED, on(t, .2))
+    caption_box(img, [("Maana: 30% slab (cess alag)", SOFT)], on(t, .6))
+def f4(img, t, d):
+    big(img, "HAATH MEIN SIRF", 200, 96, WHITE, 1.0)
+    big(img, "₹49,000", 330, 140, GOLD, on(t, 1.05))
+    caption_box(img, [("₹70,000 − 30% tax = ₹49,000 (4.9%)", WHITE)], on(t, 1.2))
+def f5(img, t, d):
+    big(img, "MEHNGAI 6%", 200, 124, RED, on(t, .25))
+    caption_box(img, [("6% sirf maana gaya, asli mehngai badalti hai", SOFT)], on(t, .6))
+def f6(img, t, d):
+    big(img, "TAAKAT BACHANE KO", 200, 92, WHITE, 1.0)
+    big(img, "₹60,000 CHAHIYE", 320, 108, RED, on(t, 1.3))
+    caption_box(img, [("₹10 lakh × 6% = ₹60,000", WHITE)], on(t, 1.4))
+def f7(img, t, d):
+    big(img, "₹49,000 − ₹60,000", 200, 96, WHITE, 1.0)
+    big(img, "= −₹11,000", 320, 140, RED, on(t, .9))
+def f8(img, t, d):
+    big(img, "HAR SAAL TAAKAT", 200, 96, WHITE, 1.0)
+    big(img, "CHUPCHAAP KAM!", 320, 116, RED, on(t, .5))
+    caption_box(img, [("Asli return: lagbhag −1% saalana", GOLD)], on(t, .8))
+def f9(img, t, d):
+    big(img, "10 SAAL BAAD", 200, 110, WHITE, 1.0)
+    big(img, "FD: ~₹16 LAKH", 330, 120, MINT, on(t, 1.5))
+def f10(img, t, d):
+    big(img, "KHAREEDNE KI TAAKAT", 200, 86, WHITE, 1.0)
+    big(img, "~₹9 LAKH", 320, 150, RED, on(t, 1.75))
+    caption_box(img, [("Tax + mehngai ke BAAD ka return dekho", GOLD), ("₹16.1L ÷ 1.06^10 = ~₹9.0L (aaj ke daam)", SOFT)], on(t, .4))
+def f11(img, t, d):                     # talk outro
+    big(img, "BHEJO US DOST KO", 200, 98, WHITE, 1.0)
+    big(img, "JISKE PAPA SIRF FD", 320, 92, GOLD, on(t, 1.0))
+    caption_box(img, [("Ghar mein FD hai? HAAN ya NAA", WHITE), ("Comment karo + Follow karo", GOLD)], on(t, 3.6))
+
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)
