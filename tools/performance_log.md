@@ -274,3 +274,27 @@ not the content, is now the bottleneck: 4 posts/video × 1 video/day ≈ 120 pos
 - Owner feedback: target = followers; realistic girl instead of cartoon; more interactive; Seedance allowed → STYLE_GUIDE "Owner direction (31 Oct)".
 - 31 Oct 16:10: Metricool upgrade confirmed: salary Short PUBLISHED on YouTube (kyEt26giIuM) and Facebook (reel 1120207264065150).
 - 31 Oct 18:30: Sat Story did not go live (autoPublish false = only a phone reminder). Re-posted as auto Story 412136002 (18:36); auto Stories 1-5 Nov: 412136010/018/033/042/049 (18:10).
+
+## 2026-11-01 (Sun)
+**Checks:** Sat 31 Oct salary Short PUBLISHED on YT (kyEt26giIuM), FB, IG Reel (DfKKXPGALTn) and auto Story 412136002. No ERROR posts; no YouTube/Instagram/Metricool alert mails.
+Fixed: Thu 5 Nov kharche Short had NO scheduled YouTube post (only draft 411669972; create had been blocked on 31 Oct) → created YT 412650878 (16:00) myself today.
+**Plans:** Runway 3,012 → ~2,794 after today (purchased credits, plan 0; fine for ~12 more Shorts). vidIQ 0 (resets 24 Nov). ElevenLabs est. ~60k used since the Oct cycle (today ~9.7k) → still > 15k left. Metricool upgraded (no cap). No alert needed.
+**Numbers (Metricool):** YouTube subs 3 (no change); daily views 25-28 Oct 56 / 5 / 11 / 2, 29-31 Oct not filled yet (vidIQ 0 → no per-video check).
+Instagram Reels lifetime: 40 crore 1,102 reach / 1,232 views / 9 saves / 7 shares (flat); 5 mistakes 710 / 10 shares; salary Reel (31 Oct, animated) 209 reach in ~15 h, 240 views, avg 14.0 s, 64.5% past 3 s, 3 likes, 0 saves, 0 shares. IG followers 4. Account reach 31 Oct 211 (vs 0-15 on the two no-Reel days).
+**What it says:** (1) the salary Reel holds well past 3 s (64.5%) but earned zero saves/shares: a comparison story without a "send this to X" trigger does not spread; the two breakout Reels both had a numbered list + a specific person to send it to. (2) Days without a new Reel still drop IG reach to ~0, so the daily Reel + Story chain must never break. (3) YouTube daily views fell to 2-11/day from 56-68 when the cartoon Shorts were running; realistic Shorts resume Mon-Fri.
+**Improvements applied:**
+1. Share trigger in the script itself, not only the caption: new FD Short's spoken outro = "ye video us dost ko bhejo jiske papa sirf FD pe bharosa karte hain" + HAAN/NAA comment question; IG caption numbered 1-4.
+2. First Instagram CAROUSEL (save-bait): Tue 3 Nov 11:00 "Credit card 'free' hai? 3 chupi kamai" (7 slides, our own tools/carousel.py renderer so every ₹ figure is exact; Canva not needed for text slides) → IG 412659168.
+3. Fri 6 Nov IG slot given to the NEW FD Reel (best hour 18:00); the Byaaj Monster home-loan repost moved to Sat 7 Nov 18:00 (412658798) so the IG chain has a Reel on Saturday too.
+
+**Produced today:** Fri 6 Nov Short "FD Ka Sach: 7% FD Mein Paisa Ghat Raha Hai? 😱 #shorts" → videos/fd_asli_return_real.mp4 (36.6 s, realistic presenter, 12 shots ~2-3 s each, HeyGen 9:16 hook + outro, papa character added). Project assets/real/fd, overlays short3d "fd".
+  STANDING RULE #1 source: warikoo "Make regular income from your investments" (4.6M, next unused idea in the list): what your FD income really earns after tax + inflation. Our script/numbers.
+  SHARE TEST: relatable 5 (papa's FD), not common knowledge 4, surprising ₹ number 5 (₹16 lakh looks like ₹9 lakh), send-to trigger 5 ("jiske papa sirf FD pe bharosa karte hain") = 19/20.
+  Hooks: chosen "Papa ki 7% FD paisa ghata rahi? Haan ya naa?"; runners-up "₹10 lakh FD = asli mein ₹9 lakh?", "FD ka byaaj ₹70,000, haath mein ₹49,000?".
+  Numbers (Python): 7% × 0.70 = 4.9% → ₹49,000/yr on ₹10 lakh; 6% inflation needs ₹60,000 → ~₹11,000/yr buying power lost; real return (1.049/1.06 − 1) = −1.04%; 10 yr: ₹10L × 1.049^10 = ₹16.13L, ÷ 1.06^10 = ₹9.01L in today's prices. (With 4% cess: 4.816%, ₹8.94L.)
+  Line 7 ("tax aur mehngai ke baad ka return dekho") cut from the voice to keep 36.6 s; it is on screen as a caption instead. Voice atempo 1.2 (was 1.12) + internal pauses capped at 0.22 s.
+  Metricool (scheduled, not drafts) Fri 6 Nov: YT 412659089 (16:00), FB Reel 412659098 (16:00), IG Reel 412659109 (18:00), IG Story 412659116 (18:10, auto, story_fd.jpg).
+  Alt title (Test & Compare, unscored, vidIQ 0): "FD Interest Ka Sach: ₹10 Lakh Asli Mein ₹9 Lakh? 🤯 #shorts".
+  Credits: ElevenLabs ~9.7k (TTS ~613 + HeyGen 3,636 + 5,453); Runway ~218 (3 stills 18 + 8 gen-4-turbo clips 200), left ~2,794; vidIQ 0. Reused 2 older shots (kh b_write, cc c3a mirrored).
+- Tool: tools/carousel.py (4:5 carousel decks + Story cards with the "Full video: YouTube Paisa Science (link bio mein)" line).
+- Queue now: Sun 1 F&O, Mon 2 home-loan galtiyan, Tue 3 credit card (+ carousel 11:00), Wed 4 lump sum, Thu 5 kharche, Fri 6 FD (all 3 platforms + Story), Sat 7 IG repost only → next run produces Sat 7 Nov (YT/FB/IG) + Sat carousel.
