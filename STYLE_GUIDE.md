@@ -301,3 +301,27 @@ Stories with autoPublish false never went up (Metricool only marks them "Publish
 From now every Story is autoPublish TRUE at 18:10. No link sticker via API: the Story image itself says "Full video: YouTube Paisa Science
 (link bio mein)". Old manual Story posts (410329839, 411957456, 411957730, 411958008, 411958342, drafts 4103298xx) may still send phone
 reminders: Junaid ignores them.
+
+## Instagram growth playbook (owner, 1 Nov 2026: "100% control, grow organic followers on Instagram, YouTube, Facebook; don't ask me")
+Owner asked for an "/instagram-agent-skills" skill. It does not exist in the catalog; the closest ones are the plugins **"Social Media Skills"**
+(instagram-growth, instagram-seo, instagram-reels-publishing, hook-writer, reels-script, carousel-writer, caption-writer, hashtag-strategy,
+engagement-routine, reply-and-comment-writer, profile-optimization, viral-reverse-engineering, youtube-shorts, facebook-strategy) and **"instagram"**
+(read/reply Instagram comments + DMs via the Graph API). Only Junaid can add plugins. EVERY RUN: check with ToolSearch / skill list whether these
+skills/tools are available; if yes, load the matching skill before writing hooks, scripts, captions, carousels, and reply to every new Instagram
+comment daily with the instagram plugin (Hinglish, education only, ask a question back). If not, follow the rules below and do not ask Junaid again.
+Organic only: no bought followers, follow/unfollow, engagement pods, comment bots or giveaways-for-follows.
+1. Reach to non-followers comes from Reels: 1 new Reel every day (a day without a Reel drops account reach to ~0). 20-35 s, ₹ number + question on
+   screen and spoken in second 1, numbered list, loop ending.
+2. Sends (DM shares) and saves are the strongest ranking signals: every Reel names the person to send it to, spoken AND in the caption
+   ("bhejo us dost ko jo ..."); carousels (Tue + Sat 11:00) are save-bait checklists with exact ₹ numbers; last slide = save + send + follow.
+3. Instagram SEO: caption line 1 = hook + the search phrase people type ("FD ka sach", "credit card charges"); same keyword in the on-screen
+   headline; exactly 5 specific hashtags (1 broad, 2-3 topic, #PaisaScience).
+4. Follow conversion: viewers follow when the profile promises a series. Caption follow line + spoken "aisi tricky baatein roz: follow karo";
+   series names on screen help ("Paisa ka sach #4").
+5. Stories daily at 18:10 (auto) keep followers seeing us; Story image says where the full video is.
+6. Repeat proven topics as new hooks: if a Reel gets > 3x the median reach, make a "part 2" within 3 days (same topic, new number).
+7. Trial Reels (Metricool instagramData.type TRIAL_REEL, shown only to non-followers): use for a second hook version of a strong Reel
+   instead of a plain repost, once follower count > ~200 (below that every viewer is a non-follower anyway).
+8. One-time things only Junaid can do (mention once, never block on them): bio = "Paisa ki tricky baatein, Hindi mein | roz 1 Reel" + YouTube
+   link; name field with keyword ("Paisa Science | Finance Hindi"); pin the 3 best Reels (40 crore, 5 mistakes, newest breakout).
+YouTube/Facebook: the same Short goes to both at 16:00; YouTube first comment = question, FB first comment = channel link.
