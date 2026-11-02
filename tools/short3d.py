@@ -270,7 +270,47 @@ def f11(img, t, d):                     # talk outro
     big(img, "JISKE PAPA SIRF FD", 320, 92, GOLD, on(t, 1.0))
     caption_box(img, [("Ghar mein FD hai? HAAN ya NAA", WHITE), ("Comment karo + Follow karo", GOLD)], on(t, 3.6))
 
-SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11]}
+# ---------- Riya vs Aman: 5 saal vs 25 saal (realistic, Sat 7 Nov; idea: warikoo "AAPKE 20s ke liye COMPLETE FINANCIAL PLANNING" 3.8M -> start in your 20s) ----------
+def ra0(img, t, d):                     # talk hook: Rs figure on frame 1
+    big(img, "₹3 LAKH > ₹15 LAKH?", 200, 112, WHITE, 1.0)
+    big(img, "KAISE?", 330, 120, GOLD, 1.0)
+    caption_box(img, [("Socho: HAAN ya NAA?", GOLD)], on(t, 3.0))
+def ra1(img, t, d):
+    big(img, "RIYA, UMAR 25", 200, 116, WHITE, 1.0)
+    big(img, "₹5,000 / MAHINA", 330, 112, MINT, on(t, 1.4))
+def ra2(img, t, d):
+    big(img, "SIRF 5 SAAL", 200, 120, WHITE, 1.0)
+    big(img, "KUL ₹3 LAKH", 330, 124, GOLD, on(t, .6))
+    caption_box(img, [("Phir band. Ek rupaya aur nahi.", SOFT)], on(t, 1.6))
+def ra3(img, t, d):
+    big(img, "AMAN:", 200, 110, WHITE, 1.0)
+    big(img, "\"ABHI TOH UMAR HAI\"", 320, 96, RED, on(t, .5))
+def ra4(img, t, d):
+    big(img, "SHURU KIYA", 200, 110, WHITE, 1.0)
+    big(img, "UMAR 35 MEIN", 330, 116, RED, on(t, .4))
+def ra5(img, t, d):
+    big(img, "25 SAAL × ₹5,000", 200, 104, WHITE, 1.0)
+    big(img, "KUL ₹15 LAKH", 330, 124, GOLD, on(t, 1.7))
+def ra6(img, t, d):
+    big(img, "12% SAALANA", 200, 116, WHITE, 1.0)
+    caption_box(img, [("Maana: 12% saalana (1%/mahina), guaranteed nahi", SOFT)], on(t, .3))
+def ra7(img, t, d):
+    big(img, "AMAN @ 60", 200, 116, WHITE, 1.0)
+    big(img, "~₹95 LAKH", 330, 140, MINT, on(t, 1.2))
+    caption_box(img, [("₹15 lakh lagaye (35 se 60)", SOFT)], on(t, .2))
+def ra8(img, t, d):
+    big(img, "RIYA KE ₹3 LAKH?", 200, 104, WHITE, 1.0)
+    caption_box(img, [("25-30 lagaye, phir 60 tak chhod diye", SOFT)], on(t, .2))
+def ra9(img, t, d):
+    big(img, "RIYA @ 60", 200, 116, WHITE, 1.0)
+    big(img, "~₹1.48 CRORE!", 320, 128, GOLD, 1.0)
+    caption_box(img, [("Byaaj pe byaaj ko paisa nahi, SAMAY chahiye", GOLD), ("Mehngai 6% maano to aaj ke ~₹19 lakh", SOFT)], on(t, .3))
+def ra10(img, t, d):                    # talk outro
+    big(img, "BHEJO US DOST KO", 200, 98, WHITE, 1.0)
+    big(img, "JO \"BAAD MEIN\" BOLTA HAI", 320, 84, GOLD, on(t, 1.0))
+    caption_box(img, [("Aap RIYA ho ya AMAN? Comment karo", WHITE), ("Follow karo: roz ek tricky paisa fact", GOLD)], on(t, 3.6))
+
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)

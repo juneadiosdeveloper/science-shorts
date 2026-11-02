@@ -51,6 +51,16 @@ DECKS = {
   ("Seekh", [("1. Bill hamesha POORA bharo", MINT), ("2. Due date se pehle", MINT), ("3. EMI = total cost dekho", MINT), ("", None), ("Minimum due = byaaj ka jaal", RED)], GOLD, None),
   ("Save karo", [("Bhejo us dost ko jo", WHITE), ("har cheez card pe leta hai", GOLD), ("", None), ("Comment: aap bill kaise bharte ho?", WHITE), ("1) Poora  2) Minimum  3) Card nahi", SOFT)], MINT, "Follow @paisa_science"),
  ],
+ # Sat 7 Nov 11:00, companion of the Riya vs Aman Short (numbers verified 2 Nov: ₹5,000 at start of month, 1%/month, until age 60)
+ "late": [
+  ("5 saal late =\n₹1.48 crore kam?", [("₹5,000 mahina, 60 ki umar tak", WHITE), ("Shuru kab kiya, bas itna farak", WHITE), ("", None), ("Apni umar dhoondo, swipe karo", MINT)], GOLD, "Swipe karo  >>"),
+  ("Shuru @ 25", [("35 saal × ₹5,000 = ₹21 lakh lagaye", WHITE), ("60 pe: ~₹3.25 crore", MINT), ("", None), ("Maana: 12% saalana (1%/mahina)", SOFT), ("Guaranteed nahi, sirf udaharan", SOFT)], GOLD, None),
+  ("Shuru @ 30", [("30 saal = ₹18 lakh lagaye", WHITE), ("60 pe: ~₹1.76 crore", GOLD), ("", None), ("Sirf 5 saal late:", WHITE), ("~₹1.48 crore kam!", RED)], GOLD, None),
+  ("Shuru @ 35", [("25 saal = ₹15 lakh lagaye", WHITE), ("60 pe: ~₹95 lakh", GOLD), ("", None), ("25 wale se ~₹2.3 crore kam", RED)], GOLD, None),
+  ("Shuru @ 40 / 45", [("40: ₹12 lakh lagaye = ~₹50 lakh", WHITE), ("45: ₹9 lakh lagaye = ~₹25 lakh", WHITE), ("", None), ("Har 5 saal ki deri:", WHITE), ("corpus lagbhag AADHA", RED)], RED, None),
+  ("Twist", [("Ye sab 35 saal baad ke rupaye hain", WHITE), ("6% mehngai maano to ₹1.48 crore", WHITE), ("= aaj ke ~₹19 lakh", GOLD), ("", None), ("Aur ye farak sirf 25-30 ke", MINT), ("₹3 lakh ka kamaal hai", MINT)], GOLD, None),
+  ("Save karo", [("Bhejo us dost ko jo kehta hai", WHITE), ("\"abhi toh umar hai\"", GOLD), ("", None), ("Comment: aapne kis umar mein", WHITE), ("shuru kiya? 25 / 30 / 35 / abhi nahi", SOFT)], MINT, "Follow @paisa_science"),
+ ],
 }
 
 def story(bg, out, lines):
