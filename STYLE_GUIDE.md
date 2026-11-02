@@ -14,7 +14,7 @@
   "5 STUPID mistakes WEALTHY people never make!" (1.6M) → 5 money mistakes Short; warikoo "40 CRORES from a 10,000 INR SALARY?" (5.07M) → 40 crore Short;
   warikoo "30,000 vs 3,00,000 vs 3,00,00,000 INR Per Month" (~1.2M) → ₹30k vs ₹3 lakh salary Short (27 Oct);
   Sharan "The Ugly Truth Behind ₹15Cr Trading" → F&O 93% Short (27 Oct); warikoo "Home Loan Mistakes That Cost You LAKHS" (~1.2M) → home loan 3 galtiyan Short (28 Oct);
-  warikoo "Make regular income from your investments" (4.6M) → FD asli return Short (1 Nov, Fri 6 Nov). Next unused: "AAPKE 20s ke liye COMPLETE FINANCIAL PLANNING" (3.8M).
+  warikoo "Make regular income from your investments" (4.6M) → FD asli return Short (1 Nov, Fri 6 Nov); warikoo "AAPKE 20s ke liye COMPLETE FINANCIAL PLANNING" (3.8M) → Riya vs Aman 5 saal Short (2 Nov, Sat 7 Nov). Next: run vidIQ outliers when credits reset (24 Nov); until then use the OutlierKit warikoo/Sharan lists in this file.
 
 Approved format (23 Oct 2026): realistic AI Indian woman presenter (same face every video, from
 Runway portrait task ed8090cd-8324-47c0-803c-fae8673e2b3a), sweet Hindi female voice "Pyaari"
@@ -325,3 +325,8 @@ Organic only: no bought followers, follow/unfollow, engagement pods, comment bot
 8. One-time things only Junaid can do (mention once, never block on them): bio = "Paisa ki tricky baatein, Hindi mein | roz 1 Reel" + YouTube
    link; name field with keyword ("Paisa Science | Finance Hindi"); pin the 3 best Reels (40 crore, 5 mistakes, newest breakout).
 YouTube/Facebook: the same Short goes to both at 16:00; YouTube first comment = question, FB first comment = channel link.
+
+## Cost + share rules (2 Nov 2026)
+- Lip-sync outro <= 5 s (send-to line + A/B question only); the follow line goes on screen. A 7.9 s outro costs ~4.8k ElevenLabs credits.
+- Comment CTA: prefer an identity A/B question ("Aap Riya ho ya Aman?") over a number question; put the "send to" person inside the story itself.
+- HeyGen clip can be ~0.15 s shorter than its audio: end the talk slot at the clip length (real.py refuses shorter clips).

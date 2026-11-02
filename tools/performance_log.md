@@ -298,3 +298,26 @@ Instagram Reels lifetime: 40 crore 1,102 reach / 1,232 views / 9 saves / 7 share
   Credits: ElevenLabs ~9.7k (TTS ~613 + HeyGen 3,636 + 5,453); Runway ~218 (3 stills 18 + 8 gen-4-turbo clips 200), left ~2,794; vidIQ 0. Reused 2 older shots (kh b_write, cc c3a mirrored).
 - Tool: tools/carousel.py (4:5 carousel decks + Story cards with the "Full video: YouTube Paisa Science (link bio mein)" line).
 - Queue now: Sun 1 F&O, Mon 2 home-loan galtiyan, Tue 3 credit card (+ carousel 11:00), Wed 4 lump sum, Thu 5 kharche, Fri 6 FD (all 3 platforms + Story), Sat 7 IG repost only → next run produces Sat 7 Nov (YT/FB/IG) + Sat carousel.
+
+## 2026-11-02 (Mon)
+**Checks:** Sun 1 Nov F&O Short PUBLISHED on YT (407950082), FB (407950135), IG Reel (410329524) + auto Story 412136010. No ERROR posts; no YouTube/Instagram/Metricool/Runway/ElevenLabs alert mails (Gmail, last 2 days). Old 2-5 Nov DRAFTS (4085525xx, 4096767xx, 4103295xx, 4116699xx/4116700xx) stay unused; the scheduled copies (4119572xx-4119583xx, 412650878, 4121360xx) are PENDING.
+**Plans:** Runway 2,794 → 2,515 after today (purchased, fine for ~9 more Shorts). vidIQ 0 (resets 24 Nov). Metricool upgraded. ElevenLabs est. ~68.5k used this cycle (today ~8.5k: TTS 582 + HeyGen hook 3,030 + outro 4,848) → ~31k left = ~3-4 realistic Shorts at the current recipe → ALERT sent to Junaid (top-up/upgrade link) because the daily production will hit it around 5-6 Nov unless the cycle resets first.
+**Numbers (Metricool):** YouTube subs 3 (no change); daily views 26-29 Oct 5 / 11 / 2 / 15, 30 Oct-1 Nov not filled yet; vidIQ 0 → no per-video check.
+Instagram Reels lifetime: salary (31 Oct) reach 430 (was 209 at 15 h) / 486 views / avg 13.5 s / 63% past 3 s / 8 likes / 0 saves / 0 shares; F&O (1 Nov, ~21 h) reach 118 / 145 views / avg 10.4 s / 57.5% past 3 s / 1 like / 0 saves / 0 shares; 40 crore 1,102 (flat); quiz 119.
+**What it says:** (1) the last two animated Reels (salary, F&O) got 0 saves and 0 shares, the 40 crore + 5 mistakes Reels got 7-10 shares each: the difference is a numbered ₹ list + a named friend to send it to; (2) 3-s hold 57-63% is fine, so the weak point is the share trigger and the end of the video, not the hook; (3) realistic Shorts start on YouTube today (Mon-Sat), first 48 h data on 4 Nov.
+**Improvements applied:**
+1. New Sat Short is a 2-character story (Riya vs Aman) with the "send to" person inside the story itself ("jo kehta hai abhi toh umar hai") and an A-or-B identity question ("Aap Riya ho ya Aman?") as the comment CTA: identity questions are easier to answer than number questions.
+2. Sat carousel = companion table of the Reel (start @25/30/35/40/45) so the Reel viewer has a save-bait follow-up on the profile the same day.
+3. ElevenLabs saving: from the next Short the lip-sync outro stays <= 5 s (send line + question only; follow line moves to on-screen text). Today's 7.9 s outro cost 4.8k vs 3.0k for the hook.
+- Metricool: Sat 7 Nov IG repost (Byaaj Monster) moved to Sun 8 Nov 10:00 (updateScheduledPost worked, new id 413537375) to free Sat 18:00 for the new Reel.
+
+**Produced today:** Sat 7 Nov Short "SIP Kab Shuru Kare? ₹3 Lakh vs ₹15 Lakh Ka Sach 😱 #shorts" → videos/riya_aman_5_saal_real.mp4 (35.8 s, realistic presenter, 11 shots ~2-3 s, HeyGen hook + outro). Project assets/real/ra, overlays short3d "ra".
+  STANDING RULE #1 source: warikoo "AAPKE 20s ke liye COMPLETE FINANCIAL PLANNING" (3.8M, next unused): start investing in your 20s; our angle = 5 early years beat 25 late years.
+  SHARE TEST: relatable 5, not common knowledge 4 (₹3L beats ₹15L is surprising even for people who know "start early"), surprising ₹ number 5, send-to trigger 5 ("jo kehta hai abhi toh umar hai") = 19/20.
+  Hooks: chosen "₹3 lakh, ₹15 lakh se zyada kaise? Haan ya naa?"; runners-up "5 saal late = ₹1.48 crore kam?", "Har din ki deri = ₹8,000 ka nuksaan?" (per-day figure sounded too much like hype → dropped).
+  Numbers (Python): ₹5,000 at start of month, 1%/month. Riya 25-30: 60 months → ₹4,12,432, then 360 months → ₹1,48,26,776. Aman 35-60: 300 months → ₹94,88,175. In today's prices (6%, 35 yr) Riya ≈ ₹19.29 lakh. Carousel: start @25 ₹3.25 Cr, @30 ₹1.76 Cr, @35 ₹94.9 L, @40 ₹49.96 L, @45 ₹25.2 L.
+  Line 7 ("byaaj pe byaaj ko paisa nahi, samay chahiye") cut from the voice for length; on screen instead. Voice atempo 1.25.
+  Metricool (scheduled): YT 413537643 (16:00), FB Reel 413537650 (16:00), IG Reel 413537660 (18:00), IG Story 413537666 (18:10, auto, story_riya_aman.jpg), IG carousel 413537673 (11:00, 7 slides).
+  Alt title (Test & Compare, unscored, vidIQ 0): "25 vs 35 Mein Investing: ₹1.48 Crore vs ₹95 Lakh 🤯 #shorts".
+  Credits: ElevenLabs ~8.5k; Runway 279 (9 stills 54 + 9 gen-4-turbo clips 225), left 2,515; vidIQ 0. clipcheck: all 9 clips PASS, contact sheet clean.
+- Queue now: Mon 2 home-loan galtiyan, Tue 3 credit card (+ carousel 11:00), Wed 4 lump sum, Thu 5 kharche, Fri 6 FD, Sat 7 Riya vs Aman (+ carousel 11:00), Sun 8 IG repost 10:00 → next run produces Sun 8 Nov (YT/FB/IG 18:00).
