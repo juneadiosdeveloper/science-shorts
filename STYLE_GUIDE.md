@@ -330,3 +330,12 @@ YouTube/Facebook: the same Short goes to both at 16:00; YouTube first comment = 
 - Lip-sync outro <= 5 s (send-to line + A/B question only); the follow line goes on screen. A 7.9 s outro costs ~4.8k ElevenLabs credits.
 - Comment CTA: prefer an identity A/B question ("Aap Riya ho ya Aman?") over a number question; put the "send to" person inside the story itself.
 - HeyGen clip can be ~0.15 s shorter than its audio: end the talk slot at the clip length (real.py refuses shorter clips).
+
+## LIP-SYNC TEST (owner, 2 Nov 2026: "let's try this on one video")
+- Sun 8 Nov Short = the test: same presenter face (portrait task ed8090cd..., no new face, cute/friendly, never "sexy"), she talks to camera for
+  ~60% of the video (hook + 1-2 mid lines + outro as lip-sync, b-roll only between), new shot every 2-3 s, 25-30 s, rest of the recipe unchanged.
+  Budget ~15k ElevenLabs. Tag it "LIP-SYNC TEST" in performance_log.
+- Compare at 48 h (Tue 10 Nov) vs the normal realistic Shorts of 2-7 Nov: YT views, engaged/views, avg % viewed, subs; IG reach, 3-s hold, shares, follows.
+  Win = clearly better views or follows → switch the recipe and ask Junaid to top up ElevenLabs then (link: https://elevenlabs.io/app/subscription).
+- ElevenLabs is low (~31k est. on 2 Nov) and Junaid tops up only after the test: Shorts for 9-10 Nov use hook-only lip-sync (no outro lip-sync,
+  outro as voice-over on b-roll) to stay under ~4k each. If the estimate falls under ~5k, skip lip-sync entirely and push-notify him.
