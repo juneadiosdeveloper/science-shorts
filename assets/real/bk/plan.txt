@@ -1,0 +1,15 @@
+# start end clip overlay  (vo = per-line TTS trimmed, atempo 1.25, 0.15 s gaps; line 7 "rule" cut from voice, on screen in bk11). LIP-SYNC TEST: 4 talk clips split a/b (b = 1.15x punch-in)
+0.000 2.880 talk_1a.mp4 0
+2.880 5.856 talk_1b.mp4 1
+5.856 7.700 b_key.mp4 2
+7.700 9.678 r_amanhappy.mp4 3
+9.678 11.550 b_pat.mp4 4
+11.550 13.578 r_calc.mp4 5
+13.578 15.938 talk_4a.mp4 6
+15.938 18.178 talk_4b.mp4 7
+18.178 20.600 r_amanstress.mp4 8
+20.600 23.182 r_bill.mp4 9
+23.182 25.102 talk_6a.mp4 10
+25.102 27.140 talk_6b.mp4 11
+27.140 29.580 talk_8a.mp4 12
+29.580 31.880 talk_8b.mp4 13
