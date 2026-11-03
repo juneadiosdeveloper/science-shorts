@@ -321,3 +321,27 @@ Instagram Reels lifetime: salary (31 Oct) reach 430 (was 209 at 15 h) / 486 view
   Alt title (Test & Compare, unscored, vidIQ 0): "25 vs 35 Mein Investing: ₹1.48 Crore vs ₹95 Lakh 🤯 #shorts".
   Credits: ElevenLabs ~8.5k; Runway 279 (9 stills 54 + 9 gen-4-turbo clips 225), left 2,515; vidIQ 0. clipcheck: all 9 clips PASS, contact sheet clean.
 - Queue now: Mon 2 home-loan galtiyan, Tue 3 credit card (+ carousel 11:00), Wed 4 lump sum, Thu 5 kharche, Fri 6 FD, Sat 7 Riya vs Aman (+ carousel 11:00), Sun 8 IG repost 10:00 → next run produces Sun 8 Nov (YT/FB/IG 18:00).
+
+## 2026-11-03 (Tue)
+**Checks:** Mon 2 Nov home-loan galtiyan PUBLISHED on YT (p9ESCG_aVsw), FB (reel 1627535656052731), IG Reel (DfPT9-ikWYM) + auto Story 412136018. No ERROR posts; no YouTube/Instagram/Metricool/Runway/ElevenLabs mails (Gmail, 2 days). Today's posts (credit card YT 411957711 / FB 411957717 16:00, IG 411957722 18:00, Story 412136033, carousel 412659168 11:00) PENDING. Old drafts 4085525xx/4096767xx/4103295xx stay unused.
+**Plans:** Runway 2,459 (purchased; fine for ~9 Shorts). vidIQ 0 (resets 24 Nov). Metricool upgraded. ElevenLabs est. ~31k → ~17.8k after today's lip-sync test (13.2k). Already alerted on 2 Nov; top-up decision after the test on 10 Nov. Next Shorts use hook-only lip-sync (~3k) → re-alert only if the estimate falls under ~5k.
+**Numbers (Metricool):** YouTube subs 3 (no change). Per-video lifetime (all videos connector, data to 31 Oct): realistic Shorts 22-24 Oct 24 / 64 / 88 views; animated Shorts 26-31 Oct 2-8 views; long video 12. Daily views 28-30 Oct 2 / 15 / 1, 31 Oct-2 Nov not filled yet. First realistic Short of the new run (credit card) goes live today 16:00.
+Instagram Reels lifetime: home-loan galtiyan (2 Nov, <1 day) reach 866 / 997 views / avg 14.6 s / 68% past 3 s / 15 likes / 4 saves / 0 shares / 1 comment (2nd best Reel ever, best 3-s hold); F&O 337 / 62%; salary 431 / 63%; 40 crore 1,102. IG followers 5 (+1). Account reach 31 Oct 309, 1 Nov 310, 2 Nov 1,005.
+**What it says:** (1) numbered "galtiyan" list Reels keep winning on IG (5 mistakes 710, home-loan galtiyan 866 in a day, 68% hold) vs story/comparison Reels (~330-430); (2) shares are still ~0 on every Reel since 28 Oct: the named "send to" person is in the caption but not yet felt in the video; (3) YouTube: cartoon Shorts got 2-8 views, realistic 24-88: the realistic run (3-8 Nov) is the real test.
+**Improvements applied:**
+1. LIP-SYNC TEST Short built for Sun 8 Nov (owner test): she talks to camera ~59% of the video (hook, 2 mid lines, outro), every talk clip split into normal + 1.15x punch-in so the shot changes every ~2-2.5 s (14 shots in 31.9 s).
+2. Interactive A/B quiz from frame 1 ("₹1 LAKH BONUS: A) bike loan B) credit card") + the "send to" person spoken in the video ("us dost ko bhejo jo card ka sirf minimum bharta hai") + identity question ("Aap A ho ya B?") to push comments and shares.
+3. HeyGen pricing learned: Avatar 4 bills in steps (≤5 s = 3,030 credits, ≤6 s = 3,636). Keep every talk clip ≤ 5.0 s incl. padding (today's 5.9 s hook cost 606 extra).
+
+**Produced today:** Sun 8 Nov Short "Kaunsa Loan Pehle Chukaye? ₹50,000 Ka Farak 😱 #shorts" → videos/bonus_bike_ya_card_real.mp4 (31.9 s, realistic presenter, LIP-SYNC TEST: 4 HeyGen 9:16 expressive clips). Project assets/real/bk, overlays short3d "bk".
+  STANDING RULE #1 source: warikoo "How To Pay Off Your Loans FAST? | Leave the EMI TRAP Forever!" (3.8M, highest unused replicable idea on OutlierKit's warikoo list): pay the costliest debt first. Our story/numbers.
+  SHARE TEST: relatable 5 (bonus + EMIs + card), not common knowledge 4 (most close the "loan" because an EMI disappears), surprising ₹ number 4 (~₹50,000), send-to trigger 4 ("jo card ka sirf minimum bharta hai") = 17/20.
+  Hooks: chosen "₹1 lakh bonus: bike loan ya credit card? A ya B?"; runners-up "Ek EMI kam = ₹50,000 ka nuksaan?", "Bonus aaya? Pehle ye loan chukao".
+  Numbers (Python): card ₹1,00,000 × (1.035^12 − 1) = ₹51,107 + 18% GST ₹9,199 = ₹60,306; bike ₹1,00,000 × ((1+0.10/12)^12 − 1) = ₹10,471; difference ₹49,835. Assumption on screen: no payment for 1 year (comparison only).
+  Line 7 ("rule: sabse mehenga byaaj, sabse pehle") cut from the voice for length, on screen in shot 12. Voice atempo 1.25.
+  Reused 4 older shots (ra Aman sofa + stressed, fd calculator, cc bill shock); 1 new Aman-with-bike still + 2 gen-4-turbo clips (clipcheck PASS, contact sheet clean).
+  Metricool (scheduled): YT 414827242 (16:00, best Sun hour 5,648), FB Reel 414827273 (16:00), IG Reel 414827303 (18:00), IG Story 414827316 (18:10, auto, story_bonus_bike_card.jpg).
+  Alt title (Test & Compare, unscored, vidIQ 0): "₹1 Lakh Bonus: Bike Loan Ya Credit Card? 🤯 #shorts".
+  Credits: ElevenLabs ~13.2k (TTS 492 + HeyGen 3,636 + 3 × 3,030); Runway 56 (1 still 6 + 2 clips 50), left 2,459; vidIQ 0.
+- Compare on Tue 10 Nov (48 h): this LIP-SYNC TEST vs realistic Shorts of 3-7 Nov (YT views, engaged/views, avg % viewed, subs; IG reach, 3-s hold, shares, follows).
+- Queue now: Tue 3 credit card (+ carousel 11:00), Wed 4 lump sum, Thu 5 kharche, Fri 6 FD, Sat 7 Riya vs Aman (+ carousel 11:00), Sun 8 bonus A/B (lip-sync test) + IG repost 10:00 → next run produces Mon 9 Nov (hook-only lip-sync).

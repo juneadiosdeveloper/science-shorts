@@ -14,7 +14,7 @@
   "5 STUPID mistakes WEALTHY people never make!" (1.6M) → 5 money mistakes Short; warikoo "40 CRORES from a 10,000 INR SALARY?" (5.07M) → 40 crore Short;
   warikoo "30,000 vs 3,00,000 vs 3,00,00,000 INR Per Month" (~1.2M) → ₹30k vs ₹3 lakh salary Short (27 Oct);
   Sharan "The Ugly Truth Behind ₹15Cr Trading" → F&O 93% Short (27 Oct); warikoo "Home Loan Mistakes That Cost You LAKHS" (~1.2M) → home loan 3 galtiyan Short (28 Oct);
-  warikoo "Make regular income from your investments" (4.6M) → FD asli return Short (1 Nov, Fri 6 Nov); warikoo "AAPKE 20s ke liye COMPLETE FINANCIAL PLANNING" (3.8M) → Riya vs Aman 5 saal Short (2 Nov, Sat 7 Nov). Next: run vidIQ outliers when credits reset (24 Nov); until then use the OutlierKit warikoo/Sharan lists in this file.
+  warikoo "Make regular income from your investments" (4.6M) → FD asli return Short (1 Nov, Fri 6 Nov); warikoo "AAPKE 20s ke liye COMPLETE FINANCIAL PLANNING" (3.8M) → Riya vs Aman 5 saal Short (2 Nov, Sat 7 Nov); warikoo "How To Pay Off Your Loans FAST? Leave the EMI TRAP" (3.8M) → bonus: bike loan ya card? (3 Nov, Sun 8 Nov, lip-sync test). Next unused on the list: "Why Gen Z STOPPED Saving" (2.4M), "BUYING a 50L HOUSE Without a LOAN" (2.0M), "How To INVEST in GOLD and SILVER" (1.4M, education only, no products). Next: run vidIQ outliers when credits reset (24 Nov); until then use the OutlierKit warikoo/Sharan lists in this file.
 
 Approved format (23 Oct 2026): realistic AI Indian woman presenter (same face every video, from
 Runway portrait task ed8090cd-8324-47c0-803c-fae8673e2b3a), sweet Hindi female voice "Pyaari"
@@ -339,3 +339,7 @@ YouTube/Facebook: the same Short goes to both at 16:00; YouTube first comment = 
   Win = clearly better views or follows → switch the recipe and ask Junaid to top up ElevenLabs then (link: https://elevenlabs.io/app/subscription).
 - ElevenLabs is low (~31k est. on 2 Nov) and Junaid tops up only after the test: Shorts for 9-10 Nov use hook-only lip-sync (no outro lip-sync,
   outro as voice-over on b-roll) to stay under ~4k each. If the estimate falls under ~5k, skip lip-sync entirely and push-notify him.
+- HeyGen Avatar 4 bills in steps: a clip up to 5.0 s = 3,030 credits, up to 6.0 s = 3,636. Keep each talk clip (audio incl. padding) <= 5.0 s.
+- Interactive split: cut every talk clip into normal + 1.15x punch-in halves (assets/real/bk/split.sh) so a 4-5 s talk line still changes shot every ~2-2.5 s.
+- Cloud fetch: ElevenLabs audio/video URLs (elevenlabsusercontent.com) are blocked from the sandbox too: put them in fetch/list.txt. Do not push anything else while the
+  fetch Action runs (its commit step fails on a non-fast-forward; re-push the list to retry).
