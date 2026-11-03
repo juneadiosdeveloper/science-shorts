@@ -310,7 +310,56 @@ def ra10(img, t, d):                    # talk outro
     big(img, "JO \"BAAD MEIN\" BOLTA HAI", 320, 84, GOLD, on(t, 1.0))
     caption_box(img, [("Aap RIYA ho ya AMAN? Comment karo", WHITE), ("Follow karo: roz ek tricky paisa fact", GOLD)], on(t, 3.6))
 
-SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10]}
+# ---------- Bonus: bike loan ya card? (realistic, LIP-SYNC TEST, Sun 8 Nov; idea: warikoo "How To Pay Off Your Loans FAST? Leave the EMI TRAP" 3.8M -> costliest debt first) ----------
+def bk0(img, t, d):                     # talk hook a: Rs figure on frame 1
+    big(img, "₹1 LAKH BONUS", 200, 116, WHITE, 1.0)
+    big(img, "KAHAN LAGAOGE?", 330, 104, GOLD, 1.0)
+def bk1(img, t, d):                     # talk hook b (punch-in)
+    big(img, "A) BIKE LOAN", 200, 104, WHITE, 1.0)
+    big(img, "B) CREDIT CARD", 320, 104, GOLD, 1.0)
+    caption_box(img, [("Socho: A ya B? Comment mein likho", GOLD)], on(t, 1.4))
+def bk2(img, t, d):
+    big(img, "AMAN NE A CHUNA", 200, 104, WHITE, 1.0)
+    big(img, "BIKE LOAN KHATAM", 320, 100, MINT, on(t, .4))
+def bk3(img, t, d):
+    big(img, "EK EMI KAM", 200, 116, WHITE, 1.0)
+    big(img, "DIL KHUSH :)", 330, 110, MINT, on(t, .6))
+def bk4(img, t, d):
+    big(img, "BIKE LOAN", 200, 116, WHITE, 1.0)
+    big(img, "10% SAALANA", 330, 116, GOLD, on(t, .3))
+def bk5(img, t, d):
+    big(img, "SAAL KA BYAAJ", 200, 104, WHITE, 1.0)
+    big(img, "~₹10,000", 320, 140, GOLD, on(t, .5))
+    caption_box(img, [("₹1 lakh baaki, 10% saalana, 1 saal (sirf tulna)", SOFT)], on(t, .2))
+def bk6(img, t, d):                     # talk 4a
+    big(img, "PAR CARD PE?", 200, 112, WHITE, 1.0)
+    big(img, "3.5% / MAHINA", 330, 112, RED, on(t, 1.0))
+def bk7(img, t, d):                     # talk 4b (punch-in)
+    big(img, "YAANI SAAL KA", 200, 104, WHITE, 1.0)
+    big(img, "42%!", 320, 150, RED, on(t, .6))
+def bk8(img, t, d):
+    big(img, "₹1 LAKH CARD PE", 200, 104, WHITE, 1.0)
+    big(img, "1 SAAL", 330, 116, RED, on(t, .6))
+    caption_box(img, [("Maana: beech mein koi payment nahi", SOFT)], on(t, .3))
+def bk9(img, t, d):
+    big(img, "BYAAJ + GST", 200, 110, WHITE, 1.0)
+    big(img, "₹60,306!", 320, 140, RED, on(t, .9))
+    caption_box(img, [("₹1L × (1.035^12 − 1) = ₹51,107 + 18% GST", SOFT)], on(t, .3))
+def bk10(img, t, d):                    # talk 6a
+    big(img, "EK GALAT CHOICE", 200, 104, WHITE, 1.0)
+    big(img, "= ?", 320, 130, GOLD, 1.0)
+def bk11(img, t, d):                    # talk 6b (punch-in)
+    big(img, "~₹50,000", 200, 140, RED, 1.0)
+    big(img, "KA NUKSAAN", 340, 104, WHITE, 1.0)
+    caption_box(img, [("RULE: sabse mehenga byaaj, sabse PEHLE", GOLD), ("₹60,306 − ₹10,471 = ₹49,835", SOFT)], on(t, .3))
+def bk12(img, t, d):                    # talk outro a
+    big(img, "BHEJO US DOST KO", 200, 98, WHITE, 1.0)
+    big(img, "JO SIRF MINIMUM BHARTA HAI", 320, 74, GOLD, on(t, .9))
+def bk13(img, t, d):                    # talk outro b (punch-in)
+    big(img, "AAP A HO YA B?", 200, 110, GOLD, 1.0)
+    caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .4))
+
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)
