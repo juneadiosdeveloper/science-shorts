@@ -343,3 +343,8 @@ YouTube/Facebook: the same Short goes to both at 16:00; YouTube first comment = 
 - Interactive split: cut every talk clip into normal + 1.15x punch-in halves (assets/real/bk/split.sh) so a 4-5 s talk line still changes shot every ~2-2.5 s.
 - Cloud fetch: ElevenLabs audio/video URLs (elevenlabsusercontent.com) are blocked from the sandbox too: put them in fetch/list.txt. Do not push anything else while the
   fetch Action runs (its commit step fails on a non-fast-forward; re-push the list to retry).
+
+## Owner (4 Nov 2026): "AI girl giving more views"
+- Data agrees on YouTube: realistic AI presenter Shorts 24 / 64 / 88 views vs animated cartoon Shorts 2-15 (same weeks). Every new Short stays the realistic AI girl.
+- Watch Instagram separately: the first realistic Reel (credit card, 3 Nov) held 40% past 3 s at <1 day vs 60-68% for the animated list Reels. Review on 5-6 Nov;
+  if realistic Reels keep < 50% on IG, fix the IG hook (bigger ₹ figure + her question in the first 0.5 s), not the character.
