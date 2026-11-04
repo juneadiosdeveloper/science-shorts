@@ -345,3 +345,24 @@ Instagram Reels lifetime: home-loan galtiyan (2 Nov, <1 day) reach 866 / 997 vie
   Credits: ElevenLabs ~13.2k (TTS 492 + HeyGen 3,636 + 3 × 3,030); Runway 56 (1 still 6 + 2 clips 50), left 2,459; vidIQ 0.
 - Compare on Tue 10 Nov (48 h): this LIP-SYNC TEST vs realistic Shorts of 3-7 Nov (YT views, engaged/views, avg % viewed, subs; IG reach, 3-s hold, shares, follows).
 - Queue now: Tue 3 credit card (+ carousel 11:00), Wed 4 lump sum, Thu 5 kharche, Fri 6 FD, Sat 7 Riya vs Aman (+ carousel 11:00), Sun 8 bonus A/B (lip-sync test) + IG repost 10:00 → next run produces Mon 9 Nov (hook-only lip-sync).
+
+## 2026-11-04 (Wed)
+**Checks:** Tue 3 Nov credit card Short PUBLISHED on YT (Ch6TtsbrHI0), FB (reel 3375155402873142), IG Reel (DfR42Y6CYKO), auto Story 412136033 and carousel 412659168 (DfRIxmZioMr). No ERROR posts; no YouTube/Instagram/Metricool/Runway/ElevenLabs mails (Gmail, 2 days). Today's lump-sum posts (YT 411957985 / FB 411957992 16:00, IG 411958000 18:00, Story 412136042) PENDING; old drafts (409676xxx, 410329xxx, 410801443) stay unused.
+**Plans:** Runway 2,419 → 2,158 after today (purchased; ~10 more Shorts). vidIQ 0 (resets 24 Nov). Metricool upgraded. ElevenLabs est. ~17.8k → ~15.0k after today (TTS 398 + HeyGen 2,424) = ~5 more hook-only Shorts → runs out around the 9-10 Nov production run → alert re-sent (top-up link) since the 10 Nov test decision is the same day.
+**Numbers (Metricool):** YouTube subs 3 (no change). Per-video (data to 1 Nov): F&O 15 views (avg 14 s), salary 4, home-loan EMI 7, 40 crore 8; realistic Shorts 22-24 Oct still the best (24 / 64 / 88). Daily views 28-31 Oct 2 / 15 / 1 / 7; 1-3 Nov not filled yet.
+Instagram Reels lifetime: credit card (3 Nov, first realistic Reel, ~16 h) reach 61 / 81 views / avg 7.2 s / 40% past 3 s / 0 likes / 0 saves / 0 shares / 1 comment; home-loan galtiyan (animated list) 921 / 68%; F&O 338 / 62%; salary 431 / 63%; 40 crore 1,102 (flat). IG account: 5 followers.
+**What it says:** (1) the first realistic Reel is far weaker on IG than the animated list Reels at the same age (61 vs 866 reach, 40% vs 68% hold) while realistic wins on YouTube (24-88 vs 2-15 views); one data point, re-check 5-6 Nov after the FD + lump-sum Reels. (2) "numbered list + ₹ in frame 1" is what won on IG (5 mistakes, galtiyan) → put that structure inside the realistic format. (3) YouTube Studio data for 2-3 Nov not in yet; the realistic run's 48 h check stays on Thu-Fri.
+**Improvements applied:**
+1. Mon 9 Nov Short = realistic presenter + numbered list ("KHARCHA #1 / #2 / #3") with the ₹ claim on screen from frame 1 and spoken at 0.0 s ("₹50 lakh ka ghar, asal mein ₹97 lakh ka? Haan ya naa?"): combines what wins on YouTube (presenter) with what wins on IG (list + ₹ figure).
+2. HeyGen tier learned: a talk clip ≤ 4.0 s (audio incl. padding) costs 2,424 credits vs 3,030 for ≤ 5.0 s → keep the hook line ≤ 3.75 s spoken. Today's Short used 2.8k ElevenLabs in total (was 3.6-13.2k).
+3. First video in the new saree look (owner, 4 Nov): HeyGen image + all b-roll of her from saree portrait b43b0c4f; no old kurta shots of her (dropped r_calc), only a kurta-free Aman shot reused.
+
+**Produced today:** Mon 9 Nov Short "Ghar Ka Asli Kharcha: ₹50 Lakh = ₹97 Lakh? 😱 #shorts" → videos/ghar_97_lakh_real.mp4 (30.6 s, realistic presenter, saree look, 14 shots ~2.2 s, hook-only lip-sync split a/b, outro voice-over on b-roll). Project assets/real/gh, overlays short3d "gh".
+  STANDING RULE #1 source: warikoo "BUYING a 50L HOUSE Without a LOAN" (~2.0M, next unused on the list): the true cost of a ₹50 lakh house. Our script/numbers.
+  SHARE TEST: relatable 5 (ghar lena), not common knowledge 4 (most people never add down payment + stamp duty + total EMIs), surprising ₹ number 5 (₹50L → ~₹97L), send-to trigger 5 ("us dost ko jo ghar lene wala hai") = 19/20.
+  Hooks: chosen "₹50 lakh ka ghar, asal mein ₹97 lakh ka? Haan ya naa?"; runners-up "Ghar ki price tag jhooth bolti hai?", "₹43 lakh sirf byaaj, ghar ₹50 lakh ka?".
+  Numbers (Python): 20% down ₹10,00,000; loan ₹40,00,000 @8.5%, 240 months → EMI ₹34,713, total EMIs ₹83,31,103, interest ₹43,31,103; stamp duty + registration ~7% example ₹3,50,000; all-in ₹96,81,103.
+  Metricool (scheduled): YT 416079268 (16:00), FB Reel 416079285 (16:00), IG Reel 416079299 (18:00), IG Story 416079311 (18:10, auto, story_ghar_97_lakh.jpg).
+  Alt title (Test & Compare, unscored, vidIQ 0): "₹50 Lakh Ka Ghar Asli Mein ₹97 Lakh Ka? 🤯 #shorts".
+  Credits: ElevenLabs ~2.8k (TTS 398 + HeyGen 2,424); Runway 261 (6 stills 36 + 9 gen-4-turbo clips 225), left 2,158; vidIQ 0. clipcheck: 10/10 PASS; contact sheet: c6 (odd arm raise) not used.
+- Queue now: Wed 4 lump sum, Thu 5 kharche, Fri 6 FD, Sat 7 Riya vs Aman (+ carousel 11:00), Sun 8 bonus A/B (lip-sync test) + IG repost 10:00, Mon 9 ghar ₹97 lakh → next run produces Tue 10 Nov (+ Tue carousel 11:00).

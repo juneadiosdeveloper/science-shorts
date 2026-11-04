@@ -14,7 +14,7 @@
   "5 STUPID mistakes WEALTHY people never make!" (1.6M) → 5 money mistakes Short; warikoo "40 CRORES from a 10,000 INR SALARY?" (5.07M) → 40 crore Short;
   warikoo "30,000 vs 3,00,000 vs 3,00,00,000 INR Per Month" (~1.2M) → ₹30k vs ₹3 lakh salary Short (27 Oct);
   Sharan "The Ugly Truth Behind ₹15Cr Trading" → F&O 93% Short (27 Oct); warikoo "Home Loan Mistakes That Cost You LAKHS" (~1.2M) → home loan 3 galtiyan Short (28 Oct);
-  warikoo "Make regular income from your investments" (4.6M) → FD asli return Short (1 Nov, Fri 6 Nov); warikoo "AAPKE 20s ke liye COMPLETE FINANCIAL PLANNING" (3.8M) → Riya vs Aman 5 saal Short (2 Nov, Sat 7 Nov); warikoo "How To Pay Off Your Loans FAST? Leave the EMI TRAP" (3.8M) → bonus: bike loan ya card? (3 Nov, Sun 8 Nov, lip-sync test). Next unused on the list: "Why Gen Z STOPPED Saving" (2.4M), "BUYING a 50L HOUSE Without a LOAN" (2.0M), "How To INVEST in GOLD and SILVER" (1.4M, education only, no products). Next: run vidIQ outliers when credits reset (24 Nov); until then use the OutlierKit warikoo/Sharan lists in this file.
+  warikoo "Make regular income from your investments" (4.6M) → FD asli return Short (1 Nov, Fri 6 Nov); warikoo "AAPKE 20s ke liye COMPLETE FINANCIAL PLANNING" (3.8M) → Riya vs Aman 5 saal Short (2 Nov, Sat 7 Nov); warikoo "How To Pay Off Your Loans FAST? Leave the EMI TRAP" (3.8M) → bonus: bike loan ya card? (3 Nov, Sun 8 Nov, lip-sync test); "BUYING a 50L HOUSE Without a LOAN" (2.0M) → ghar ₹97 lakh (4 Nov, Mon 9 Nov). Next unused on the list: "Why Gen Z STOPPED Saving" (2.4M), "How To INVEST in GOLD and SILVER" (1.4M, education only, no products). Next: run vidIQ outliers when credits reset (24 Nov); until then use the OutlierKit warikoo/Sharan lists in this file.
 
 Approved format (23 Oct 2026): realistic AI Indian woman presenter (same face every video, from
 Runway portrait task ed8090cd-8324-47c0-803c-fae8673e2b3a), sweet Hindi female voice "Pyaari"
@@ -356,3 +356,9 @@ YouTube/Facebook: the same Short goes to both at 16:00; YouTube first comment = 
 - "Cuter every day" = fresher styling, never a different face or a more revealing look: rotate saree colours (peach, mint, mustard, lavender, red-on-festival days),
   flowers/jhumkas, bright smile, warm light. Face stays the same so viewers recognise the channel. Always modest and family-friendly.
 - A new face is tested only as a one-video A/B when the data says the presenter (not the hook/topic) is the problem.
+
+## Cost + IG rules (4 Nov 2026)
+- HeyGen Avatar 4 tiers: talk clip <= 4.0 s (audio incl. padding) = 2,424 credits, <= 5.0 s = 3,030, <= 6.0 s = 3,636. Hook line spoken <= 3.75 s.
+- Realistic Shorts keep the IG winning structure: numbered list on screen ("KHARCHA #1/#2/#3", "GALTI #1..."), ₹ claim in frame 1, named send-to person.
+- Watch: first realistic Reel (credit card) had 61 reach / 40% hold at ~16 h vs 866 / 68% for the animated list Reel. If the next 2 realistic Reels also stay < 50% hold,
+  test an IG-only variant (same video, list headline + ₹ number bigger in the first 0.5 s, or a TRIAL_REEL with a new hook) before changing the character.
