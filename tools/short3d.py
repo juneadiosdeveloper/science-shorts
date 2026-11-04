@@ -359,7 +359,57 @@ def bk13(img, t, d):                    # talk outro b (punch-in)
     big(img, "AAP A HO YA B?", 200, 110, GOLD, 1.0)
     caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .4))
 
-SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13]}
+# ---------- Ghar ka asli kharcha (realistic, saree look, Mon 9 Nov; idea: warikoo "BUYING a 50L HOUSE Without a LOAN" ~2.0M) ----------
+def gh0(img, t, d):                     # talk hook a: Rs figure on frame 1
+    big(img, "₹50 LAKH KA GHAR", 200, 104, WHITE, 1.0)
+    big(img, "= ₹97 LAKH?", 330, 128, GOLD, 1.0)
+def gh1(img, t, d):                     # talk hook b (punch-in)
+    big(img, "HAAN YA NAA?", 200, 120, GOLD, 1.0)
+    caption_box(img, [("Comment mein likho: HAAN ya NAA", WHITE)], on(t, .5))
+def gh2(img, t, d):
+    big(img, "KHARCHA #1", 200, 104, WHITE, 1.0)
+    big(img, "20% DOWN PAYMENT", 320, 96, GOLD, on(t, .4))
+def gh3(img, t, d):
+    big(img, "= ₹10 LAKH", 200, 128, GOLD, 1.0)
+    big(img, "APNI JEB SE", 340, 96, WHITE, on(t, .5))
+    caption_box(img, [("Bank aam taur pe ~80% tak hi loan deta hai", SOFT)], on(t, .2))
+def gh4(img, t, d):
+    big(img, "KHARCHA #2", 200, 104, WHITE, 1.0)
+    big(img, "STAMP DUTY + REGISTRATION", 320, 70, GOLD, on(t, .4))
+def gh5(img, t, d):
+    big(img, "~₹3.5 LAKH", 200, 128, RED, 1.0)
+    big(img, "AUR!", 340, 104, WHITE, on(t, .6))
+    caption_box(img, [("Udaharan: ~7% (har state mein alag)", SOFT)], on(t, .2))
+def gh6(img, t, d):
+    big(img, "KHARCHA #3", 200, 104, WHITE, 1.0)
+    big(img, "₹40 LAKH LOAN", 320, 110, GOLD, on(t, .4))
+def gh7(img, t, d):
+    big(img, "20 SAAL", 200, 116, WHITE, 1.0)
+    big(img, "8.5% BYAAJ", 330, 110, GOLD, on(t, .3))
+    caption_box(img, [("Rate sirf udaharan, aapka alag ho sakta hai", SOFT)], on(t, .2))
+def gh8(img, t, d):
+    big(img, "EMI ₹34,713", 200, 116, WHITE, 1.0)
+    big(img, "KUL BYAAJ?", 330, 110, GOLD, on(t, 1.0))
+def gh9(img, t, d):
+    big(img, "₹43.3 LAKH!", 200, 136, RED, 1.0)
+    big(img, "SIRF BYAAJ", 340, 96, WHITE, on(t, .4))
+    caption_box(img, [("₹34,713 × 240 = ₹83.3 lakh − ₹40 lakh loan", SOFT)], on(t, .2))
+def gh10(img, t, d):
+    big(img, "SAB JODO", 200, 120, WHITE, 1.0)
+    caption_box(img, [("₹10L + ₹3.5L + ₹83.3L (240 EMI)", GOLD)], on(t, .3))
+def gh11(img, t, d):
+    big(img, "~₹97 LAKH!", 200, 140, RED, 1.0)
+    big(img, "₹50 LAKH KA GHAR", 340, 90, WHITE, 1.0)
+    caption_box(img, [("Maintenance, interiors alag", SOFT)], on(t, .3))
+def gh12(img, t, d):
+    big(img, "BHEJO US DOST KO", 200, 98, WHITE, 1.0)
+    big(img, "JO GHAR LENE WALA HAI", 320, 80, GOLD, on(t, .9))
+def gh13(img, t, d):
+    big(img, "GHAR LOGE", 200, 110, GOLD, 1.0)
+    big(img, "YA KIRAYA?", 320, 110, WHITE, 1.0)
+    caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .3))
+
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13], "gh": [gh0, gh1, gh2, gh3, gh4, gh5, gh6, gh7, gh8, gh9, gh10, gh11, gh12, gh13]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)
