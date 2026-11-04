@@ -348,3 +348,11 @@ YouTube/Facebook: the same Short goes to both at 16:00; YouTube first comment = 
 - Data agrees on YouTube: realistic AI presenter Shorts 24 / 64 / 88 views vs animated cartoon Shorts 2-15 (same weeks). Every new Short stays the realistic AI girl.
 - Watch Instagram separately: the first realistic Reel (credit card, 3 Nov) held 40% past 3 s at <1 day vs 60-68% for the animated list Reels. Review on 5-6 Nov;
   if realistic Reels keep < 50% on IG, fix the IG hook (bigger ₹ figure + her question in the first 0.5 s), not the character.
+
+## Owner (4 Nov 2026): cuter girl, saree from the next video
+- New presenter portrait from Mon 9 Nov: SAME face, peach-pink chiffon saree with a thin gold border, small bindi, gold jhumkas, jasmine in hair, bright warm smile.
+  Runway task b43b0c4f-142d-43ed-87c7-c115fe4aaaa6 (runner-up a53f5b2e-77ba-4357-8d54-24d061c093aa); copies in fetched/saree_p2.png / saree_p1.png.
+  Use it as the HeyGen image AND the reference for every b-roll still of her. Never mix saree and old kurta shots of her in one video (old kurta clips: only shots without her).
+- "Cuter every day" = fresher styling, never a different face or a more revealing look: rotate saree colours (peach, mint, mustard, lavender, red-on-festival days),
+  flowers/jhumkas, bright smile, warm light. Face stays the same so viewers recognise the channel. Always modest and family-friendly.
+- A new face is tested only as a one-video A/B when the data says the presenter (not the hook/topic) is the problem.
