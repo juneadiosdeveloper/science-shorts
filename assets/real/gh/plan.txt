@@ -1,0 +1,15 @@
+# start end clip overlay (vo = per-line TTS trimmed, atempo 1.25, 0.15 s gaps). Hook-only lip-sync (talk_1 split a/b, b = 1.15x punch-in); outro = voice-over on b-roll.
+0.000 1.850 talk_1a.mp4 0
+1.850 3.861 talk_1b.mp4 1
+3.861 6.100 c7.mp4 2
+6.100 8.442 c1.mp4 3
+8.442 10.700 c9.mp4 4
+10.700 13.037 c3.mp4 5
+13.037 15.000 c8.mp4 6
+15.000 17.000 c1b.mp4 7
+17.000 19.300 c4.mp4 8
+19.300 21.822 r_amanstress.mp4 9
+21.822 23.800 c2.mp4 10
+23.800 25.910 c8b.mp4 11
+25.910 28.200 c5a.mp4 12
+28.200 30.537 c5b.mp4 13
