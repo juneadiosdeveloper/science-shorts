@@ -1,0 +1,9 @@
+# Mon 9 Nov Short. Idea source (STANDING RULE #1): warikoo "BUYING a 50L HOUSE Without a LOAN" (~2.0M) -> the real all-in cost of a ₹50 lakh house.
+# Numbers (Python): price ₹50,00,000; 20% down ₹10,00,000; loan ₹40,00,000 @8.5% p.a. reducing, 240 months -> EMI ₹34,713, total EMIs ₹83,31,103, interest ₹43,31,103; stamp duty + registration ~7% (example, varies by state) ₹3,50,000; all-in ₹96,81,103 (~₹97 lakh).
+1 T पचास लाख का घर, असल में सत्तानवे लाख का? हाँ या ना?
+2 B पहला खर्चा: बीस परसेंट डाउन पेमेंट। यानी दस लाख, अपनी जेब से।
+3 B दूसरा: स्टांप ड्यूटी और रजिस्ट्रेशन। लगभग साढ़े तीन लाख और।
+4 B तीसरा, सबसे बड़ा: चालीस लाख का लोन, बीस साल के लिए।
+5 B EMI चौंतीस हज़ार सात सौ। और कुल ब्याज? तैंतालीस लाख!
+6 B सब जोड़ो: पचास लाख का घर, लगभग सत्तानवे लाख में पड़ा।
+7 B ये वीडियो उस दोस्त को भेजो, जो घर लेने वाला है। आप घर लोगे, या किराया?
