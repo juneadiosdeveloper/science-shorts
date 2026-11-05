@@ -61,6 +61,16 @@ DECKS = {
   ("Twist", [("Ye sab 35 saal baad ke rupaye hain", WHITE), ("6% mehngai maano to ₹1.48 crore", WHITE), ("= aaj ke ~₹19 lakh", GOLD), ("", None), ("Aur ye farak sirf 25-30 ke", MINT), ("₹3 lakh ka kamaal hai", MINT)], GOLD, None),
   ("Save karo", [("Bhejo us dost ko jo kehta hai", WHITE), ("\"abhi toh umar hai\"", GOLD), ("", None), ("Comment: aapne kis umar mein", WHITE), ("shuru kiya? 25 / 30 / 35 / abhi nahi", SOFT)], MINT, "Follow @paisa_science"),
  ],
+ # Tue 10 Nov 11:00, companion of the gehna (gold jewellery) Short (numbers verified 5 Nov: sona ₹5,00,000; bill = sona × (1+making) × 1.03)
+ "gehna": [
+  ("₹5 lakh ka sona,\nbill ₹5.92 lakh?", [("Gehne ke 2 chupe kharche", WHITE), ("jo bechte waqt wapas nahi milte", WHITE), ("", None), ("Apna making % dhoondo, swipe karo", MINT)], GOLD, "Swipe karo  >>"),
+  ("#1 Making charge", [("Sone ki keemat ke upar % mein", WHITE), ("Aam taur pe ~8% se 25% tak", WHITE), ("Design jitna bareek, % utna zyada", WHITE), ("", None), ("Bechne par wapas nahi milta", RED)], GOLD, None),
+  ("#2 GST 3%", [("Sone + making, dono par 3%", WHITE), ("₹5,75,000 × 3% = ₹17,250", WHITE), ("", None), ("Ye bhi wapas nahi milta", RED)], GOLD, None),
+  ("Making % vs bill", [("Sona ₹5 lakh ka maano:", SOFT), ("8%: bill ₹5,56,200 (−₹56,200)", WHITE), ("15%: bill ₹5,92,250 (−₹92,250)", GOLD), ("25%: bill ₹6,43,750 (−₹1,43,750)", RED), ("", None), ("Barabari ke liye sona badhe:", WHITE), ("11.2% / 18.5% / 28.8%", MINT)], GOLD, None),
+  ("Bechne jao to?", [("Aam taur pe sirf sone ki keemat", WHITE), ("(weight × purity × us din ka rate)", SOFT), ("", None), ("Kai dukaanein katauti bhi", RED), ("karti hain: pehle poochho", RED)], GOLD, None),
+  ("Kharidne se pehle", [("1. Making charge kitna %?", MINT), ("2. Bill mein sona, making, GST", MINT), ("    alag-alag likha hai?", MINT), ("3. Wapas/exchange pe katauti?", MINT), ("4. Hallmark hai?", MINT)], GOLD, None),
+  ("Save karo", [("Bhejo us dost ko", WHITE), ("jiski shaadi hone wali hai", GOLD), ("", None), ("Comment: ghar mein gehna", WHITE), ("1) Nivesh  2) Shauk  3) Dono", SOFT)], MINT, "Follow @paisa_science"),
+ ],
 }
 
 def story(bg, out, lines):
