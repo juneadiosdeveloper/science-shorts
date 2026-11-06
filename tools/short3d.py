@@ -455,7 +455,54 @@ def gd13(img, t, d):
     big(img, "YA SHAUK?", 320, 116, WHITE, 1.0)
     caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .3))
 
-SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13], "gh": [gh0, gh1, gh2, gh3, gh4, gh5, gh6, gh7, gh8, gh9, gh10, gh11, gh12, gh13], "gd": [gd0, gd1, gd2, gd3, gd4, gd5, gd6, gd7, gd8, gd9, gd10, gd11, gd12, gd13]}
+# ---------- ₹15,000 salary se ₹1 crore (realistic, saree look, Wed 11 Nov; idea: warikoo "15,000 SALARY to 1 CRORE" ~3.0M) ----------
+def sl0(img, t, d):                     # talk hook a: Rs figure on frame 1
+    big(img, "₹15,000 SALARY", 200, 100, WHITE, 1.0)
+    big(img, "₹1 CRORE?", 330, 136, GOLD, 1.0)
+def sl1(img, t, d):                     # talk hook b (punch-in)
+    big(img, "HAAN YA NAA?", 200, 120, GOLD, 1.0)
+    caption_box(img, [("Comment mein likho: HAAN ya NAA", WHITE)], on(t, .5))
+def sl2(img, t, d):
+    big(img, "STEP #1", 200, 110, WHITE, 1.0)
+    big(img, "PEHLE BACHAO 20%", 320, 92, GOLD, on(t, .5))
+def sl3(img, t, d):
+    big(img, "₹3,000 / MAHINA", 200, 110, GOLD, 1.0)
+    caption_box(img, [("₹15,000 ka 20%, salary aate hi alag", SOFT)], on(t, .2))
+def sl4(img, t, d):
+    big(img, "12% SAALANA", 200, 110, WHITE, 1.0)
+    big(img, "(MAANA GAYA)", 320, 80, SOFT, 1.0)
+    caption_box(img, [("Sirf udaharan. Return guaranteed nahi.", SOFT)], on(t, .2))
+def sl5(img, t, d):
+    big(img, "₹1 CRORE =", 200, 104, WHITE, 1.0)
+    big(img, "~29.5 SAAL", 320, 128, RED, on(t, .2))
+    caption_box(img, [("₹3,000 har mahina, kabhi nahi badhaya", SOFT)], on(t, .2))
+def sl6(img, t, d):
+    big(img, "STEP #2", 200, 110, WHITE, 1.0)
+    big(img, "HAR HIKE PE BACHAT +10%", 320, 76, GOLD, on(t, .4))
+def sl7(img, t, d):
+    big(img, "₹3,000 → ₹3,300", 200, 100, GOLD, 1.0)
+    big(img, "→ ₹3,630 ...", 320, 96, WHITE, on(t, .6))
+    caption_box(img, [("Salary +10% / saal, bachat bhi +10%", SOFT), ("(bachat wahi 20% rehti hai)", SOFT)], on(t, .2))
+def sl8(img, t, d):
+    big(img, "₹1 CRORE", 200, 136, GOLD, 1.0)
+    big(img, "SIRF ~23.5 SAAL", 330, 100, WHITE, on(t, .5))
+def sl9(img, t, d):
+    big(img, "6 SAAL PEHLE!", 200, 116, MINT, 1.0)
+    caption_box(img, [("355 mahine vs 281 mahine (12% maana)", SOFT)], on(t, .2))
+def sl10(img, t, d):
+    big(img, "BADI SALARY NAHI", 200, 96, WHITE, 1.0)
+    big(img, "BADHTI BACHAT", 320, 110, GOLD, on(t, .4))
+def sl11(img, t, d):
+    big(img, "AMEER BANATI HAI", 200, 100, GOLD, 1.0)
+    caption_box(img, [("Dhyan: 23 saal baad ₹1 crore ki", SOFT), ("keemat mehngai se aaj se kam hogi", SOFT)], on(t, .2))
+def sl12(img, t, d):
+    big(img, "BHEJO US DOST KO", 200, 98, WHITE, 1.0)
+    big(img, "JISKI SALARY ₹15K HAI", 320, 84, GOLD, on(t, .7))
+def sl13(img, t, d):
+    big(img, "STEP 1 YA STEP 2?", 200, 100, GOLD, 1.0)
+    caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .3))
+
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13], "gh": [gh0, gh1, gh2, gh3, gh4, gh5, gh6, gh7, gh8, gh9, gh10, gh11, gh12, gh13], "sl": [sl0, sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9, sl10, sl11, sl12, sl13], "gd": [gd0, gd1, gd2, gd3, gd4, gd5, gd6, gd7, gd8, gd9, gd10, gd11, gd12, gd13]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)
