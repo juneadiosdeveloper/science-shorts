@@ -470,7 +470,7 @@ def sl3(img, t, d):
     caption_box(img, [("₹15,000 ka 20%, salary aate hi alag", SOFT)], on(t, .2))
 def sl4(img, t, d):
     big(img, "12% SAALANA", 200, 110, WHITE, 1.0)
-    big(img, "(MAANA GAYA)", 320, 80, SOFT, 1.0)
+    big(img, "(MAANA GAYA)", 335, 80, SOFT, 1.0)
     caption_box(img, [("Sirf udaharan. Return guaranteed nahi.", SOFT)], on(t, .2))
 def sl5(img, t, d):
     big(img, "₹1 CRORE =", 200, 104, WHITE, 1.0)
@@ -480,12 +480,12 @@ def sl6(img, t, d):
     big(img, "STEP #2", 200, 110, WHITE, 1.0)
     big(img, "HAR HIKE PE BACHAT +10%", 320, 76, GOLD, on(t, .4))
 def sl7(img, t, d):
-    big(img, "₹3,000 → ₹3,300", 200, 100, GOLD, 1.0)
-    big(img, "→ ₹3,630 ...", 320, 96, WHITE, on(t, .6))
+    big(img, "₹3,000, ₹3,300,", 200, 100, GOLD, 1.0)
+    big(img, "₹3,630 ...", 330, 100, WHITE, on(t, .6))
     caption_box(img, [("Salary +10% / saal, bachat bhi +10%", SOFT), ("(bachat wahi 20% rehti hai)", SOFT)], on(t, .2))
 def sl8(img, t, d):
     big(img, "₹1 CRORE", 200, 136, GOLD, 1.0)
-    big(img, "SIRF ~23.5 SAAL", 330, 100, WHITE, on(t, .5))
+    big(img, "SIRF ~23.5 SAAL", 355, 100, WHITE, on(t, .5))
 def sl9(img, t, d):
     big(img, "6 SAAL PEHLE!", 200, 116, MINT, 1.0)
     caption_box(img, [("355 mahine vs 281 mahine (12% maana)", SOFT)], on(t, .2))

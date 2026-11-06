@@ -1,0 +1,9 @@
+# Wed 11 Nov Short. Idea source (STANDING RULE #1): warikoo "15,000 SALARY to 1 CRORE" (~3.0M) -> how long Rs 15k salary takes to reach Rs 1 crore, and how growing the savings with every hike cuts ~6 years.
+# Numbers (Python): save 20% = Rs 3,000/month at start of month, 1%/month (12% p.a. assumed). Flat: 355 months (29.6 yr) to Rs 1 crore (Rs 1,00,61,070). Savings +10% every 12 months: 281 months (23.4 yr, Rs 1,01,21,270). Difference 74 months (~6.2 yr). (+15%/yr: 247 months.)
+1 T पंद्रह हज़ार की सैलरी से एक करोड़? हाँ या ना?
+2 B स्टेप एक: सैलरी आते ही बीस परसेंट, यानी तीन हज़ार, अलग करो।
+3 B बारह परसेंट मानें, तो एक करोड़ बनने में साढ़े उनतीस साल।
+4 B बहुत लंबा? स्टेप दो: हर साल सैलरी दस परसेंट बढ़े, तो बचत भी दस परसेंट बढ़ाओ।
+5 B अब एक करोड़ सिर्फ़ साढ़े तेईस साल में! पूरे छह साल पहले।
+6 B बड़ी सैलरी नहीं, हर साल बढ़ती बचत अमीर बनाती है।
+7 B ये वीडियो उस दोस्त को भेजो, जिसकी पहली सैलरी पंद्रह हज़ार है। आप स्टेप एक पे हो, या दो?
