@@ -14,7 +14,7 @@
   "5 STUPID mistakes WEALTHY people never make!" (1.6M) → 5 money mistakes Short; warikoo "40 CRORES from a 10,000 INR SALARY?" (5.07M) → 40 crore Short;
   warikoo "30,000 vs 3,00,000 vs 3,00,00,000 INR Per Month" (~1.2M) → ₹30k vs ₹3 lakh salary Short (27 Oct);
   Sharan "The Ugly Truth Behind ₹15Cr Trading" → F&O 93% Short (27 Oct); warikoo "Home Loan Mistakes That Cost You LAKHS" (~1.2M) → home loan 3 galtiyan Short (28 Oct);
-  warikoo "Make regular income from your investments" (4.6M) → FD asli return Short (1 Nov, Fri 6 Nov); warikoo "AAPKE 20s ke liye COMPLETE FINANCIAL PLANNING" (3.8M) → Riya vs Aman 5 saal Short (2 Nov, Sat 7 Nov); warikoo "How To Pay Off Your Loans FAST? Leave the EMI TRAP" (3.8M) → bonus: bike loan ya card? (3 Nov, Sun 8 Nov, lip-sync test); "BUYING a 50L HOUSE Without a LOAN" (2.0M) → ghar ₹97 lakh (4 Nov, Mon 9 Nov); "How To INVEST in GOLD and SILVER" (1.4M) → gehna making charge + GST (5 Nov, Tue 10 Nov). Next unused on the list: "Why Gen Z STOPPED Saving" (2.4M; avoid overlap with the kharche Short: angle = BNPL/"no cost" EMI habits or subscriptions), "15,000 SALARY to 1 CRORE" (3.0M). Next: run vidIQ outliers when credits reset (24 Nov); until then use the OutlierKit warikoo/Sharan lists in this file.
+  warikoo "Make regular income from your investments" (4.6M) → FD asli return Short (1 Nov, Fri 6 Nov); warikoo "AAPKE 20s ke liye COMPLETE FINANCIAL PLANNING" (3.8M) → Riya vs Aman 5 saal Short (2 Nov, Sat 7 Nov); warikoo "How To Pay Off Your Loans FAST? Leave the EMI TRAP" (3.8M) → bonus: bike loan ya card? (3 Nov, Sun 8 Nov, lip-sync test); "BUYING a 50L HOUSE Without a LOAN" (2.0M) → ghar ₹97 lakh (4 Nov, Mon 9 Nov); "How To INVEST in GOLD and SILVER" (1.4M) → gehna making charge + GST (5 Nov, Tue 10 Nov); "15,000 SALARY to 1 CRORE" (3.0M) → ₹15k salary se ₹1 crore, step-up savings 6 saal pehle (6 Nov, Wed 11 Nov). Next unused on the list: "Why Gen Z STOPPED Saving" (2.4M; avoid overlap with the kharche Short: angle = BNPL/"no cost" EMI habits or subscriptions). Next: run vidIQ outliers when credits reset (24 Nov); until then use the OutlierKit warikoo/Sharan lists in this file.
 
 Approved format (23 Oct 2026): realistic AI Indian woman presenter (same face every video, from
 Runway portrait task ed8090cd-8324-47c0-803c-fae8673e2b3a), sweet Hindi female voice "Pyaari"
@@ -193,7 +193,7 @@ Issue in the F&O Short: shot 4 (dance) had a glitter/static cloud covering the f
 - tools/clipcheck.py scans every frame of every clip for noise bursts, flashes and morph pops; anim.py now runs it automatically and
   REFUSES to build if a flagged range falls inside the part of a clip we use (ALLOW_GLITCH=1 only with the owner's OK).
 - Regenerate any flagged clip (25 credits) instead of shipping it; also look at a contact sheet (clipcheck --sheet) for face/hand morphing.
-- Prompt rules for gen-4-turbo: no "sparkles/particles/glitter burst", "explosion", "magic", "dust cloud" (they render as static noise);
+- Prompt rules for gen-4-turbo: no "sparkles/particles/glitter burst", "explosion", "magic", "dust cloud", "steam/smoke/fog" (they render as static noise or a cloud over the face: 6 Nov "steam rises from the mug" covered her face for 2 s);
   keep the action in place and small-to-medium (wave, nod, dance on the spot, slump, point); no "jumps up from the chair" or spins;
   one character action + one gentle environment motion (screen glow pulses, papers drift) + "slow camera push-in".
 
