@@ -502,7 +502,55 @@ def sl13(img, t, d):
     big(img, "STEP 1 YA STEP 2?", 200, 100, GOLD, 1.0)
     caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .3))
 
-SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13], "gh": [gh0, gh1, gh2, gh3, gh4, gh5, gh6, gh7, gh8, gh9, gh10, gh11, gh12, gh13], "sl": [sl0, sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9, sl10, sl11, sl12, sl13], "gd": [gd0, gd1, gd2, gd3, gd4, gd5, gd6, gd7, gd8, gd9, gd10, gd11, gd12, gd13]}
+def nc0(img, t, d):                     # talk hook a: Rs figure on frame 1
+    big(img, "NO COST EMI", 200, 110, WHITE, 1.0)
+    big(img, "₹3,700 EXTRA?", 330, 124, GOLD, 1.0)
+def nc1(img, t, d):                     # talk hook b (punch-in)
+    big(img, "HAAN YA NAA?", 200, 120, GOLD, 1.0)
+    caption_box(img, [("Comment mein likho: HAAN ya NAA", WHITE)], on(t, .5))
+def nc2(img, t, d):
+    big(img, "₹60,000 KA PHONE", 200, 100, WHITE, 1.0)
+    big(img, "6 MAHINE, NO COST EMI", 320, 76, GOLD, on(t, .5))
+def nc3(img, t, d):
+    big(img, "BYAAJ ₹0?", 200, 136, GOLD, 1.0)
+    caption_box(img, [("6 EMI x ₹10,000 = ₹60,000", SOFT)], on(t, .2))
+def nc4(img, t, d):
+    big(img, "BANK: BYAAJ", 200, 104, WHITE, 1.0)
+    big(img, "~₹2,540", 320, 128, RED, on(t, .3))
+    caption_box(img, [("15% saalana maana (udaharan)", SOFT)], on(t, .2))
+def nc5(img, t, d):
+    big(img, "DUKAAN: DISCOUNT", 200, 96, WHITE, 1.0)
+    big(img, "~₹2,540", 320, 128, MINT, on(t, .3))
+    caption_box(img, [("Byaaj chhupa hai, gaya nahi", SOFT)], on(t, .3))
+def nc6(img, t, d):
+    big(img, "KHARCHA #1", 200, 110, WHITE, 1.0)
+    big(img, "BYAAJ PE 18% GST", 320, 92, GOLD, on(t, .4))
+    caption_box(img, [("18% x ₹2,540 = ₹457", SOFT)], on(t, .6))
+def nc7(img, t, d):
+    big(img, "KHARCHA #2", 200, 110, WHITE, 1.0)
+    big(img, "PROCESSING FEE", 320, 96, GOLD, on(t, .3))
+    caption_box(img, [("₹199 + 18% GST = ₹235 (udaharan)", SOFT)], on(t, .5))
+def nc8(img, t, d):
+    big(img, "KHARCHA #3", 200, 110, WHITE, 1.0)
+    big(img, "CASH DISCOUNT GAYA", 320, 84, GOLD, on(t, .4))
+def nc9(img, t, d):
+    big(img, "-₹3,000", 200, 136, RED, 1.0)
+    caption_box(img, [("Full payment pe ₹3,000 off maana (udaharan)", SOFT), ("Har offer alag: pehle poochho", SOFT)], on(t, .2))
+def nc10(img, t, d):
+    big(img, "KUL", 200, 104, WHITE, 1.0)
+    big(img, "~₹3,700!", 320, 140, RED, on(t, .15))
+    caption_box(img, [("₹457 + ₹235 + ₹3,000 = ₹3,692", SOFT)], on(t, .3))
+def nc11(img, t, d):
+    big(img, "PHONE ~6%", 200, 116, GOLD, 1.0)
+    big(img, "MEHENGA", 330, 116, WHITE, on(t, .3))
+def nc12(img, t, d):
+    big(img, "BHEJO US DOST KO", 200, 98, WHITE, 1.0)
+    big(img, "JO SAB EMI PE LETA HAI", 320, 80, GOLD, on(t, .7))
+def nc13(img, t, d):
+    big(img, "EMI YA CASH?", 200, 116, GOLD, 1.0)
+    caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .3))
+
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13], "gh": [gh0, gh1, gh2, gh3, gh4, gh5, gh6, gh7, gh8, gh9, gh10, gh11, gh12, gh13], "sl": [sl0, sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9, sl10, sl11, sl12, sl13], "gd": [gd0, gd1, gd2, gd3, gd4, gd5, gd6, gd7, gd8, gd9, gd10, gd11, gd12, gd13], "nc": [nc0, nc1, nc2, nc3, nc4, nc5, nc6, nc7, nc8, nc9, nc10, nc11, nc12, nc13]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)
