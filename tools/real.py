@@ -68,7 +68,8 @@ def main(d, out, stills=False, ovl_name="card"):
     ovl = short3d.SCENES[ovl_name]
     TOTAL = plan[-1][1]
     st = {c: stats(c) for _, _, c, _ in plan}
-    ref = st[next(c for _, _, c, _ in plan if os.path.basename(c).startswith("talk"))]
+    # colour reference = first talking clip; voice-over-only Shorts (no lip-sync) use the first clip
+    ref = st[next((c for _, _, c, _ in plan if os.path.basename(c).startswith("talk")), plan[0][2])]
     rng = np.random.default_rng(7)
 
     def dress(base, k, t, seg):
