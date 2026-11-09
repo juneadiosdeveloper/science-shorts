@@ -71,6 +71,16 @@ DECKS = {
   ("Kharidne se pehle", [("1. Making charge kitna %?", MINT), ("2. Bill mein sona, making, GST", MINT), ("    alag-alag likha hai?", MINT), ("3. Wapas/exchange pe katauti?", MINT), ("4. Hallmark hai?", MINT)], GOLD, None),
   ("Save karo", [("Bhejo us dost ko", WHITE), ("jiski shaadi hone wali hai", GOLD), ("", None), ("Comment: ghar mein gehna", WHITE), ("1) Nivesh  2) Shauk  3) Dono", SOFT)], MINT, "Follow @paisa_science"),
  ],
+ # Sat 14 Nov 11:00, companion of the "dost ki car" Short (numbers verified 9 Nov: ₹12L car, ₹2L down, ₹10L loan 9% 5 yr, EMI ₹20,758; value -20% yr1, -15%/yr after)
+ "car": [
+  ("₹12 lakh ki car,\nasli daulat ₹1.6 lakh?", [("Dost ki nayi car ka", WHITE), ("2 saal baad ka hisaab", WHITE), ("", None), ("Swipe karo, khud check karo", MINT)], GOLD, "Swipe karo  >>"),
+  ("Udaharan", [("Car ₹12,00,000", WHITE), ("Down payment ₹2,00,000", WHITE), ("Loan ₹10,00,000, 9%, 5 saal", WHITE), ("EMI ₹20,758 har mahina", GOLD), ("", None), ("Sab numbers sirf udaharan", SOFT)], GOLD, None),
+  ("Car ki keemat", [("Naye din: ₹12.00 lakh", WHITE), ("1 saal baad (−20%): ₹9.60 lakh", WHITE), ("2 saal (−15%): ₹8.16 lakh", GOLD), ("3 saal: ₹6.94 lakh", WHITE), ("5 saal: ₹5.01 lakh", RED), ("", None), ("Asli girawat model/shehar pe nirbhar", SOFT)], GOLD, None),
+  ("2 saal baad", [("Diye: ₹2L + ₹20,758 × 24", WHITE), ("= ₹6,98,200", RED), ("Loan baaki: ₹6,52,784", RED), ("Car ki keemat: ₹8,16,000", WHITE), ("", None), ("Car mein asli hissa: ₹1,63,216", GOLD)], GOLD, None),
+  ("Poore 5 saal", [("Kul diye: ₹14,45,501", WHITE), ("Sirf byaaj: ₹2,45,501", RED), ("Car ki keemat: ~₹5.01 lakh", WHITE), ("", None), ("Car zaroorat hai? Theek.", MINT), ("Bas dikhawe ke liye nahi.", MINT)], GOLD, None),
+  ("Car lene se pehle", [("1. EMI salary ka kitna %?", MINT), ("2. Down payment zyada, loan kam", MINT), ("3. Tenure chhota = byaaj kam", MINT), ("4. Insurance + petrol + service", MINT), ("    bhi budget mein jodo", MINT)], GOLD, None),
+  ("Save karo", [("Bhejo us dost ko", WHITE), ("jo sochta hai sab usse ameer hain", GOLD), ("", None), ("Comment: aap", WHITE), ("1) Car wale  2) Bachat wale", SOFT)], MINT, "Follow @paisa_science"),
+ ],
 }
 
 def story(bg, out, lines):

@@ -1,0 +1,16 @@
+# Sat 14 Nov Short (dost ki car / friends richer). VOICE-OVER ONLY (no lip-sync): per-line TTS trimmed, atempo 1.4, 0.10 s gaps.
+# *t.mp4 = later part of the same clip with a 1.15x punch-in (c1t from 3.7 s: hand blur after 4.8 s; c2b dropped: flying cloth). Cuts on line/phrase starts. Reused saree clips: nc4/nc4t (nc_c4), nc_c3b, sl_c4, gd_c5, nc_c6, sl_c6.
+0.000 3.935 c1.mp4 0
+3.935 4.768 c1t.mp4 1
+4.768 6.054 c2.mp4 2
+6.054 9.038 c2t.mp4 3
+9.038 11.233 nc4.mp4 4
+11.233 12.961 nc4t.mp4 5
+12.961 15.752 c4.mp4 6
+15.752 19.596 c3.mp4 7
+19.596 22.091 c4t.mp4 8
+22.091 25.526 nc_c3b.mp4 9
+25.526 29.069 sl_c4.mp4 10
+29.069 30.913 gd_c5.mp4 11
+30.913 34.123 nc_c6.mp4 12
+34.123 35.854 sl_c6.mp4 13
