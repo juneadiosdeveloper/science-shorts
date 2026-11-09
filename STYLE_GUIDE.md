@@ -381,3 +381,25 @@ YouTube/Facebook: the same Short goes to both at 16:00; YouTube first comment = 
 - The LIP-SYNC TEST Reel (Sun 8, ~59% talking head) held only 15.2% past 3 s on IG vs 56% for the same-day animated repost; every talking-head opener so far is < 47%.
 - Default from 13 Nov: VOICE-OVER ONLY realistic Shorts (her reaction b-roll + story characters, ₹ headline + voice at 0.0 s). No new HeyGen lip-sync unless the YT side (read Tue 10) shows a big win there; then lip-sync only in a YT-only cut.
 - Save Runway: reuse clean saree clips from earlier projects for generic reactions (thinking, smiling, pointing, explaining); generate only the 4-6 story-specific shots (~150 credits per Short).
+
+## VARIETY RULE (owner, 9 Nov 2026: "same content always, it feels repetitive; there is a lot of knowledge you can give")
+Overrides STANDING RULE #1's "only warikoo/OutlierKit list" habit and the single hook formula. Starts with the Sun 15 Nov Short (9-14 Nov stay as scheduled).
+1. Topic areas rotate; no area twice in 7 days, no two loan/EMI/salary Shorts in the same week:
+   A) Fraud & scams (UPI collect-request / PIN myth, fake KYC call, OTP, screen-share apps)  B) Bank & RBI rules people don't know
+   (failed UPI refund timeline, ATM failed-withdrawal compensation, nominee, locker rules, bank complaint/ombudsman)  C) Tax (HRA,
+   Form 16, old vs new regime myths, refund delays)  D) Insurance (money-back/endowment real return, term vs savings, health
+   waiting period, room-rent cap)  E) Credit score myths (closing a card, checking your own score, minimum due)  F) PF / gratuity /
+   retirement (early PF withdrawal cost, gratuity 5-year rule)  G) Money psychology & habits (salary gone by the 20th, subscriptions,
+   sale traps)  H) Consumer rights & hidden charges (refund rights, bank charges, delivery/convenience fees)  + loans/salary/gold
+   only as one area among these.
+2. Formats rotate: myth vs fact, 3-second quiz, "rule your bank won't tell you" explainer, mini story, "galti jo maine bhi ki",
+   calculation reveal. Never the same format two days running.
+3. Hooks rotate (no more "₹X ka chupa kharcha? Haan ya naa?" every day): shocking fact, question, myth statement, challenge,
+   "agar aapke saath ye hua hai...". A ₹ number is optional when the hook is a rule/fact.
+4. Idea sources: any high-view Indian finance video/Reel (vidIQ outliers + YouTube/Instagram search across many creators, official
+   RBI/Income Tax/NPCI FAQs for rules), not one creator's list. Idea only, never script/footage; facts from official sources,
+   checked; no market data from the last 30 days.
+5. Endings rotate too (send-to person, quiz answer in comments, "part 2 kal", save-this checklist); keep follow line on screen.
+6. Each daily log entry states the area + format + hook type used, and the run checks the last 7 entries before choosing.
+Next order (Sun 15 onward): A fraud/UPI PIN myth (myth vs fact) → E credit score myth (quiz) → B failed UPI/ATM refund rule (explainer)
+→ D money-back policy real return (calculation) → G salary gone by the 20th (story) → C HRA/regime myth (myth vs fact) → F PF early withdrawal.

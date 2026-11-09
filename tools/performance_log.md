@@ -474,3 +474,4 @@ Instagram Reels lifetime: bonus A/B LIP-SYNC TEST (8 Nov, <1 day) reach 100 / 12
   Alt title (Test & Compare, unscored, vidIQ 0): "Car Loan Ka Sach: ₹12 Lakh Car, Daulat ₹1.6 Lakh? 🤯 #shorts".
   Credits: ElevenLabs ~0.58k (TTS only, atempo 1.4); Runway 149, left 890; vidIQ 0.
 - Queue now: Mon 9 ghar ₹97 lakh, Tue 10 gehna (+ carousel 11:00), Wed 11 ₹15k → ₹1 crore, Thu 12 no cost EMI (IG cold-open test), Fri 13 do salary (VO-only test), Sat 14 dost ki car (VO-only + carousel 11:00) → next run produces Sun 15 Nov. Tue 10: YT side of the lip-sync test; Sun 15: VO-only verdict (Fri 13 IG hold).
+- Owner feedback (9 Nov, later): content feels repetitive (12 Shorts in a row on loans/EMI/salary with the same hook, list and ending). Decision: keep 9-14 Nov queue; from Sun 15 Nov follow the VARIETY RULE in STYLE_GUIDE (8 rotating topic areas, rotating formats, hooks and endings; first up: UPI fraud / PIN myth, myth-vs-fact format).
