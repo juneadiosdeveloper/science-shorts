@@ -597,7 +597,56 @@ def dk13(img, t, d):
     big(img, "UPGRADE YA BACHAT?", 200, 96, GOLD, 1.0)
     caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .3))
 
-SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13], "gh": [gh0, gh1, gh2, gh3, gh4, gh5, gh6, gh7, gh8, gh9, gh10, gh11, gh12, gh13], "sl": [sl0, sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9, sl10, sl11, sl12, sl13], "gd": [gd0, gd1, gd2, gd3, gd4, gd5, gd6, gd7, gd8, gd9, gd10, gd11, gd12, gd13], "nc": [nc0, nc1, nc2, nc3, nc4, nc5, nc6, nc7, nc8, nc9, nc10, nc11, nc12, nc13], "dk": [dk0, dk1, dk2, dk3, dk4, dk5, dk6, dk7, dk8, dk9, dk10, dk11, dk12, dk13]}
+def cr0(img, t, d):                     # hook: Rs figure + question on frame 1 (voice-over, no lip-sync)
+    big(img, "₹12 LAKH KI CAR", 200, 104, WHITE, 1.0)
+    big(img, "ASLI DAULAT ₹1.6L?", 320, 96, GOLD, 1.0)
+def cr1(img, t, d):
+    big(img, "HAAN YA NAA?", 200, 120, GOLD, 1.0)
+    caption_box(img, [("Comment mein likho: HAAN ya NAA", WHITE)], on(t, .2))
+def cr2(img, t, d):
+    big(img, "DOST KI NAYI CAR", 200, 100, WHITE, 1.0)
+    big(img, "₹12 LAKH", 320, 130, MINT, on(t, .3))
+def cr3(img, t, d):
+    big(img, "\"WOH AMEER HAI!\"", 200, 104, GOLD, 1.0)
+    caption_box(img, [("Insta pe photo = sab impressed", SOFT)], on(t, .3))
+def cr4(img, t, d):
+    big(img, "HISAAB #1", 200, 110, WHITE, 1.0)
+    big(img, "DOWN ₹2 LAKH", 320, 104, GOLD, on(t, .4))
+    caption_box(img, [("Loan ₹10 lakh, 9%, 5 saal (udaharan)", SOFT)], on(t, .5))
+def cr5(img, t, d):
+    big(img, "EMI ₹20,758", 200, 116, GOLD, 1.0)
+    caption_box(img, [("Har mahina, 60 mahine", SOFT)], on(t, .2))
+def cr6(img, t, d):
+    big(img, "2 SAAL MEIN DIYE", 200, 100, WHITE, 1.0)
+    big(img, "~₹7 LAKH", 320, 136, RED, on(t, .4))
+    caption_box(img, [("₹2,00,000 + ₹20,758 x 24 = ₹6,98,200", SOFT)], on(t, .3))
+def cr7(img, t, d):
+    big(img, "HISAAB #2", 200, 110, WHITE, 1.0)
+    big(img, "CAR AB ~₹8.16 LAKH", 320, 88, GOLD, on(t, .6))
+    caption_box(img, [("Keemat -20% pehla saal, -15% doosra (udaharan)", SOFT)], on(t, .6))
+def cr8(img, t, d):
+    big(img, "LOAN BAAKI", 200, 110, WHITE, 1.0)
+    big(img, "₹6.53 LAKH!", 320, 132, RED, on(t, .3))
+def cr9(img, t, d):
+    big(img, "ASLI HISSA SIRF", 200, 100, WHITE, 1.0)
+    big(img, "₹1.63 LAKH", 320, 132, RED, on(t, .3))
+    caption_box(img, [("₹8.16L car - ₹6.53L loan = ₹1.63L", SOFT)], on(t, .3))
+def cr10(img, t, d):
+    big(img, "AUR TUMNE BACHAYE?", 200, 92, WHITE, 1.0)
+    big(img, "₹6.98 LAKH", 320, 132, MINT, on(t, .9))
+    caption_box(img, [("Wahi ₹2L + ₹20,758 har mahina, 24 mahine", SOFT), ("(bina kisi return ke, sirf jod)", SOFT)], on(t, .3))
+def cr11(img, t, d):
+    big(img, "JO DIKHTA HAI", 200, 110, WHITE, 1.0)
+    big(img, "WOH DAULAT NAHI", 320, 100, GOLD, on(t, .5))
+    caption_box(img, [("Car ka use alag; ye sirf daulat ka hisaab", SOFT)], on(t, .4))
+def cr12(img, t, d):
+    big(img, "BHEJO US DOST KO", 200, 96, WHITE, 1.0)
+    big(img, "JO SABKO AMEER SAMJHE", 320, 80, GOLD, on(t, .5))
+def cr13(img, t, d):
+    big(img, "CAR YA BACHAT?", 200, 108, GOLD, 1.0)
+    caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .3))
+
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13], "gh": [gh0, gh1, gh2, gh3, gh4, gh5, gh6, gh7, gh8, gh9, gh10, gh11, gh12, gh13], "sl": [sl0, sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9, sl10, sl11, sl12, sl13], "gd": [gd0, gd1, gd2, gd3, gd4, gd5, gd6, gd7, gd8, gd9, gd10, gd11, gd12, gd13], "nc": [nc0, nc1, nc2, nc3, nc4, nc5, nc6, nc7, nc8, nc9, nc10, nc11, nc12, nc13], "dk": [dk0, dk1, dk2, dk3, dk4, dk5, dk6, dk7, dk8, dk9, dk10, dk11, dk12, dk13], "cr": [cr0, cr1, cr2, cr3, cr4, cr5, cr6, cr7, cr8, cr9, cr10, cr11, cr12, cr13]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)
