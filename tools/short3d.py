@@ -699,7 +699,62 @@ def up13(img, t, d):
     big(img, "1, 2 YA 3?", 320, 132, GOLD, on(t, .8))
     caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .3))
 
-SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13], "gh": [gh0, gh1, gh2, gh3, gh4, gh5, gh6, gh7, gh8, gh9, gh10, gh11, gh12, gh13], "sl": [sl0, sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9, sl10, sl11, sl12, sl13], "gd": [gd0, gd1, gd2, gd3, gd4, gd5, gd6, gd7, gd8, gd9, gd10, gd11, gd12, gd13], "nc": [nc0, nc1, nc2, nc3, nc4, nc5, nc6, nc7, nc8, nc9, nc10, nc11, nc12, nc13], "dk": [dk0, dk1, dk2, dk3, dk4, dk5, dk6, dk7, dk8, dk9, dk10, dk11, dk12, dk13], "cr": [cr0, cr1, cr2, cr3, cr4, cr5, cr6, cr7, cr8, cr9, cr10, cr11, cr12, cr13], "up": [up0, up1, up2, up3, up4, up5, up6, up7, up8, up9, up10, up11, up12, up13]}
+def cs0(img, t, d):                     # hook: quiz question on frame 1
+    big(img, "SCORE CHECK KIYA", 200, 96, WHITE, 1.0)
+    big(img, "= SCORE GIRA?", 320, 124, GOLD, 1.0)
+    caption_box(img, [("QUIZ: 3 sawal, 3 second", WHITE)], on(t, .4))
+def cs1(img, t, d):
+    big(img, "SAWAL #1", 200, 110, WHITE, 1.0)
+    n = "3" if t < d / 3 else ("2" if t < 2 * d / 3 else "1")
+    big(img, n, 330, 190, GOLD, 1.0)
+    caption_box(img, [("HAAN ya NAA? Socho...", WHITE)], 1.0)
+def cs2(img, t, d):
+    big(img, "JAWAB: NAA!", 200, 120, MINT, 1.0)
+    big(img, "KHUD CHECK = SOFT", 320, 92, WHITE, on(t, .8))
+    caption_box(img, [("Apna score dekhne se koi asar nahi", SOFT)], on(t, 1.4))
+def cs3(img, t, d):
+    big(img, "SCORE GIRTA HAI JAB", 200, 86, WHITE, 1.0)
+    big(img, "KAI LOAN/CARD APPLY", 320, 88, RED, on(t, .6))
+    caption_box(img, [("Kam samay mein, baar baar (hard enquiry)", SOFT)], on(t, 1.0))
+def cs4(img, t, d):
+    big(img, "SAWAL #2", 200, 110, WHITE, 1.0)
+    big(img, "PURANA CARD BAND", 320, 96, GOLD, on(t, .3))
+    caption_box(img, [("= score badhega?", WHITE)], on(t, 1.2))
+def cs5(img, t, d):
+    big(img, "ULTA!", 200, 130, RED, 1.0)
+    big(img, "2 CARD x ₹1 LAKH", 320, 96, WHITE, on(t, .5))
+    caption_box(img, [("Total limit ₹2,00,000", SOFT)], on(t, .9))
+def cs6(img, t, d):
+    big(img, "KHARCH ₹50,000", 200, 104, WHITE, 1.0)
+    big(img, "= 25% LIMIT", 320, 124, MINT, on(t, .5))
+    caption_box(img, [("₹50,000 / ₹2,00,000", SOFT)], on(t, .5))
+def cs7(img, t, d):
+    big(img, "1 CARD BAND", 200, 110, WHITE, 1.0)
+    big(img, "= 50% LIMIT!", 320, 124, RED, on(t, .9))
+    caption_box(img, [("₹50,000 / ₹1,00,000: score gir sakta hai", SOFT)], on(t, 1.2))
+def cs8(img, t, d):
+    big(img, "SAWAL #3", 200, 110, WHITE, 1.0)
+    big(img, "MINIMUM DUE BHARA", 320, 92, GOLD, on(t, .4))
+    caption_box(img, [("= sab theek?", WHITE)], on(t, 1.3))
+def cs9(img, t, d):
+    big(img, "LATE MARK NAHI...", 200, 96, MINT, 1.0)
+    big(img, "PAR BYAAJ CHALU", 320, 100, RED, on(t, .9))
+def cs10(img, t, d):
+    big(img, "₹50,000 BAAKI", 200, 104, WHITE, 1.0)
+    big(img, "~₹2,000/MAHINA", 320, 116, RED, on(t, .2))
+    caption_box(img, [("Udaharan: 3.5% mahina + 18% GST = ₹2,065", SOFT)], on(t, .3))
+def cs11(img, t, d):
+    big(img, "BHEJO US DOST KO", 200, 96, WHITE, 1.0)
+    caption_box(img, [("Jo darr ke maare score check nahi karta", GOLD)], on(t, .3))
+def cs12(img, t, d):
+    big(img, "SCORE CHECK KARO", 200, 96, WHITE, 1.0)
+    big(img, "DARR NAHI!", 320, 124, MINT, on(t, .3))
+def cs13(img, t, d):
+    big(img, "KITNE SAHI THE?", 200, 96, WHITE, 1.0)
+    big(img, "0, 1, 2 YA 3?", 320, 124, GOLD, on(t, .7))
+    caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .3))
+
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13], "gh": [gh0, gh1, gh2, gh3, gh4, gh5, gh6, gh7, gh8, gh9, gh10, gh11, gh12, gh13], "sl": [sl0, sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9, sl10, sl11, sl12, sl13], "gd": [gd0, gd1, gd2, gd3, gd4, gd5, gd6, gd7, gd8, gd9, gd10, gd11, gd12, gd13], "nc": [nc0, nc1, nc2, nc3, nc4, nc5, nc6, nc7, nc8, nc9, nc10, nc11, nc12, nc13], "dk": [dk0, dk1, dk2, dk3, dk4, dk5, dk6, dk7, dk8, dk9, dk10, dk11, dk12, dk13], "cr": [cr0, cr1, cr2, cr3, cr4, cr5, cr6, cr7, cr8, cr9, cr10, cr11, cr12, cr13], "up": [up0, up1, up2, up3, up4, up5, up6, up7, up8, up9, up10, up11, up12, up13], "cs": [cs0, cs1, cs2, cs3, cs4, cs5, cs6, cs7, cs8, cs9, cs10, cs11, cs12, cs13]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)
