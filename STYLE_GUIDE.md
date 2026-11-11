@@ -403,5 +403,7 @@ Overrides STANDING RULE #1's "only warikoo/OutlierKit list" habit and the single
 6. Each daily log entry states the area + format + hook type used, and the run checks the last 7 entries before choosing.
 Next order (Sun 15 onward): A fraud/UPI PIN myth (myth vs fact) → E credit score myth (quiz) → B failed UPI/ATM refund rule (explainer)
 → D money-back policy real return (calculation) → G salary gone by the 20th (story) → C HRA/regime myth (myth vs fact) → F PF early withdrawal.
-Done: Sun 15 Nov = A UPI PIN myth (myth vs fact, papa character task 9ac52836-4f34-4107-b3ce-3103ec7cf4a1). Next: Mon 16 = E credit score myth (quiz).
+Done: Sun 15 Nov = A UPI PIN myth (myth vs fact, papa character task 9ac52836-4f34-4107-b3ce-3103ec7cf4a1). Mon 16 = E credit score myths (3-second quiz, friend character task 16720bc7-4720-419c-8796-148ccde6a2b1). Next: Tue 17 = B failed UPI/ATM refund rule (explainer); Tue 17 carousel = UPI safety checklist.
+- Overlay text: no arrows/emoji/special symbols in short3d text ("→" renders as a box); write "SE" / "=".
+- videos/*.mp4 must stay < 100 MB (GitHub limit): re-encode at crf 21 if real.py output is larger.
 Metricool (10 Nov): omit twitterData unless twitter is a provider (rejected otherwise).

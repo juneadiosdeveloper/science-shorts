@@ -699,6 +699,23 @@ def up13(img, t, d):
     big(img, "1, 2 YA 3?", 320, 132, GOLD, on(t, .8))
     caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .3))
 
+def cs2b(img, t, d):
+    big(img, "SOFT ENQUIRY", 200, 110, MINT, 1.0)
+    big(img, "= 0 ASAR", 320, 130, GOLD, 1.0)
+    caption_box(img, [("Apna score jitni baar chaho dekho", SOFT)], on(t, .3))
+def cs3b(img, t, d):
+    big(img, "HAR APPLICATION", 200, 96, WHITE, 1.0)
+    big(img, "= HARD ENQUIRY", 320, 104, RED, 1.0)
+    caption_box(img, [("Kam samay mein kai apply = score pe asar", SOFT)], on(t, .3))
+def cs7b(img, t, d):
+    big(img, "25% SE 50%!", 200, 120, RED, 1.0)
+    big(img, "SCORE GIR SAKTA HAI", 320, 86, WHITE, on(t, .3))
+    caption_box(img, [("Limit ka kam hissa use karna behtar maana jaata hai", SOFT)], on(t, .5))
+def cs13b(img, t, d):
+    big(img, "JAWAB: 0, 1, 2 YA 3?", 200, 88, WHITE, 1.0)
+    big(img, "COMMENT KARO", 320, 112, GOLD, 1.0)
+    caption_box(img, [("Follow karo: roz ek tricky paisa fact", WHITE)], 1.0)
+
 def cs0(img, t, d):                     # hook: quiz question on frame 1
     big(img, "SCORE CHECK KIYA", 200, 96, WHITE, 1.0)
     big(img, "= SCORE GIRA?", 320, 124, GOLD, 1.0)
@@ -744,17 +761,18 @@ def cs10(img, t, d):
     big(img, "~₹2,000/MAHINA", 320, 116, RED, on(t, .2))
     caption_box(img, [("Udaharan: 3.5% mahina + 18% GST = ₹2,065", SOFT)], on(t, .3))
 def cs11(img, t, d):
-    big(img, "BHEJO US DOST KO", 200, 96, WHITE, 1.0)
-    caption_box(img, [("Jo darr ke maare score check nahi karta", GOLD)], on(t, .3))
+    big(img, "YE VIDEO BHEJO", 200, 100, WHITE, 1.0)
+    big(img, "US DOST KO...", 320, 116, GOLD, on(t, .4))
 def cs12(img, t, d):
-    big(img, "SCORE CHECK KARO", 200, 96, WHITE, 1.0)
-    big(img, "DARR NAHI!", 320, 124, MINT, on(t, .3))
+    big(img, "JO DARR KE MAARE", 200, 96, WHITE, 1.0)
+    big(img, "SCORE CHECK NAHI KARTA", 320, 80, GOLD, 1.0)
+    caption_box(img, [("Check karo: khud dekhne se score nahi girta", MINT)], on(t, .4))
 def cs13(img, t, d):
     big(img, "KITNE SAHI THE?", 200, 96, WHITE, 1.0)
     big(img, "0, 1, 2 YA 3?", 320, 124, GOLD, on(t, .7))
     caption_box(img, [("Comment karo + Follow karo", WHITE), ("Roz ek tricky paisa fact", GOLD)], on(t, .3))
 
-SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13], "gh": [gh0, gh1, gh2, gh3, gh4, gh5, gh6, gh7, gh8, gh9, gh10, gh11, gh12, gh13], "sl": [sl0, sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9, sl10, sl11, sl12, sl13], "gd": [gd0, gd1, gd2, gd3, gd4, gd5, gd6, gd7, gd8, gd9, gd10, gd11, gd12, gd13], "nc": [nc0, nc1, nc2, nc3, nc4, nc5, nc6, nc7, nc8, nc9, nc10, nc11, nc12, nc13], "dk": [dk0, dk1, dk2, dk3, dk4, dk5, dk6, dk7, dk8, dk9, dk10, dk11, dk12, dk13], "cr": [cr0, cr1, cr2, cr3, cr4, cr5, cr6, cr7, cr8, cr9, cr10, cr11, cr12, cr13], "up": [up0, up1, up2, up3, up4, up5, up6, up7, up8, up9, up10, up11, up12, up13], "cs": [cs0, cs1, cs2, cs3, cs4, cs5, cs6, cs7, cs8, cs9, cs10, cs11, cs12, cs13]}
+SCENES = {"card": [s1, s2, s3, s4, s5, s6], "infl": [i1, i2, i3, i4, i5, i6], "r72": [r1, r2, r3, r4, r5, r6, r7], "cc": [c0, c1, c2, c3, c4, c5, c6, c7], "kh": [k0, k1, k2, k3, k4, k5, k6, k7, k8], "fd": [f0, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11], "ra": [ra0, ra1, ra2, ra3, ra4, ra5, ra6, ra7, ra8, ra9, ra10], "bk": [bk0, bk1, bk2, bk3, bk4, bk5, bk6, bk7, bk8, bk9, bk10, bk11, bk12, bk13], "gh": [gh0, gh1, gh2, gh3, gh4, gh5, gh6, gh7, gh8, gh9, gh10, gh11, gh12, gh13], "sl": [sl0, sl1, sl2, sl3, sl4, sl5, sl6, sl7, sl8, sl9, sl10, sl11, sl12, sl13], "gd": [gd0, gd1, gd2, gd3, gd4, gd5, gd6, gd7, gd8, gd9, gd10, gd11, gd12, gd13], "nc": [nc0, nc1, nc2, nc3, nc4, nc5, nc6, nc7, nc8, nc9, nc10, nc11, nc12, nc13], "dk": [dk0, dk1, dk2, dk3, dk4, dk5, dk6, dk7, dk8, dk9, dk10, dk11, dk12, dk13], "cr": [cr0, cr1, cr2, cr3, cr4, cr5, cr6, cr7, cr8, cr9, cr10, cr11, cr12, cr13], "up": [up0, up1, up2, up3, up4, up5, up6, up7, up8, up9, up10, up11, up12, up13], "cs": [cs0, cs1, cs2, cs2b, cs3, cs3b, cs4, cs5, cs6, cs7, cs7b, cs8, cs9, cs10, cs11, cs12, cs13, cs13b]}
 
 def main(name, d, out):
     ovl = SCENES[name]; n = len(ovl)
