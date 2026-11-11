@@ -517,3 +517,6 @@ Instagram Reels lifetime: gehna (realistic, hook-only lip-sync + list, 10 Nov, <
   Numbers (Python): 2 × ₹1,00,000 limit, ₹50,000 used = 25%; one closed → ₹50,000 / ₹1,00,000 = 50%; minimum due example: ₹50,000 × 3.5% = ₹1,750 + 18% GST ₹315 = ₹2,065 (rate = example, on screen).
   QA: clipcheck 3/3 PASS; contact sheet: c1 clean (small card on table with print → blurred), c2 clean, c3 friend laughs after ~2.5 s → used 0-1.8 s only. Overlay arrow "→" rendered as a box → replaced with "SE".
   Credits: ElevenLabs ~0.64k (TTS only); Runway 93, left 632; vidIQ 0.
+  Metricool (scheduled): YT 423998502 (16:00), FB Reel 423998520 (16:00), IG Reel 423998560 (18:00), IG Story 423998575 (18:10, auto, story_credit_score.jpg).
+  Alt title (Test & Compare, unscored, vidIQ 0): "Credit Score Ke 3 Myth: Aapke Kitne Sahi? 🤯 #shorts".
+- Queue now: Wed 11 ₹15k → ₹1 crore, Thu 12 no cost EMI (IG cold-open test), Fri 13 do salary (VO-only test), Sat 14 dost ki car (+ carousel 11:00), Sun 15 UPI PIN myth, Mon 16 credit score quiz → next run produces Tue 17 Nov (VARIETY: B failed UPI/ATM refund rule, explainer) + Tue 17 carousel 11:00 (UPI safety checklist). Thu 12: YT side of the lip-sync test; Sun 15: VO-only verdict (Fri 13 IG hold).
