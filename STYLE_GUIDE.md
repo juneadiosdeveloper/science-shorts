@@ -353,9 +353,21 @@ YouTube/Facebook: the same Short goes to both at 16:00; YouTube first comment = 
 - New presenter portrait from Mon 9 Nov: SAME face, peach-pink chiffon saree with a thin gold border, small bindi, gold jhumkas, jasmine in hair, bright warm smile.
   Runway task b43b0c4f-142d-43ed-87c7-c115fe4aaaa6 (runner-up a53f5b2e-77ba-4357-8d54-24d061c093aa); copies in fetched/saree_p2.png / saree_p1.png.
   Use it as the HeyGen image AND the reference for every b-roll still of her. Never mix saree and old kurta shots of her in one video (old kurta clips: only shots without her).
-- "Cuter every day" = fresher styling, never a different face or a more revealing look: rotate saree colours (peach, mint, mustard, lavender, red-on-festival days),
+- (Updated 12 Nov: see DAILY WARDROBE.) "Cuter every day" = fresher styling, never a different face: rotate saree colours (peach, mint, mustard, lavender, red-on-festival days),
   flowers/jhumkas, bright smile, warm light. Face stays the same so viewers recognise the channel. Always modest and family-friendly.
 - A new face is tested only as a one-video A/B when the data says the presenter (not the hook/topic) is the problem.
+
+## DAILY WARDROBE (owner, 12 Nov 2026: "daily change the girl's clothes, someday also a little revealing if needed")
+From the Wed 18 Nov Short: a NEW outfit every video, same face (portrait task b43b0c4f... = face reference only). One outfit per video, never mixed inside a video.
+- Make a portrait in the new outfit first (nano-banana-2.1 2K, ref = saree portrait for the face, 6 credits). Use it as the reference for every still of her in that video.
+- Rotation (no outfit twice in 14 days, match the topic): 1 mint cotton kurta + palazzo · 2 white shirt + navy blazer (office/salary/tax) · 3 mustard saree ·
+  4 black sleeveless fitted top + light denim jacket · 5 lavender anarkali · 6 red co-ord set with an off-shoulder-style neckline · 7 denim shirt dress with a belt · 8 maroon silk saree (festive) ·
+  9 sleeveless printed maxi dress · 10 beige trench coat over a white tee (fraud/"detective" topics) · 11 green lehenga-style skirt + crop-length blouse (festive) · 12 olive cargo + fitted tee (Gen Z topics).
+- "A little revealing" = fashionable and glamorous: sleeveless, fitted, off-shoulder-style or crop-length festive blouse is fine. Not allowed: cleavage focus, short skirts,
+  lingerie/swimwear look, suggestive poses or camera angles. Reason: YouTube's advertiser-friendly rules limit or demonetise sexually suggestive content (bad for YPP),
+  and our best sharing channel is family WhatsApp groups (parents), where a suggestive presenter kills shares. Same limits for thumbnails and Story cards.
+- Cost: old saree clips can no longer be reused for her shots → plan ~6 stills + 6-8 gen-4-turbo clips per Short (~200-230 Runway credits instead of ~120).
+- Log the outfit in each daily entry; after 10 videos compare IG 3-s hold / reach by outfit type and keep the 3 best in heavier rotation.
 
 ## Cost + IG rules (4 Nov 2026)
 - HeyGen Avatar 4 tiers: talk clip <= 4.0 s (audio incl. padding) = 2,424 credits, <= 5.0 s = 3,030, <= 6.0 s = 3,636. Hook line spoken <= 3.75 s.
