@@ -81,6 +81,15 @@ DECKS = {
   ("Car lene se pehle", [("1. EMI salary ka kitna %?", MINT), ("2. Down payment zyada, loan kam", MINT), ("3. Tenure chhota = byaaj kam", MINT), ("4. Insurance + petrol + service", MINT), ("    bhi budget mein jodo", MINT)], GOLD, None),
   ("Save karo", [("Bhejo us dost ko", WHITE), ("jo sochta hai sab usse ameer hain", GOLD), ("", None), ("Comment: aap", WHITE), ("1) Car wale  2) Bachat wale", SOFT)], MINT, "Follow @paisa_science"),
  ],
+ "upi": [
+  ("UPI se paisa safe?\n7 niyam, save karo", [("Mummy-papa ke liye checklist", WHITE), ("", None), ("Swipe karo, aur family ko bhejo", MINT)], GOLD, "Swipe karo  >>"),
+  ("Niyam 1-2", [("1. PIN sirf paise BHEJNE ke liye", MINT), ("   Paise lene ke liye kabhi nahi", WHITE), ("", None), ("2. 'Collect request' aaya?", MINT), ("   Approve = aap paise de rahe ho", WHITE)], GOLD, None),
+  ("Niyam 3-4", [("3. QR scan + PIN = paisa gaya", MINT), ("   QR se paisa milta nahi", WHITE), ("", None), ("4. PIN / OTP kisi ko nahi", MINT), ("   Bank wala bhi nahi maangta", WHITE)], GOLD, None),
+  ("Niyam 5-6", [("5. Call pe screen-share app?", MINT), ("   Kabhi install mat karo", WHITE), ("", None), ("6. Pay se pehle naam check", MINT), ("   Screen pe sahi naam aaya?", WHITE)], GOLD, None),
+  ("Niyam 7: paisa atka?", [("UPI se kata, pahuncha nahi:", WHITE), ("agle din tak wapas (T+1)", MINT), ("Der hui? ₹100 roz muaavza", GOLD), ("ATM mein atka: 5 din (T+5)", WHITE), ("", None), ("RBI niyam (20 Sep 2019)", SOFT)], GOLD, None),
+  ("Fraud ho gaya?", [("Turant 1930 pe call karo", RED), ("ya cybercrime.gov.in", WHITE), ("Apne bank ko bhi batao", WHITE), ("", None), ("Jitni jaldi, utna achha", MINT)], GOLD, None),
+  ("Save karo", [("Bhejo family WhatsApp group mein", WHITE), ("jahan mummy-papa hain", GOLD), ("", None), ("Comment: ghar mein kabhi", WHITE), ("aisa call aaya? Haan / Naa", SOFT)], MINT, "Follow @paisa_science"),
+ ],
 }
 
 def story(bg, out, lines):

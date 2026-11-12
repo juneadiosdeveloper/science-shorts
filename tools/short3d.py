@@ -819,7 +819,7 @@ def rf12(img, t, d):
 def rf13(img, t, d):
     big(img, "2. RBI PORTAL", 200, 116, WHITE, 1.0)
     big(img, "cms.rbi.org.in", 320, 100, MINT, on(t, .3))
-    caption_box(img, [("Bank 30 din mein jawab na de tab", SOFT)], on(t, .6))
+    caption_box(img, [("Jab bank 30 din mein hal na kare", SOFT)], on(t, .6))
 def rf14(img, t, d):
     big(img, "YE VIDEO BHEJO", 200, 100, WHITE, 1.0)
     big(img, "US DOST KO...", 320, 116, GOLD, on(t, .4))
