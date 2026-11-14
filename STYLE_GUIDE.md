@@ -424,3 +424,22 @@ Metricool (10 Nov): omit twitterData unless twitter is a provider (rejected othe
 ElevenLabs quota ran out on 14 Nov. Runway generate_speech with model "eleven_v4", voiceId "EHeVIpHOvJGuhp2QcMZZ" (Pyaari, found with search_voices),
 languageCode "hi" gives the same voice for ~1 Runway credit per line. One call per line, fetch via fetch/list.txt (cloudfront), trim + atempo 1.45 as before.
 Runway is now the only production budget: ~140 credits per VO-only Short (portrait 6 + 4 stills 24 + 4 clips 100 + voice 12), rest = punch-in cuts and still push-ins.
+
+## SKILLS TO USE (owner, 14 Nov 2026: "use these 5 skills for creating video and uploading")
+Installed as files in skills/ (see skills/README.md). Every run reads the matching SKILL.md BEFORE the step (Read tool), follows it, and logs which skill
+was used. Our rules still win where they clash: SEBI/education rules, Hinglish, exactly 5 hashtags, AI disclosure, no auto-DM/comment-bait automation
+("comment X and I'll DM you" funnels need a DM tool we do not have, and fake engagement is banned by the growth playbook).
+| Step | Skill file |
+|---|---|
+| Topic ideas from what is working | skills/instagram-agent-skill/ig-viral, marketingskills/reverse-engineer-marketing |
+| Hook + script for each Short/Reel (score 3+ hooks, keep best) | skills/instagram-agent-skill/ig-reel (26 hook formulas + scoring), marketingskills/marketing-psychology |
+| Captions (IG/FB) + YouTube description | skills/instagram-agent-skill/ig-caption, then ig-human (strip AI tells: em dashes, slop words, hidden characters) |
+| Carousels Tue + Sat | skills/instagram-agent-skill/ig-carousel |
+| Story card 18:10 | skills/instagram-agent-skill/ig-story |
+| Comment replies (vidIQ) | skills/instagram-agent-skill/ig-reply, ig-comment |
+| Weekly plan + profile check (Mondays) | skills/instagram-agent-skill/ig-plan, ig-audit, ig-profile |
+| Reuse a strong video as a carousel/Story/part 2 | skills/instagram-agent-skill/ig-repurpose |
+| Titles/SEO + AI-answer visibility | marketingskills/copywriting, marketingskills/ai-seo, marketingskills/social |
+| A/B (Test & Compare titles, trial Reels) | marketingskills/ab-testing |
+| Animated number scenes, kinetic captions, transitions (Remotion) | skills/remotion/remotion-best-practices (router) -> remotion-create / remotion-captions / remotion-render; skills/remocn (ready-made animations). Use for overlay/number scenes and long-video charts when it beats short3d.py; render in the sandbox (node), check output with clipcheck, keep < 100 MB. |
+| Writing/updating our own skills | skills/skill-creator |
