@@ -249,7 +249,7 @@ within ~7 days or before the next queued upload, never after it has failed.
 |---|---|---|---|---|
 | Metricool | Free: 20 PUBLISHED posts/month, each network counts once, resets 1st of month | count PUBLISHED + queued providers this month (getScheduledPosts) | queued posts this month > 16 | https://metricool.com/pricing/ (Starter $25/mo monthly, unlimited posts) |
 | Runway | Pro, 2,250 credits/month + top-ups | whoami credits.total | < 300 (2 Shorts) | https://app.runwayml.com/settings/billing (top-up from 1,000 cr = $10) |
-| ElevenLabs | ~100k credits/month | not readable via MCP: sum usage from performance_log | est. < 15k left | https://elevenlabs.io/app/subscription |
+| ElevenLabs | quota 128,996, EXHAUSTED 14 Nov (not needed for VO-only: voice now via Runway) | creative_get_flow_run_status error shows quota | only if lip-sync returns | https://elevenlabs.io/app/subscription |
 | vidIQ | Free, 150 credits/month, resets 24th | vidiq_balance | < 20 | https://vidiq.com/pricing |
 | OpusClip | 10 min balance | opusclip_get_usage | not used in pipeline | https://www.opus.pro/pricing |
 Metricool free cap in practice: 4 posts/video → only 5 videos/month. Oct: 21 published by 29 Oct → all 30 Oct posts failed.
@@ -419,3 +419,8 @@ Done: Wed 18 Nov = D money-back/endowment policy real return (calculation, papa 
 - Overlay text: no arrows/emoji/special symbols in short3d text ("→" renders as a box); write "SE" / "=".
 - videos/*.mp4 must stay < 100 MB (GitHub limit): re-encode at crf 21 if real.py output is larger.
 Metricool (10 Nov): omit twitterData unless twitter is a provider (rejected otherwise).
+
+## Voice via Runway (14 Nov 2026)
+ElevenLabs quota ran out on 14 Nov. Runway generate_speech with model "eleven_v4", voiceId "EHeVIpHOvJGuhp2QcMZZ" (Pyaari, found with search_voices),
+languageCode "hi" gives the same voice for ~1 Runway credit per line. One call per line, fetch via fetch/list.txt (cloudfront), trim + atempo 1.45 as before.
+Runway is now the only production budget: ~140 credits per VO-only Short (portrait 6 + 4 stills 24 + 4 clips 100 + voice 12), rest = punch-in cuts and still push-ins.
