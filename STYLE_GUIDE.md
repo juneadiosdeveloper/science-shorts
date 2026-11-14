@@ -443,3 +443,10 @@ was used. Our rules still win where they clash: SEBI/education rules, Hinglish, 
 | A/B (Test & Compare titles, trial Reels) | marketingskills/ab-testing |
 | Animated number scenes, kinetic captions, transitions (Remotion) | skills/remotion/remotion-best-practices (router) -> remotion-create / remotion-captions / remotion-render; skills/remocn (ready-made animations). Use for overlay/number scenes and long-video charts when it beats short3d.py; render in the sandbox (node), check output with clipcheck, keep < 100 MB. |
 | Writing/updating our own skills | skills/skill-creator |
+
+## COMMENT-TO-DM FUNNEL (owner, 14 Nov 2026: wants "Comment X and I'll DM you")
+No connector can send Instagram DMs (registry checked 14 Nov: no ManyChat/IG-DM connector). Plan: Junaid connects ManyChat (free, official Meta partner)
+to @paisa_science and adds one keyword rule. Keyword: PAISA. DM text (Hinglish): "Ye lo aapki free Paisa Checklist 👇 <link> | Roz ek paise ki tricky baat
+ke liye follow karo @paisa_science". Freebie = a 1-page PDF checklist in the repo (public raw.githubusercontent link), new one only when the topic needs it.
+RULE: add "Comment PAISA, main DM karungi" to captions/videos ONLY after Junaid confirms the ManyChat rule is live (a promised DM that never arrives
+loses followers). Until then keep the normal comment question.
