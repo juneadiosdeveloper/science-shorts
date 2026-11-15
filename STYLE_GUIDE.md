@@ -450,3 +450,8 @@ to @paisa_science and adds one keyword rule. Keyword: PAISA. DM text (Hinglish):
 ke liye follow karo @paisa_science". Freebie = a 1-page PDF checklist in the repo (public raw.githubusercontent link), new one only when the topic needs it.
 RULE: add "Comment PAISA, main DM karungi" to captions/videos ONLY after Junaid confirms the ManyChat rule is live (a promised DM that never arrives
 loses followers). Until then keep the normal comment question.
+
+## CAROUSELS STOPPED (owner, 15 Nov 2026: "why are you adding this type of post, it is not making sense")
+Data agrees: 4 Canva/text carousels (3, 7, 10, 14 Nov) reached 3 / 3 / 2 / 0 people, 0 saves, 0 shares, 0 follows, while Reels reach ~60-300.
+No more carousels (overrides "Instagram carousel via Canva every Tue + Sat 11:00" and the ig-carousel row in SKILLS TO USE). Tue 17 Nov UPI carousel
+(428575806) switched to DRAFT so it will not post. Effort goes into the daily Reel only; a second daily Reel/Trial Reel is the replacement if extra reach is needed.
