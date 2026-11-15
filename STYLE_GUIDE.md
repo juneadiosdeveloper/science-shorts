@@ -455,3 +455,28 @@ loses followers). Until then keep the normal comment question.
 Data agrees: 4 Canva/text carousels (3, 7, 10, 14 Nov) reached 3 / 3 / 2 / 0 people, 0 saves, 0 shares, 0 follows, while Reels reach ~60-300.
 No more carousels (overrides "Instagram carousel via Canva every Tue + Sat 11:00" and the ig-carousel row in SKILLS TO USE). Tue 17 Nov UPI carousel
 (428575806) switched to DRAFT so it will not post. Effort goes into the daily Reel only; a second daily Reel/Trial Reel is the replacement if extra reach is needed.
+## Growth plan (14 Nov 2026) — overrides older format notes until the data says otherwise
+TOPIC VARIETY (Junaid, 14 Nov 2026: "I want a different topic every day; you are making the same topic every day"). Hard rule:
+- tools/topic_log.md: one line per published video (date, category, topic, title). Check it + Metricool history before every script.
+- Never repeat a topic within 60 days; never re-make an old video's idea in a new format.
+- Category differs from the previous 3 videos. Categories: Tax | Insurance | Scams & safety | Banking rules & consumer rights | Loans & credit card |
+  Vehicle & big purchases | Wedding & family money | Salary, job & career money | Budgeting & spending | Investing basics & compounding |
+  Gold & property | Government schemes & rules | Retirement & emergency planning | Trading myths & official statistics.
+- Max 1 video per category per 7 days. No home-loan video before 1 Jan 2027; max one loans/credit-card video per 14 days.
+GROWTH PLAN (from Metricool data):
+- Evidence: animated Chintu IG Reels (25 Oct-2 Nov) averaged ~550 views (hits 13-17 s avg watch); realistic presenter (3-13 Nov) ~140.
+  YT Shorts: avg view 6-8 s; best = hidden-cost exposes; single-loan A/B comparisons and generic saving tips got 2-21 views.
+- FORMAT: default = animated Chintu character story (tools/anim.py, ANIM_VERTICAL=1), Priya voice Pyaari + Chintu voice Yatin via Runway
+  eleven_v4. Realistic presenter = optional test, max once a week. Reuse our own Chintu/Priya still + clip library (fetched/*_s*.png,
+  *_c*.mp4) and add 0-2 new clips per video to keep Runway spend ~35-60 credits.
+- LENGTH: 22-28 s master + a 13-15 s YouTube cut (tools/vcut.py) when the story allows; YT gets the cut that fits the 13 s peak, IG/FB the full one.
+- HOOK: frame 1 = big ₹ number + Chintu reacting, spoken line <= 12 words, no greeting/logo. New picture every 2-3 s. Mid-video follow ask
+  right after the first payoff. Short "isko us dost ko bhejo jo..." then the last second loops back to frame 1. One-word comment question.
+- STYLES THAT WIN: small amount -> big surprising result with a twist; "X galtiyan" with ₹ per mistake; official statistic/rule with source;
+  two characters compared; hidden-cost expose. Avoid single-loan A/B comparisons and generic saving tips.
+- TITLES: 20-40 characters, keyword first, 3-5 hashtags.
+- NEXT 7 (each a different category; re-verify every number/rule before use): 1 Vehicle ₹10L car = ₹22,000/month (see topic_log note:
+  too close to 14 Nov, swap angle), 2 Tax ₹12.75L vs ₹13L marginal relief, 3 Insurance room-rent proportionate deduction, 4 Consumer rights
+  restaurant service charge (CCPA 4 Jul 2022), 5 Wedding ₹20 lakh shaadi + loan, 6 Govt rules cash ₹2 lakh limit (269ST / new Act number),
+  7 Scams digital arrest (>= 4 days after the 15 Nov UPI video / 17 Nov UPI carousel).
+- MEASURE after these 7: IG views, YT views, avg view duration vs the presenter period; keep or revert; log the result.
