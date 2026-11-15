@@ -480,3 +480,16 @@ GROWTH PLAN (from Metricool data):
   restaurant service charge (CCPA 4 Jul 2022), 5 Wedding ₹20 lakh shaadi + loan, 6 Govt rules cash ₹2 lakh limit (269ST / new Act number),
   7 Scams digital arrest (>= 4 days after the 15 Nov UPI video / 17 Nov UPI carousel).
 - MEASURE after these 7: IG views, YT views, avg view duration vs the presenter period; keep or revert; log the result.
+
+## NEW FORMAT: synced motion graphics + lip-synced hook (owner, 15 Nov 2026) — overrides the animated-clip default in "Growth plan"
+Owner: "the animation is not good, the voice and animation is not matching... not good-looking animation will not give good views".
+Owner chose "Mix of both" and to keep Fri 20 (tax) + Sat 21 (shaadi, fully animated) as the old-style test.
+- Body of every Short = tools/hf_short.py (HyperFrames, skills/hyperframes): every headline, ₹ counter, stamp, badge, dial pad and
+  caption word lands on the word that says it (word times spread over the voiced audio; no ASR model reachable from the sandbox).
+  Character stills chosen by EMOTION of the line (shocked line = shocked Chintu, never a smiling one), with a matching move
+  (shake / sad sink / pop). No random AI-clip motion in the body.
+- Hook (first 3-5 s) = one lip-synced talking shot (Seedance 2.5 with the voice line as referenceAudio, ~150 Runway credits), once
+  Runway credits allow; until then the hook is a motion-graphics hook (big ₹/question + UI element on frame 0).
+- Captions: Roman Hinglish, 1-3 words, active word gold. Topic chip on top, disclaimer under captions, text inside 168-1330 px.
+- Checks: hyperframes render; contact sheet at 1.5 fps; ffmpeg-skill check for platform specs. Delivery quality render ~1 min.
+- Compare at 48 h / 7 days: old clip style (20, 21 Nov) vs new synced style (22 Nov on).

@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "historyId": "c33ebd52-66c2-4183-9d8d-5ccafa3620ad",
+  "currentRevision": "d7ad4948-30a0-43c1-a65e-5110b3c8c18a",
+  "pendingChanges": false,
+  "files": {
+    "assets/gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "/root/.cache/hyperframes/history/c33ebd52-66c2-4183-9d8d-5ccafa3620ad/blobs/92/92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "index.html": {
+      "hash": "b3923a0735b54819cf2b853802d55afa3e4f34c8e78eb92310c171b7537fbd64",
+      "content": "/root/.cache/hyperframes/history/c33ebd52-66c2-4183-9d8d-5ccafa3620ad/blobs/b3/b3923a0735b54819cf2b853802d55afa3e4f34c8e78eb92310c171b7537fbd64"
+    },
+    "assets/mix.wav": {
+      "hash": "252b2d077d61f9a3030866471379b3b8586d8ac6111265a241ac211749222e36",
+      "content": "/root/.cache/hyperframes/history/c33ebd52-66c2-4183-9d8d-5ccafa3620ad/blobs/25/252b2d077d61f9a3030866471379b3b8586d8ac6111265a241ac211749222e36"
+    },
+    "assets/sal_s07.png": {
+      "hash": "af1e3c2e909e3008260171012a4a6821495ea78e3f9fee790ee0b3331c7f3f49",
+      "content": "/root/.cache/hyperframes/history/c33ebd52-66c2-4183-9d8d-5ccafa3620ad/blobs/af/af1e3c2e909e3008260171012a4a6821495ea78e3f9fee790ee0b3331c7f3f49"
+    }
+  },
+  "revisions": {
+    "d7ad4948-30a0-43c1-a65e-5110b3c8c18a": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794742775538,
+      "endedAt": 1794742775544,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/c33ebd52-66c2-4183-9d8d-5ccafa3620ad/blobs/65/65f9ccbb96408a132cae4f9ed1133bd62185616b6caf974ed37ad227636bf5cf",
+          "after": "/root/.cache/hyperframes/history/c33ebd52-66c2-4183-9d8d-5ccafa3620ad/blobs/b3/b3923a0735b54819cf2b853802d55afa3e4f34c8e78eb92310c171b7537fbd64"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "efac99b2-8208-421e-a290-97a34ee5b4a5",
+      "completedAt": 1794742832844,
+      "output": "/tmp/claude-0/-home-claude-science-shorts/cc4338c7-5770-571a-888c-edb874d486e0/scratchpad/da_preview.mp4",
+      "status": "completed",
+      "revision": "d7ad4948-30a0-43c1-a65e-5110b3c8c18a"
+    },
+    "retainedRevisions": [
+      "d7ad4948-30a0-43c1-a65e-5110b3c8c18a"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
