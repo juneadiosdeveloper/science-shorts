@@ -612,3 +612,13 @@ Instagram Reels lifetime: **do salary (13 Nov, first VOICE-OVER-ONLY Reel, <1 da
   Metricool (scheduled): YT 428581472 (16:00, 14.5 s cut), FB Reel 428581602 (16:00), IG Reel 428581613 (18:00), IG Story 428581634 (18:10, auto).
   Credits: Runway 33, left 146; vidIQ 0 (no title score).
 - Queue now: Sun 15 UPI PIN, Mon 16 credit score quiz, Tue 17 ATM refund, Wed 18 money-back policy, Thu 19 salary 20 tareekh, Fri 20 tax → next run produces Sat 21 Nov. Last 3 categories: Insurance (18), Budgeting (19), Tax (20); Vehicle used 14 Nov, Loans 16 Nov, Banking 17 Nov, Scams 15 Nov → Sat 21 = Wedding & family money (growth idea #5, shaadi ₹20 lakh), then Consumer rights service charge (#4, after 24 Nov for Banking 7-day gap), Insurance room-rent (#3, after 25 Nov), Govt rules cash ₹2 lakh (#6), Scams digital arrest (#7, from 21 Nov ok).
+
+### 15 Nov (owner, live): "lets use in one of it most animation to check how it performs" → FULL-ANIMATION TEST
+**Produced:** Sat 21 Nov Short "Shaadi Ka Kharcha: ₹20L = ₹43L? 😱" → videos/shaadi_20_lakh_anim.mp4 (27.6 s, one cut for YT/FB/IG). Project short/shaadi, story instagram/story_shaadi.jpg.
+  TEST DESIGN: every one of the 9 shots is a moving AI clip (no still push-ins): 4 new gen-4-turbo clips (wedding stage bill sh_c01, baraat dance sh_c02, coin staircase sh_c07, sofa wave sh_c09; 2 new stills nano-banana-2.1 with Chintu in a golden sherwani) + 5 reused library clips (hlm_c06b, hlm_c07a, fno_c07, hlm_c08, hlm_c03). Compare with Fri 20 Nov tax Short (mostly stills + 4 clips) at 48 h and 7 days: IG views IGRE23, avg watch IGRE24, view rate IGRE28, YT views + avg view duration.
+  Category Wedding & family money / style small→big twist / hook "₹20 lakh ki shaadi... asli keemat ₹43 lakh?" / comment GRAND ya SIMPLE / send-to "dost jiski shaadi hone wali hai".
+  Numbers (Python): ₹10L @14%, 60 m → EMI ₹23,268, interest ₹3,96,095, total ₹13,96,095; wedding outflow ₹23,96,095; ₹20L × 1.08^10 = ₹43,17,850. All rates examples (on screen).
+  SHARE TEST: relatable 5 (wedding season), not common knowledge 4, surprising ₹ 4, send-to 5 = 18/20.
+  QA: clipcheck 4/4 new clips PASS + anim.py gate passed; contact sheet clean (sparklers in the dance still rendered fine). Audio 26.1 s at atempo 1.45.
+  Metricool: YT 428585445 (16:00), FB 428585450 (16:00), IG Reel 428585457 (18:00), Story 428585468 (18:10, auto).
+  Credits: Runway 121 (2 stills 12 + 4 clips 100 + 9 voice lines 9) → **25 left = production stops** until Junaid tops up (alerted today). Queue now runs to Sat 21 Nov.

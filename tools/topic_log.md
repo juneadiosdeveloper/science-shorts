@@ -39,6 +39,7 @@ Built 15 Nov 2026 from tools/performance_log.md + videos/ (dates of late-Oct ite
 | 18 Nov | Insurance | Money-back policy real return 4.3% | Money Back Policy Ka Sach |
 | 19 Nov | Budgeting & spending | Salary gone by the 20th (small UPI spends) | Salary 20 Tareekh Tak Khatam? |
 | 20 Nov | Tax | ₹12.75L tax 0 vs ₹13L tax ₹26,000 (marginal relief, ₹1,000 less in hand) | Income Tax: ₹13 Lakh Pe ₹1,000 Kam? |
+| 21 Nov | Wedding & family money | ₹20L shaadi (₹10L savings + ₹10L loan 14%) = ~₹24L; same ₹20L at 8% maana = ~₹43L in 10 yrs | Shaadi Ka Kharcha: ₹20L = ₹43L? |
 
 Notes:
 - Growth-plan idea #1 (Vehicle: "₹10 lakh ki car = ₹22,000 har mahina") is too close to the 14 Nov car video + its carousel (5-yr car cost)
