@@ -1,3 +1,8 @@
+# >>> VIDEO CREATION PAUSED (owner, 16 Nov 2026: "lets stop creating the video on this until i say to start creating it") <<<
+Do NOT script, voice, generate, render or schedule any new video, Story or post until Junaid says to start again.
+Allowed: monitoring already-scheduled posts (16-21 Nov), fixing failed ones, performance review, comment replies, plan watch.
+Full daily-run instructions to restore later: tools/daily_run_prompt.md.
+
 # Paisa Science: video style guide (realistic presenter format)
 
 ## STANDING RULE #1 (owner, 25 Oct 2026): every new video = the idea of a most-viewed video in the niche
