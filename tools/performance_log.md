@@ -622,3 +622,8 @@ Instagram Reels lifetime: **do salary (13 Nov, first VOICE-OVER-ONLY Reel, <1 da
   QA: clipcheck 4/4 new clips PASS + anim.py gate passed; contact sheet clean (sparklers in the dance still rendered fine). Audio 26.1 s at atempo 1.45.
   Metricool: YT 428585445 (16:00), FB 428585450 (16:00), IG Reel 428585457 (18:00), Story 428585468 (18:10, auto).
   Credits: Runway 121 (2 stills 12 + 4 clips 100 + 9 voice lines 9) → **25 left = production stops** until Junaid tops up (alerted today). Queue now runs to Sat 21 Nov.
+
+## 2026-11-16 (Mon) — monitoring only (video creation PAUSED by owner today)
+**Checks: BLOCKED.** Metricool connector now returns 403 "Access denied to blog 7570802"; getBrandSettings lists only one brand, "khiradzainstories" (id 8131118, joined 15 Nov 2026) → the Metricool connector was re-authorised with a different Metricool login, so Paisa Science scheduled posts (Mon 16 credit score quiz → Sat 21 shaadi) and analytics can't be read. Gmail (2 days): no YouTube/Instagram/Metricool/Facebook alerts. vidIQ 0 credits (resets 24 Nov) → no YT fallback, no comment replies.
+**Numbers:** none this run (no access). 48 h / 7-day comparison of the animated tests (Fri 20 tax, Sat 21 shaadi) still pending; first 48 h read due Sun 22 Nov.
+**Action needed (Junaid):** reconnect the Metricool connector in Claude with the Paisa Science Metricool account (brand 7570802), or add that brand to the account now connected. Posts already queued in Metricool should still publish on their own.
