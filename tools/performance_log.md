@@ -632,3 +632,8 @@ Instagram Reels lifetime: **do salary (13 Nov, first VOICE-OVER-ONLY Reel, <1 da
 **Checks: still BLOCKED (day 2).** Metricool getScheduledPosts for brand 7570802 → 403 "Access denied to blog 7570802"; getBrandSettings still lists only "khiradzainstories" (8131118). Can't confirm whether Mon 16 credit score quiz / today's Tue 17 ATM refund posts published. Gmail (2 days): no YouTube/Instagram/Metricool/Facebook alerts (so no failure emails seen). vidIQ 0 credits (resets 24 Nov) → no YT fallback, no comment replies.
 **Numbers:** none (no access). Animated-test 48 h read (Fri 20 tax vs Sat 21 shaadi) due Sun 22 / Mon 23 Nov — needs Metricool back.
 **Action needed (Junaid):** reconnect the Metricool connector with the Paisa Science account (brand 7570802). Queue in Metricool should keep publishing on its own until Sat 21 Nov.
+
+## 2026-11-18 (Wed) — monitoring only (video creation PAUSED)
+**Checks: still BLOCKED (day 3).** Metricool getScheduledPosts for brand 7570802 → 403 "Access denied to blog 7570802"; getBrandSettings still lists only "khiradzainstories" (8131118). Can't confirm Mon 16 / Tue 17 posts or today's Wed 18 money-back policy posts. Gmail (2 days): no YouTube/Instagram/Metricool/Facebook alerts. vidIQ 0 credits (resets 24 Nov) → no YT fallback, no comment replies.
+**Numbers:** none (no access). Animated-test 48 h read (Fri 20 tax vs Sat 21 shaadi) due Sun 22 / Mon 23 Nov — needs Metricool back. Last queued post = Sat 21 Nov; channel goes silent after that while paused.
+**Action needed (Junaid):** reconnect the Metricool connector with the Paisa Science account (brand 7570802).
