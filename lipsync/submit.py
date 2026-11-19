@@ -18,6 +18,13 @@ def username():
     r = run("kaggle kernels list --mine --csv --page-size 5", check=False)
     for line in r.stdout.splitlines()[1:]:
         if "/" in line: return line.split("/")[0]
+    try:
+        from kaggle.api.kaggle_api_extended import KaggleApi
+        a = KaggleApi(); a.authenticate()
+        for k in ("username", "user_name"):
+            v = (getattr(a, "config_values", {}) or {}).get(k) or a.get_config_value(k)
+            if v: return v
+    except Exception as e: print("api username lookup failed:", e)
     u = os.environ.get("KAGGLE_USERNAME")
     if u: return u
     raise SystemExit("could not find Kaggle username; set KAGGLE_USERNAME in secrets")
