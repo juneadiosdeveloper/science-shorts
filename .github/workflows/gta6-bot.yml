@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: "17 */4 * * *"   # every 4 hours
   workflow_dispatch:
+  push:
+    paths: ["gta6-bot/run-now.txt"]
 concurrency: { group: gta6-bot, cancel-in-progress: false }
 permissions: { contents: write }
 jobs:
@@ -18,8 +20,11 @@ jobs:
       - name: Post one Short
         if: hashFiles('gta6-bot/state/yt_token.enc') != ''
         env: { BOT_KEY: "${{ secrets.BOT_KEY }}" }
-        run: python gta6-bot/bot.py
+        run: |
+          set -o pipefail
+          python gta6-bot/bot.py 2>&1 | tail -40 | tee gta6-bot/state/last_run.txt
       - name: Save state
+        if: always()
         run: |
           git config user.name "gta6-bot" && git config user.email "bot@users.noreply.github.com"
           git add gta6-bot/state
