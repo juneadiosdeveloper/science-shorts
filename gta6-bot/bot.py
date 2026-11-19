@@ -102,6 +102,8 @@ def candidate_clips(s, tok, gid, posted_ids, posted_streamers_today):
             continue
         if CFG["require_allowlist"] and who not in allow:
             continue
+        if any(w in c["title"].lower() for w in CFG.get("title_blocklist") or []):
+            continue
         if c["view_count"] < CFG["min_clip_views"]:
             continue
         if c["duration"] < CFG["min_clip_seconds"]:

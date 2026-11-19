@@ -18,3 +18,5 @@ require_allowlist: false
 allowlist: []
 blocklist: []
 tags: ["GTA 6", "GTA VI", "Grand Theft Auto 6", "GTA 6 gameplay", "GTA 6 funny moments", "Vice City", "Leonida", "shorts", "gaming"]
+# Clips whose title contains any of these words are skipped (keeps the channel ad-friendly)
+title_blocklist: ["strip", "stripper", "pole dance", "private dance", "lap dance", "nude", "naked", "sex", "boob", "nsfw", "18+", "hooker", "prostitut", "porn", "onlyfans", "racist", "slur", "suicide", "drugs", "cocaine", "weed", "massacre", "school"]
