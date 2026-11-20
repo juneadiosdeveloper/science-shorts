@@ -12,7 +12,7 @@ captions: true
 whisper_model: base
 # Google keeps uploads private until the app passes its free audit.
 # Switch to "public" once approved.
-privacy: private
+privacy: public
 # Before going public: list only streamers who allow clipping, then set
 # require_allowlist: true. Streamers in blocklist are never used.
 require_allowlist: false
