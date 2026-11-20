@@ -4,6 +4,7 @@ clip_max_age_hours: 48        # only fresh clips
 min_clip_views: 300           # skip clips nobody watched
 min_clip_seconds: 12
 languages: ["en", "hi"]       # English + Hindi streams
+min_gap_hours: 3.5          # space posts out even if GitHub skips a run
 max_per_day: 5                # YouTube API quota allows ~6 uploads/day
 max_per_streamer_per_day: 2   # keep the channel varied
 hook_max_chars: 48

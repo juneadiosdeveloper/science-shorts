@@ -272,6 +272,12 @@ def main() -> None:
     if len(todays) >= CFG["max_per_day"]:
         print(f"daily cap reached ({len(todays)}/{CFG['max_per_day']})")
         return
+    if posted:
+        last = dt.datetime.fromisoformat(posted[-1]["posted_at"])
+        gap = (dt.datetime.now(dt.timezone.utc) - last).total_seconds() / 3600
+        if gap < CFG.get("min_gap_hours", 0) and "--now" not in sys.argv:
+            print(f"last post {gap:.1f}h ago, waiting for {CFG['min_gap_hours']}h gap")
+            return
     per_streamer = {}
     for p in todays:
         per_streamer[p["streamer"].lower()] = per_streamer.get(p["streamer"].lower(), 0) + 1
