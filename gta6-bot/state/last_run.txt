@@ -1,5 +1,5 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-[0;93m2026-11-20 20:11:19.798482320 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-GTA 6 game id 1867279146; 139 usable clips
-rendered: GYATT OMG THAT CRAZY | IShowSpeed GTA 6 #shorts (30s, 97800 views)
-uploaded https://youtube.com/shorts/Y80mSQVulnA
+[0;93m2026-11-21 01:29:42.995104545 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+GTA 6 game id 1867279146; 146 usable clips
+rendered: xQc shares his thoughts on GTA VI after a 24hr stream | xQc GTA 6 #shorts (34s, 56726 views)
+uploaded https://youtube.com/shorts/vRGHG3Zni-Y
