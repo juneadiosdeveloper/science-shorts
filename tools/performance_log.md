@@ -653,3 +653,9 @@ Instagram Reels lifetime: **do salary (13 Nov, first VOICE-OVER-ONLY Reel, <1 da
 **Channel status:** today's shaadi post is the LAST queued post → from Sun 22 Nov the channel is silent on all platforms while production is paused. Owner notified today (silence + Metricool still disconnected).
 **Numbers:** none (no access). Animated-test 48 h read (Fri 20 tax vs Sat 21 shaadi) due Sun 22 / Mon 23 Nov, 7-day read 27/28 Nov — needs Metricool back.
 **Action needed (Junaid):** reconnect the Metricool connector with the Paisa Science account (brand 7570802); say "start" to resume production.
+
+## 2026-11-22 (Sun) — monitoring only (video creation PAUSED)
+**Checks: still BLOCKED (day 7).** Metricool getScheduledPosts for brand 7570802 → 403 "Access denied to blog 7570802". getBrandSettings now lists only "khiradzainstories" under a NEW id 8269104 (joined 21 Nov 2026, login junaid.turk.pm…) → connector is still on the other Metricool account. Gmail (2 days): no YouTube/Instagram/Metricool/Facebook alerts. vidIQ 0 credits (resets 24 Nov 16:07 UTC) → no YT fallback, no comment replies.
+**Channel status:** no posts queued from today; channel silent on all platforms while paused (owner already notified 21 Nov, no repeat push today).
+**Numbers:** none (no access). 48 h read of the animated tests (Fri 20 tax vs Sat 21 shaadi) missed today; 7-day read due 27/28 Nov — needs Metricool reconnected to brand 7570802. Comments: retry after vidIQ reset 24 Nov.
+**Action needed (Junaid):** reconnect the Metricool connector with the Paisa Science account (brand 7570802); say "start" to resume production.
